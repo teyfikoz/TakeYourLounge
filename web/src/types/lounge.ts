@@ -27,3 +27,27 @@ export interface LoungeData {
   total: number;
   lounges: Lounge[];
 }
+
+export interface Airport {
+  code: string;
+  name: string;
+  city: string;
+  country: string;
+  continent?: string;
+  iso_country?: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
+  lounge_count: number;
+  avg_rating: number;
+  terminals: Record<string, Lounge[]>;
+  lounges: Lounge[];
+  available_access_methods: string[];
+  common_amenities: string[];
+}
+
+export interface AirportData {
+  total: number;
+  airports: Airport[];
+}

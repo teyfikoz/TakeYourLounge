@@ -29,7 +29,7 @@ export default function Home() {
             Worldwide
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Browse 3,000+ premium lounges across 700 airports in 21 countries.
+            Browse 2,272 premium lounges across 703 airports in 175 countries.
             <br />
             Find your perfect travel sanctuary.
           </p>
@@ -50,19 +50,19 @@ export default function Home() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-brand-600 mb-2">3,032</div>
+              <div className="text-4xl font-bold text-brand-600 mb-2">2,272</div>
               <div className="text-gray-600">Airport Lounges</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-brand-600 mb-2">700+</div>
+              <div className="text-4xl font-bold text-brand-600 mb-2">703</div>
               <div className="text-gray-600">Airports</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-brand-600 mb-2">648</div>
+              <div className="text-4xl font-bold text-brand-600 mb-2">799</div>
               <div className="text-gray-600">Cities</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-brand-600 mb-2">21</div>
+              <div className="text-4xl font-bold text-brand-600 mb-2">175</div>
               <div className="text-gray-600">Countries</div>
             </div>
           </div>
