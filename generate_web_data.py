@@ -30,6 +30,21 @@ def generate_lounges_json(input_csv: Path, output_json: Path, limit: int = None)
             except:
                 access_methods = []
 
+            # Get local images if available
+            try:
+                local_images = json.loads(row.get('local_images', '[]'))
+            except:
+                local_images = []
+
+            # Use local images or fallback to placeholders
+            if local_images:
+                images = local_images
+            else:
+                images = [
+                    f"https://picsum.photos/seed/{row.get('id', 'lounge')}/800/600",
+                    f"https://picsum.photos/seed/{row.get('id', 'lounge')}2/800/600",
+                ]
+
             # Create lounge object
             lounge = {
                 'id': row.get('id', ''),
@@ -53,11 +68,7 @@ def generate_lounges_json(input_csv: Path, output_json: Path, limit: int = None)
                 } if row.get('latitude') else None,
                 'continent': row.get('continent', ''),
                 'iso_country': row.get('iso_country', ''),
-                # Placeholder images
-                'images': [
-                    f"https://picsum.photos/seed/{row.get('id', 'lounge')}/800/600",
-                    f"https://picsum.photos/seed/{row.get('id', 'lounge')}2/800/600",
-                ]
+                'images': images
             }
 
             lounges.append(lounge)
