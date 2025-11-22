@@ -3,6 +3,7 @@ import Image from 'next/image';
 import loungeData from '@/data/lounges.json';
 import { Lounge } from '@/types/lounge';
 import { notFound } from 'next/navigation';
+import ReviewForm from '@/components/ReviewForm';
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -257,6 +258,14 @@ export default async function LoungePage({ params }: PageProps) {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Review Form */}
+        <div className="mt-16">
+          <ReviewForm
+            loungeId={lounge.id}
+            loungeName={lounge.name}
+          />
         </div>
 
         {/* Similar Lounges */}
