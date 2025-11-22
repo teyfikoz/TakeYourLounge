@@ -77,7 +77,7 @@ def generate_lounges_json(input_csv: Path, output_json: Path, limit: int = None)
 
 def main():
     data_dir = Path(__file__).parent
-    input_csv = data_dir / "master_lounges_enriched.csv"
+    input_csv = data_dir / "master_lounges_fixed.csv"
     output_json = data_dir / "web" / "src" / "data" / "lounges.json"
 
     # Create data directory
