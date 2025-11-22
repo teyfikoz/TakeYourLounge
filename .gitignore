@@ -1,0 +1,201 @@
+# TakeYourLounge.com - Git Ignore File
+
+# ============================================================
+# Large Data Files
+# ============================================================
+# These files are too large for GitHub (use Git LFS if needed)
+airports.csv
+master_lounges.json
+
+# ============================================================
+# Environment Variables
+# ============================================================
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Supabase credentials
+supabase/.env
+.supabase/
+
+# ============================================================
+# Python
+# ============================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ============================================================
+# Node.js / Next.js
+# ============================================================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Production
+/build
+/dist
+
+# Vercel
+.vercel
+
+# ============================================================
+# IDEs
+# ============================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================
+# Operating System
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================================
+# Temporary Files
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache
+.cache/
+*.cache
+
+# ============================================================
+# Images & Media (downloaded/scraped)
+# ============================================================
+# Scraped images (too large for git)
+images/scraped/
+images/temp/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Keep sample/placeholder images
+!images/placeholders/*.png
+!public/images/**
+
+# ============================================================
+# Database
+# ============================================================
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Database dumps
+*.sql.gz
+*.dump
+
+# ============================================================
+# Secrets & Keys
+# ============================================================
+# API keys
+**/secrets/
+*.pem
+*.key
+*.cert
+
+# ============================================================
+# Project Specific
+# ============================================================
+# Source CSVs (keep only master output)
+prioritypass_lounges.csv
+supabase_lounges.csv
+amex_global_lounges_sample.csv
+dreamfolks_lounges_sample.csv
+plaza_premium_lounges_sample.csv
+TAV_Lounges__preview_.csv
+
+# Test data
+test_data/
+temp/
+scratch/
+
+# ============================================================
+# Keep These Files
+# ============================================================
+# Essential outputs
+!master_lounges.csv
+!README.md
+!database_migration.sql
+!merge_lounges.py
+!import_to_supabase.py
