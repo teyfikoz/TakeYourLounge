@@ -1,0 +1,699 @@
+airport_code,airport_name,city,country,iso_country,latitude,longitude,elevation_ft,continent,timezone,wikipedia_link,total_lounges
+AAL,Aalborg Airport,Aalborg,Denmark,DK,57.094763,9.84993,10,EU,,https://en.wikipedia.org/wiki/Aalborg_Airport,0
+AAP,Aji Pangeran Tumenggung Pranoto International Airport,Samarinda,Indonesia,ID,-0.374478,117.250128,82,AS,,https://en.wikipedia.org/wiki/Aji_Pangeran_Tumenggung_Pranoto_International_Airport,0
+AAT,Altay Xuedu Airport,Altay,China,CN,47.749886,88.085808,2460,AS,,https://en.wikipedia.org/wiki/Altay_Xuedu_Airport,0
+ABV,Nnamdi Azikiwe International Airport,Abuja,Nigeria,NG,9.00679,7.26317,1123,AF,,https://en.wikipedia.org/wiki/Nnamdi_Azikiwe_International_Airport,0
+ABZ,Aberdeen Dyce Airport,Aberdeen,United Kingdom,GB,57.2019,-2.19778,215,EU,,https://en.wikipedia.org/wiki/Aberdeen_Airport,0
+ACA,General Juan N. Álvarez International Airport,Acapulco,Mexico,MX,16.757126,-99.753113,16,NA,,https://en.wikipedia.org/wiki/General_Juan_N._%C3%81lvarez_International_Airport,0
+ACC,Kotoka International Airport,Accra,Ghana,GH,5.605189800262451,-0.16678600013256073,205,AF,,https://en.wikipedia.org/wiki/Kotoka_International_Airport,0
+ACE,César Manrique-Lanzarote Airport,San Bartolomé,Spain,ES,28.945499,-13.6052,46,AF,,https://en.wikipedia.org/wiki/Lanzarote_Airport,0
+ACX,Xingyi Wanfenglin Airport,Xingyi,China,CN,25.083423,104.960804,4150,AS,,https://en.wikipedia.org/wiki/Xingyi_Wanfenglin_Airport,0
+ADB,Adnan Menderes International Airport,Gaziemir,Turkey,TR,38.2924,27.157,412,AS,,https://en.wikipedia.org/wiki/Adnan_Menderes_Airport,0
+ADL,Adelaide International Airport,Adelaide,Australia,AU,-34.947512,138.533393,20,OC,,https://en.wikipedia.org/wiki/Adelaide_International_Airport,0
+AEP,Jorge Newbery Airpark,Buenos Aires,Argentina,AR,-34.5592,-58.4156,18,SA,,https://en.wikipedia.org/wiki/Aeroparque_Jorge_Newbery,0
+AGA,Al Massira Airport,Agadir (Temsia),MA,MA,30.322478,-9.412003,250,AF,,https://en.wikipedia.org/wiki/Al_Massira_Airport,0
+AGP,Málaga-Costa del Sol Airport,Málaga,Spain,ES,36.6749,-4.49911,53,EU,,https://en.wikipedia.org/wiki/M%C3%A1laga_Airport,0
+AGU,Jesús Terán Peredo International Airport,Aguascalientes,Mexico,MX,21.699589,-102.318372,6112,NA,,https://en.wikipedia.org/wiki/Lic._Jes%C3%BAs_Ter%C3%A1n_Peredo_International_Airport,0
+AHB,Abha International Airport,Abha,Saudi Arabia,SA,18.2404,42.656601,6858,AS,,https://en.wikipedia.org/wiki/Abha_International_Airport,0
+AJF,Al-Jawf Domestic Airport,Al-Jawf,Saudi Arabia,SA,29.78510093688965,40.099998474121094,2261,AS,,https://en.wikipedia.org/wiki/Al-Jawf_Domestic_Airport,0
+AKJ,Asahikawa Airport,Higashikagura,Japan,JP,43.670799,142.447006,721,AS,,https://en.wikipedia.org/wiki/Asahikawa_Airport,0
+AKL,Auckland International Airport,Auckland,New Zealand,NZ,-37.01199,174.786331,23,OC,,https://en.wikipedia.org/wiki/Auckland_International_Airport,0
+AKU,Aksu Hongqipo Airport,Aksu (Onsu),China,CN,41.262501,80.291702,3816,AS,,https://en.wikipedia.org/wiki/Aksu_Hongqipo_Airport,0
+AKX,Aktobe Airport,Aktobe,KZ,KZ,50.2458,57.206699,738,AS,,https://en.wikipedia.org/wiki/Aktobe_Airport,0
+ALA,Almaty International Airport,Almaty,KZ,KZ,43.354267,77.042828,2234,AS,,https://en.wikipedia.org/wiki/Almaty_International_Airport,0
+ALC,Alicante-Elche Miguel Hernández Airport,Alicante,Spain,ES,38.2822,-0.558156,142,EU,,https://en.wikipedia.org/wiki/Alicante_Airport,0
+AMD,Sardar Vallabh Bhai Patel International Airport,Ahmedabad,India,IN,23.0772,72.634697,189,AS,,https://en.wikipedia.org/wiki/Sardar_Vallabhbhai_Patel_International_Airport,0
+AMM,Queen Alia International Airport,Amman,Jordan,JO,31.7226009369,35.9931983948,2395,AS,,https://en.wikipedia.org/wiki/Queen_Alia_International_Airport,0
+AMS,Amsterdam Airport Schiphol,Amsterdam,Netherlands,NL,52.308601,4.76389,-11,EU,,https://en.wikipedia.org/wiki/Amsterdam_Airport_Schiphol,0
+ANF,Andrés Sabella Gálvez International Airport,Antofagasta,Chile,CL,-23.444501,-70.445099,455,SA,,https://en.wikipedia.org/wiki/Andr%C3%A9s_Sabella_G%C3%A1lvez_International_Airport,0
+ANU,V C Bird International Airport,Osbourn,AG,AG,17.1367,-61.792702,62,NA,,https://en.wikipedia.org/wiki/VC_Bird_International_Airport,0
+AOJ,Aomori Airport,Aomori,Japan,JP,40.73469924926758,140.6909942626953,664,AS,,https://en.wikipedia.org/wiki/Aomori_Airport,0
+AQJ,Aqaba King Hussein International Airport,Aqaba,Jordan,JO,29.611600875854492,35.01810073852539,175,AS,,https://en.wikipedia.org/wiki/Aqaba_Airport,0
+AQP,Rodríguez Ballón International Airport,Arequipa,Peru,PE,-16.3411006927,-71.5830993652,8405,SA,,https://en.wikipedia.org/wiki/Rodriguez_Ballon_International_Airport,0
+ARI,Chacalluta Airport,Arica,Chile,CL,-18.348499,-70.338699,167,SA,,https://en.wikipedia.org/wiki/Chacalluta_International_Airport,0
+ARN,Stockholm-Arlanda Airport,Stockholm,Sweden,SE,59.64849,17.928829,137,EU,,https://en.wikipedia.org/wiki/Stockholm-Arlanda_Airport,0
+ASU,Silvio Pettirossi International Airport,Asunción,PY,PY,-25.240156,-57.519227,292,SA,,https://en.wikipedia.org/wiki/Silvio_Pettirossi_International_Airport,0
+ATA,Comandante FAP German Arias Graziani Airport,Anta,Peru,PE,-9.347439765930176,-77.59839630126953,9097,SA,,https://en.wikipedia.org/wiki/Comandante_FAP_Germ%C3%A1n_Arias_Graziani_Airport,0
+ATH,Athens Eleftherios Venizelos International Airport,Spata-Artemida,Greece,GR,37.936401,23.9445,308,EU,,https://en.wikipedia.org/wiki/Athens_International_Airport,0
+ATL,Hartsfield Jackson Atlanta International Airport,Atlanta,United States,US,33.6367,-84.428101,1026,NA,,https://en.wikipedia.org/wiki/Hartsfield–Jackson_Atlanta_International_Airport,0
+ATQ,Sri Guru Ram Dass Jee International Airport,Amritsar,India,IN,31.7096,74.797302,756,AS,,https://en.wikipedia.org/wiki/Sri_Guru_Ram_Dass_Jee_International_Airport,0
+AUA,Queen Beatrix International Airport,Oranjestad,AW,AW,12.5014,-70.015198,60,NA,,https://en.wikipedia.org/wiki/Queen_Beatrix_International_Airport,0
+AUH,Zayed International Airport,Abu Dhabi,United Arab Emirates,AE,24.443764,54.651718,88,AS,,https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport,0
+AXT,Akita Airport,Akita,Japan,JP,39.615601,140.218994,313,AS,,https://en.wikipedia.org/wiki/Akita_Airport,0
+AYP,Air Force Colonel Alfredo Mendivil Duarte Airport,Ayacucho,Peru,PE,-13.1548,-74.204399,8917,SA,,https://en.wikipedia.org/wiki/Coronel_FAP_Alfredo_Mendivil_Duarte_Airport,0
+AYT,Antalya International Airport,Antalya,Turkey,TR,36.898701,30.800501,177,AS,,https://en.wikipedia.org/wiki/Antalya_Airport,0
+AZS,Samaná El Catey International Airport,Samana,DO,DO,19.269259,-69.737405,30,NA,,https://en.wikipedia.org/wiki/Saman%C3%A1_El_Catey_International_Airport,0
+BAH,Bahrain International Airport,Manama,Bahrain,BH,26.267295,50.63764,6,AS,,https://en.wikipedia.org/wiki/Bahrain_International_Airport,0
+BAQ,Ernesto Cortissoz International Airport,Barranquilla,Colombia,CO,10.8896,-74.7808,98,SA,,https://en.wikipedia.org/wiki/Ernesto_Cortissoz_International_Airport,0
+BAV,Baotou Donghe Airport,Baotou,China,CN,40.560001,109.997002,3321,AS,,https://en.wikipedia.org/wiki/Baotou_Airport,0
+BBI,Biju Patnaik Airport,Bhubaneswar,India,IN,20.244400024399997,85.8178024292,138,AS,,https://en.wikipedia.org/wiki/Biju_Patnaik_Airport,0
+BBK,Kasane Airport,Kasane,BW,BW,-17.832899,25.162399,3289,AF,,https://en.wikipedia.org/wiki/Kasane_Airport,0
+BCN,Josep Tarradellas Barcelona-El Prat Airport,Barcelona,Spain,ES,41.2971,2.07846,12,EU,,https://en.wikipedia.org/wiki/Barcelona%E2%80%93El_Prat_Airport,0
+BDA,L.F. Wade International Airport,Hamilton,BM,BM,32.363998,-64.678703,12,NA,,https://en.wikipedia.org/wiki/Bermuda_International_Airport,0
+BDJ,Syamsudin Noor International Airport,Landasan Ulin,Indonesia,ID,-3.44236,114.763,66,AS,,https://en.wikipedia.org/wiki/Syamsudin_Noor_Airport,0
+BDO,Husein Sastranegara International Airport,Bandung,Indonesia,ID,-6.90063,107.575996,2436,AS,,https://en.wikipedia.org/wiki/Husein_Sastranegara_International_Airport,0
+BEG,Belgrade Nikola Tesla Airport,Belgrade,RS,RS,44.818401,20.309099,335,EU,,https://en.wikipedia.org/wiki/Belgrade_Nikola_Tesla_Airport,0
+BEJ,Kalimarau Airport,Tanjung Redeb - Borneo Island,Indonesia,ID,2.1555,117.431999,59,AS,,https://en.wikipedia.org/wiki/Kalimarau_Airport,0
+BEL,Val de Cans/Júlio Cezar Ribeiro International Airport,Belém,Brazil,BR,-1.379279,-48.476207,54,SA,,https://en.wikipedia.org/wiki/Val_de_Cans_International_Airport,0
+BER,Berlin Brandenburg Airport,Berlin,Germany,DE,52.362247,13.500672,157,EU,,https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport,0
+BEY,Beirut Rafic Hariri International Airport,Beirut,Lebanon,LB,33.820899963378906,35.488399505615234,87,AS,,https://en.wikipedia.org/wiki/Beirut_Rafic_Hariri_International_Airport,0
+BFN,Bram Fischer International Airport,Bloemfontain,South Africa,ZA,-29.092699,26.302401,4457,AF,,https://en.wikipedia.org/wiki/Bloemfontein_Airport,0
+BFS,Belfast International Airport,Belfast,United Kingdom,GB,54.6575012207,-6.2158298492399995,268,EU,,https://en.wikipedia.org/wiki/Belfast_International_Airport,0
+BGA,Palonegro Airport,Bucaramanga,Colombia,CO,7.1265,-73.1848,3897,SA,,https://en.wikipedia.org/wiki/Palo_Negro_International_Airport,0
+BGI,Grantley Adams International Airport,Bridgetown,BB,BB,13.0746,-59.4925,169,NA,,https://en.wikipedia.org/wiki/Grantley_Adams_International_Airport,0
+BGY,Milan Bergamo Airport / Antonio Locatelli Air Base,Orio al Serio (BG),Italy,IT,45.670725,9.709223,782,EU,,https://en.wikipedia.org/wiki/Orio_al_Serio_International_Airport,0
+BHD,George Best Belfast City Airport,Belfast,United Kingdom,GB,54.618099,-5.8725,15,EU,,https://en.wikipedia.org/wiki/George_Best_Belfast_City_Airport,0
+BHH,Bisha Airport,Bisha,Saudi Arabia,SA,19.9844,42.620899,3887,AS,,https://en.wikipedia.org/wiki/Bisha_Domestic_Airport,0
+BHX,Birmingham Airport,"Birmingham, West Midlands",United Kingdom,GB,52.453899,-1.74803,327,EU,,https://en.wikipedia.org/wiki/Birmingham_Airport,0
+BIO,Bilbao Airport,Bilbao,Spain,ES,43.301102,-2.91061,138,EU,,https://en.wikipedia.org/wiki/Bilbao_Airport,0
+BJL,Banjul International Airport,Banjul,GM,GM,13.338,-16.652201,95,AF,,https://en.wikipedia.org/wiki/Banjul_International_Airport,0
+BJV,Milas Bodrum International Airport,Bodrum,Turkey,TR,37.250599,27.664301,21,AS,,https://en.wikipedia.org/wiki/Milas-Bodrum_Airport,0
+BJX,Del Bajío International Airport,Silao,Mexico,MX,20.992695,-101.480284,5956,NA,,https://en.wikipedia.org/wiki/Del_Baj%C3%ADo_International_Airport,0
+BKK,Suvarnabhumi Airport,Bangkok,Thailand,TH,13.681099891662598,100.74700164794922,5,AS,,https://en.wikipedia.org/wiki/Suvarnabhumi_Airport,0
+BKO,Modibo Keita International Airport,Bamako,ML,ML,12.5335,-7.94994,1247,AF,,https://en.wikipedia.org/wiki/Bamako%E2%80%93S%C3%A9nou_International_Airport,0
+BLL,Billund Airport,Billund,Denmark,DK,55.740335,9.157019,247,EU,,https://en.wikipedia.org/wiki/Billund_Airport,0
+BLQ,Bologna Guglielmo Marconi Airport,Bologna,Italy,IT,44.5354,11.2887,123,EU,,https://en.wikipedia.org/wiki/Bologna_Airport,0
+BLR,Kempegowda International Airport,Bangalore,India,IN,13.1979,77.706299,3000,AS,,https://en.wikipedia.org/wiki/Kempegowda_International_Airport,0
+BMA,Stockholm-Bromma Airport,Stockholm,Sweden,SE,59.354400634765625,17.941699981689453,47,EU,,https://en.wikipedia.org/wiki/Stockholm-Bromma_Airport,0
+BNA,Nashville International Airport,Nashville,United States,US,36.1245,-86.6782,599,NA,,https://en.wikipedia.org/wiki/Nashville_International_Airport,0
+BNE,Brisbane International Airport,Brisbane,Australia,AU,-27.384199142456055,153.11700439453125,13,OC,,https://en.wikipedia.org/wiki/Brisbane_Airport,0
+BOG,El Dorado International Airport,Bogota,Colombia,CO,4.70159,-74.1469,8361,SA,,https://en.wikipedia.org/wiki/El_Dorado_International_Airport,0
+BOJ,Burgas Airport,Burgas,BG,BG,42.569917,27.515173,135,EU,,https://en.wikipedia.org/wiki/Burgas_Airport,0
+BOM,Chhatrapati Shivaji International Airport,Mumbai,India,IN,19.0886993408,72.8678970337,39,AS,,https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_International_Airport,0
+BOS,Logan International Airport,Boston,United States,US,42.36197,-71.0079,20,NA,,https://en.wikipedia.org/wiki/Logan_International_Airport,0
+BPN,Sultan Aji Muhammad Sulaiman Sepinggan International Airport,Balikpapan,Indonesia,ID,-1.268342,116.89452,12,AS,,https://en.wikipedia.org/wiki/Sultan_Aji_Muhamad_Sulaiman_Airport,0
+BPS,Porto Seguro Airport,Porto Seguro,Brazil,BR,-16.438426,-39.080584,169,SA,,https://en.wikipedia.org/wiki/Porto_Seguro_Airport,0
+BRE,Bremen Airport,Bremen,Germany,DE,53.046786,8.78932,14,EU,,https://en.wikipedia.org/wiki/Bremen_Airport,0
+BRI,Bari Karol Wojtyła International Airport,Bari,Italy,IT,41.138901,16.760599,193,EU,,https://en.wikipedia.org/wiki/Bari_Karol_Wojty%C5%82a_Airport,0
+BRQ,Brno-Tuřany Airport,Brno,Czech Republic,CZ,49.15129852294922,16.694400787353516,778,EU,,https://en.wikipedia.org/wiki/Brno-Tu%C5%99any_Airport,0
+BRS,Bristol Airport,Bristol,United Kingdom,GB,51.382702,-2.71909,622,EU,,https://en.wikipedia.org/wiki/Bristol_International_Airport,0
+BRU,Brussels Airport,Zaventem,Belgium,BE,50.901402,4.48444,175,EU,,https://en.wikipedia.org/wiki/Brussels_Airport,0
+BSB,Presidente Juscelino Kubitschek International Airport,Brasília,Brazil,BR,-15.869167,-47.920834,3497,SA,,https://en.wikipedia.org/wiki/Bras%C3%ADlia_International_Airport,0
+BSL,EuroAirport Basel-Mulhouse-Freiburg,Saint-Louis,France,FR,47.60068,7.521117,885,EU,,https://en.wikipedia.org/wiki/EuroAirport_Basel-Mulhouse-Freiburg,0
+BTS,M. R. Štefánik Airport,Bratislava,SK,SK,48.1702,17.2127,436,EU,,https://en.wikipedia.org/wiki/M._R._%C5%A0tef%C3%A1nik_Airport,0
+BUD,Budapest Liszt Ferenc International Airport,Budapest,HU,HU,47.43018,19.262393,495,EU,,https://en.wikipedia.org/wiki/Budapest_Ferenc_Liszt_International_Airport,0
+BUF,Buffalo Niagara International Airport,Buffalo,United States,US,42.940498,-78.732201,728,NA,,https://en.wikipedia.org/wiki/Buffalo_Niagara_International_Airport,0
+BUQ,Joshua Mqabuko Nkomo International Airport,Bulawayo,ZW,ZW,-20.017401,28.617901,4359,AF,,https://en.wikipedia.org/wiki/Joshua_Mqabuko_Nkomo_International_Airport,0
+BUS,Batumi International Airport,Batumi,GE,GE,41.610298,41.599701,105,AS,,https://en.wikipedia.org/wiki/Batumi_International_Airport,0
+BWI,Baltimore/Washington International Thurgood Marshall Airport,Baltimore,United States,US,39.1754,-76.668297,146,NA,,https://en.wikipedia.org/wiki/Baltimore%E2%80%93Washington_International_Airport,0
+BWN,Brunei International Airport,Bandar Seri Begawan,BN,BN,4.9442,114.928001,73,AS,,https://en.wikipedia.org/wiki/Brunei_International_Airport,0
+BZG,Bydgoszcz Ignacy Jan Paderewski Airport,Białe Błota,Poland,PL,53.096802,17.977699,235,EU,,https://en.wikipedia.org/wiki/Bydgoszcz_Ignacy_Jan_Paderewski_Airport,0
+BZV,Maya-Maya Airport,Brazzaville,CG,CG,-4.251699924468994,15.253000259399414,1048,AF,,https://en.wikipedia.org/wiki/Maya-Maya_Airport,0
+BZX,Bazhong Enyang Airport,Bazhong (Enyang),China,CN,31.73842,106.644872,1804,AS,,https://en.wikipedia.org/wiki/Bazhong_Enyang_Airport,0
+CAG,Cagliari Elmas Airport,Cagliari,Italy,IT,39.251499,9.05428,13,EU,,https://en.wikipedia.org/wiki/Cagliari_Elmas_Airport,0
+CAI,Cairo International Airport,Cairo,Egypt,EG,30.111534,31.396694,322,AF,,https://en.wikipedia.org/wiki/Cairo_International_Airport,0
+CAN,Guangzhou Baiyun International Airport,Guangzhou (Huadu),China,CN,23.392401,113.299004,50,AS,,https://en.wikipedia.org/wiki/Guangzhou_Baiyun_International_Airport,0
+CBB,Jorge Wilsterman International Airport,Cochabamba,BO,BO,-17.421100616455078,-66.1771011352539,8360,SA,,https://en.wikipedia.org/wiki/Jorge_Wilstermann_International_Airport,0
+CBR,Canberra International Airport,Canberra,Australia,AU,-35.3069,149.195007,1886,OC,,https://en.wikipedia.org/wiki/Canberra_International_Airport,0
+CCJ,Calicut International Airport,Calicut,India,IN,11.1368,75.955299,342,AS,,https://en.wikipedia.org/wiki/Calicut_International_Airport,0
+CCP,Carriel Sur Airport,Concepcion,Chile,CL,-36.772701,-73.063103,26,SA,,https://en.wikipedia.org/wiki/Carriel_Sur_International_Airport,0
+CCS,Simón Bolívar International Airport,Caracas,Venezuela,VE,10.601194,-66.991222,234,SA,,https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar_International_Airport,0
+CCU,Netaji Subhash Chandra Bose International Airport,Kolkata,India,IN,22.654699,88.446701,16,AS,,https://en.wikipedia.org/wiki/Netaji_Subhash_Chandra_Bose_International_Airport,0
+CDG,Charles de Gaulle International Airport,"Paris (Roissy-en-France, Val-d'Oise)",France,FR,49.012798,2.55,392,EU,,https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport,0
+CEI,Mae Fah Luang - Chiang Rai International Airport,Chiang Rai,Thailand,TH,19.952299,99.882896,1280,AS,,https://en.wikipedia.org/wiki/Chiang_Rai_International_Airport,0
+CGB,Marechal Rondon Airport,Cuiabá,Brazil,BR,-15.6529,-56.116699,617,SA,,https://en.wikipedia.org/wiki/Marechal_Rondon_International_Airport,0
+CGH,Congonhas Airport,São Paulo,Brazil,BR,-23.627657,-46.654601,2631,SA,,https://en.wikipedia.org/wiki/Congonhas-S%C3%A3o_Paulo_International_Airport,0
+CGK,Soekarno-Hatta International Airport,Jakarta,Indonesia,ID,-6.1255698204,106.65599823,34,AS,,https://en.wikipedia.org/wiki/Soekarno-Hatta_International_Airport,0
+CGN,Cologne Bonn Airport,Köln (Cologne),Germany,DE,50.865898,7.14274,302,EU,,https://en.wikipedia.org/wiki/Cologne_Bonn_Airport,0
+CGO,Zhengzhou Xinzheng International Airport,Zhengzhou,China,CN,34.526497,113.849165,495,AS,,https://en.wikipedia.org/wiki/Zhengzhou_Xinzheng_International_Airport,0
+CGP,Shah Amanat International Airport,Chattogram (Chittagong),BD,BD,22.249599,91.813301,12,AS,,https://en.wikipedia.org/wiki/Shah_Amanat_International_Airport,0
+CGQ,Changchun Longjia International Airport,Changchun,China,CN,43.996201,125.684998,706,AS,,https://en.wikipedia.org/wiki/Changchun_Longjia_International_Airport,0
+CHC,Christchurch International Airport,Christchurch,New Zealand,NZ,-43.48939895629883,172.53199768066406,123,OC,,https://en.wikipedia.org/wiki/Christchurch_International_Airport,0
+CHS,Charleston International Airport,Charleston,United States,US,32.898602,-80.040497,46,NA,,https://en.wikipedia.org/wiki/Charleston_International_Airport,0
+CIX,Air Force Captain Jose A Quinones Gonzales International Airport,Chiclayo,Peru,PE,-6.78748,-79.828102,97,SA,,https://en.wikipedia.org/wiki/Cap._FAP_Jos%C3%A9_A._Qui%C3%B1ones_Gonzales_International_Airport,0
+CJA,Mayor General FAP Armando Revoredo Iglesias Airport,Cajamarca,Peru,PE,-7.1391801834106445,-78.4894027709961,8781,SA,,https://en.wikipedia.org/wiki/My._Gral._FAP._Armando_Revoredo_Iglesias_Airport,0
+CJB,Coimbatore International Airport,Coimbatore,India,IN,11.029999733,77.0434036255,1324,AS,,https://en.wikipedia.org/wiki/Coimbatore_Airport,0
+CJC,El Loa Airport,Calama,Chile,CL,-22.498199,-68.903603,7543,SA,,https://en.wikipedia.org/wiki/El_Loa_Airport,0
+CJS,Abraham González International Airport,Ciudad Juárez,Mexico,MX,31.63610076904297,-106.42900085449219,3904,NA,,https://en.wikipedia.org/wiki/Abraham_Gonz%C3%A1lez_International_Airport,0
+CJU,Jeju International Airport,Jeju City,South Korea,KR,33.512058,126.492548,118,AS,,https://en.wikipedia.org/wiki/Jeju_International_Airport,0
+CKG,Chongqing Jiangbei International Airport,Chongqing,China,CN,29.712254,106.651895,1365,AS,,https://en.wikipedia.org/wiki/Chongqing_Jiangbei_International_Airport,0
+CKY,Conakry International Airport,Conakry,GN,GN,9.57689,-13.612,72,AF,,https://en.wikipedia.org/wiki/Conakry_International_Airport,0
+CLE,Cleveland Hopkins International Airport,Cleveland,United States,US,41.411701,-81.8498,791,NA,,https://en.wikipedia.org/wiki/Cleveland_Hopkins_International_Airport,0
+CLJ,Cluj Avram Iancu International Airport,Cluj-Napoca,RO,RO,46.787425,23.684292,1039,EU,,https://en.wikipedia.org/wiki/Cluj_International_Airport,0
+CLO,Alfonso Bonilla Aragon International Airport,Cali,Colombia,CO,3.54322,-76.3816,3162,SA,,https://en.wikipedia.org/wiki/Alfonso_Bonilla_Arag%C3%B3n_International_Airport,0
+CLT,Charlotte Douglas International Airport,Charlotte,United States,US,35.2140007019043,-80.94309997558594,748,NA,,https://en.wikipedia.org/wiki/Charlotte/Douglas_International_Airport,0
+CMB,Bandaranaike International Colombo Airport,Colombo,LK,LK,7.180759906768799,79.88410186767578,30,AS,,https://en.wikipedia.org/wiki/Bandaranaike_International_Airport,0
+CMN,Mohammed V International Airport,Casablanca,MA,MA,33.3675,-7.58997,656,AF,,https://en.wikipedia.org/wiki/Mohammed_V_International_Airport,0
+CNF,Tancredo Neves International Airport,Belo Horizonte,Brazil,BR,-19.63571,-43.966928,2721,SA,,https://en.wikipedia.org/wiki/Tancredo_Neves_International_Airport,0
+CNN,Kannur International Airport,Kannur,India,IN,11.918614,75.547211,330,AS,,https://en.wikipedia.org/wiki/Kannur_International_Airport,0
+CNX,Chiang Mai International Airport,Chiang Mai,Thailand,TH,18.766799926799997,98.962600708,1036,AS,,https://en.wikipedia.org/wiki/Chiang_Mai_International_Airport,0
+COK,Cochin International Airport,Kochi,India,IN,10.152,76.401901,30,AS,,https://en.wikipedia.org/wiki/Cochin_International_Airport,0
+COO,Cadjehoun Airport,Cotonou,BJ,BJ,6.357230186462402,2.384350061416626,19,AF,,https://en.wikipedia.org/wiki/Cadjehoun_Airport,0
+COR,Ingeniero Ambrosio Taravella Airport,Cordoba,Argentina,AR,-31.323601,-64.208,1604,SA,,https://en.wikipedia.org/wiki/Ingeniero_Ambrosio_L.V._Taravella_International_Airport,0
+COS,City of Colorado Springs Municipal Airport,Colorado Springs,United States,US,38.805801,-104.700996,6187,NA,,https://en.wikipedia.org/wiki/Colorado_Springs_Airport,0
+CPH,Copenhagen Kastrup Airport,Copenhagen,Denmark,DK,55.617900848389,12.656000137329,17,EU,,https://en.wikipedia.org/wiki/Copenhagen_Airport,0
+CPT,Cape Town International Airport,Cape Town,South Africa,ZA,-33.9648017883,18.6016998291,151,AF,,https://en.wikipedia.org/wiki/Cape_Town_International_Airport,0
+CRD,General E. Mosconi Airport,Comodoro Rivadavia,Argentina,AR,-45.7853,-67.4655,189,SA,,https://en.wikipedia.org/wiki/General_Enrique_Mosconi_International_Airport,0
+CRK,Clark International Airport / Clark Air Base,Mabalacat,Philippines,PH,15.186,120.559998,484,AS,,https://en.wikipedia.org/wiki/Clark_International_Airport,0
+CRL,Brussels South Charleroi Airport,Charleroi,Belgium,BE,50.460982,4.457158,614,EU,,https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport,0
+CSX,Changsha Huanghua International Airport,Changsha (Changsha),China,CN,28.189199,113.220001,217,AS,,https://en.wikipedia.org/wiki/Changsha_Huanghua_International_Airport,0
+CTA,Catania-Fontanarossa Airport,Catania,Italy,IT,37.466801,15.0664,39,EU,,https://en.wikipedia.org/wiki/Catania-Fontanarossa_Airport,0
+CTG,Rafael Nuñez International Airport,Cartagena,Colombia,CO,10.4424,-75.513,4,SA,,https://en.wikipedia.org/wiki/Rafael_N%C3%BA%C3%B1ez_International_Airport,0
+CTS,New Chitose Airport,Sapporo,Japan,JP,42.7752,141.692001,82,AS,,https://en.wikipedia.org/wiki/New_Chitose_Airport,0
+CTU,Chengdu Shuangliu International Airport,Chengdu (Shuangliu),China,CN,30.558257,103.945966,1625,AS,,https://en.wikipedia.org/wiki/Chengdu_Shuangliu_International_Airport,0
+CUC,Camilo Daza International Airport,Cúcuta,Colombia,CO,7.92757,-72.5115,1096,SA,,https://en.wikipedia.org/wiki/Camilo_Daza_International_Airport,0
+CUE,Mariscal Lamar Airport,Cuenca,EC,EC,-2.88947,-78.984398,8306,SA,,https://en.wikipedia.org/wiki/Mariscal_Lamar_International_Airport,0
+CUL,Bachigualato Federal International Airport,Culiacán,Mexico,MX,24.76504,-107.475228,108,NA,,https://en.wikipedia.org/wiki/Bachigualato_Federal_International_Airport,0
+CUN,Cancún International Airport,Cancún,Mexico,MX,21.039444,-86.874304,22,NA,,https://en.wikipedia.org/wiki/Canc%C3%BAn_International_Airport,0
+CUR,Hato International Airport,Willemstad,CW,CW,12.1889,-68.959801,29,NA,,https://en.wikipedia.org/wiki/Hato_International_Airport,0
+CUU,General Roberto Fierro Villalobos International Airport,Chihuahua,Mexico,MX,28.702899932900003,-105.964996338,4462,NA,,https://en.wikipedia.org/wiki/General_Roberto_Fierro_Villalobos_International_Airport,0
+CUZ,Alejandro Velasco Astete International Airport,Cusco,Peru,PE,-13.535699844400002,-71.9387969971,10860,SA,,https://en.wikipedia.org/wiki/Alejandro_Velasco_Astete_International_Airport,0
+CVG,Cincinnati Northern Kentucky International Airport,Cincinnati / Covington,United States,US,39.048801,-84.667801,896,NA,,https://en.wikipedia.org/wiki/Cincinnati/Northern_Kentucky_International_Airport,0
+CWB,Afonso Pena Airport,Curitiba,Brazil,BR,-25.5285,-49.1758,2988,SA,,https://en.wikipedia.org/wiki/Afonso_Pena_International_Airport,0
+CXB,Cox's Bazar Airport,Cox's Bazar,BD,BD,21.452199935913086,91.96389770507812,12,AS,,https://en.wikipedia.org/wiki/Cox's_Bazar_Airport,0
+CXR,Cam Ranh International Airport / Cam Ranh Air Base,Cam Ranh,VN,VN,11.9982,109.219002,40,AS,,https://en.wikipedia.org/wiki/Cam_Ranh_International_Airport,0
+CZM,Cozumel International Airport,Cozumel,Mexico,MX,20.514922,-86.928538,15,NA,,https://en.wikipedia.org/wiki/Cozumel_International_Airport,0
+CZX,Changzhou Benniu International Airport,Changzhou,China,CN,31.920485,119.77546,33,AS,,https://en.wikipedia.org/wiki/Changzhou_Benniu_International_Airport,0
+DAC,Hazrat Shahjalal International Airport,Dhaka,BD,BD,23.843347,90.397783,30,AS,,https://en.wikipedia.org/wiki/Shahjalal_International_Airport,0
+DAD,Da Nang International Airport,Da Nang,VN,VN,16.0439,108.198997,33,AS,,https://en.wikipedia.org/wiki/Da_Nang_International_Airport,0
+DAR,Julius Nyerere International Airport,Dar es Salaam,TZ,TZ,-6.87811,39.202599,182,AF,,https://en.wikipedia.org/wiki/Julius_Nyerere_International_Airport,0
+DAT,Datong Yungang Airport,Datong,China,CN,40.061614,113.480032,3442,AS,,https://en.wikipedia.org/wiki/Datong_Yungang_Airport,0
+DCA,Ronald Reagan Washington National Airport,Washington,United States,US,38.8521,-77.037697,15,NA,,https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport,0
+DED,Dehradun Jolly Grant Airport,Dehradun (Jauligrant),India,IN,30.189243,78.176651,1831,AS,,https://en.wikipedia.org/wiki/Jolly_Grant_Airport,0
+DEL,Indira Gandhi International Airport,New Delhi,India,IN,28.55563,77.09519,777,AS,,https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport,0
+DEN,Denver International Airport,Denver,United States,US,39.861698150635,-104.672996521,5431,NA,,https://en.wikipedia.org/wiki/Denver_International_Airport,0
+DFW,Dallas Fort Worth International Airport,Dallas-Fort Worth,United States,US,32.896801,-97.038002,607,NA,,https://en.wikipedia.org/wiki/Dallas/Fort_Worth_International_Airport,0
+DJB,Sultan Thaha Airport,Jambi,Indonesia,ID,-1.638685,103.645063,82,AS,,https://en.wikipedia.org/wiki/Sultan_Thaha_Airport,0
+DLA,Douala International Airport,Douala,CM,CM,4.0060801506,9.719479560849999,33,AF,,https://en.wikipedia.org/wiki/Douala_International_Airport,0
+DLC,Dalian Zhoushuizi International Airport,Dalian (Ganjingzi),China,CN,38.965719,121.538477,107,AS,,https://en.wikipedia.org/wiki/Dalian_Zhoushuizi_International_Airport,0
+DLM,Dalaman International Airport,Dalaman,Turkey,TR,36.7131004333,28.7924995422,20,AS,,https://en.wikipedia.org/wiki/Dalaman_Airport,0
+DLU,Dali Fengyi Airport,Dali (Xiaguan),China,CN,25.649401,100.319,7050,AS,,https://en.wikipedia.org/wiki/Dali_Airport,0
+DMK,Don Mueang International Airport,Bangkok,Thailand,TH,13.9125995636,100.607002258,9,AS,,https://en.wikipedia.org/wiki/Don_Mueang_International_Airport,0
+DMM,King Fahd International Airport,Ad Dammam,Saudi Arabia,SA,26.471201,49.797901,72,AS,,https://en.wikipedia.org/wiki/King_Fahd_International_Airport,0
+DNH,Dunhuang Mogao International Airport,Dunhuang,China,CN,40.161098,94.809196,,AS,,https://en.wikipedia.org/wiki/Dunhuang_Airport,0
+DOH,Hamad International Airport,Doha,Qatar,QA,25.273056,51.608056,13,AS,,https://en.wikipedia.org/wiki/Hamad_International_Airport,0
+DPS,I Gusti Ngurah Rai International Airport,Denpasar,Indonesia,ID,-8.74817,115.167,14,AS,,https://en.wikipedia.org/wiki/Ngurah_Rai_International_Airport,0
+DQM,Duqm International Airport,Duqm,Oman,OM,19.501944,57.634167,364,AS,,https://en.wikipedia.org/wiki/Duqm_Jaaluni_Airport,0
+DRV,Dharavandhoo Airport,Baa Atoll,MV,MV,5.1561,73.1302,6,AS,,https://en.wikipedia.org/wiki/Dharavandhoo_Airport,0
+DSS,Blaise Diagne International Airport,Dakar,SN,SN,14.670878,-17.072829,290,AF,,https://en.wikipedia.org/wiki/Blaise_Diagne_International_Airport,0
+DTW,Detroit Metropolitan Wayne County Airport,Detroit,United States,US,42.21377,-83.353786,645,NA,,https://en.wikipedia.org/wiki/Detroit_Metropolitan_Wayne_County_Airport,0
+DUB,Dublin Airport,Dublin,Ireland,IE,53.428713,-6.262121,242,EU,,https://en.wikipedia.org/wiki/Dublin_Airport,0
+DUR,King Shaka International Airport,Durban,South Africa,ZA,-29.6144444444,31.1197222222,295,AF,,https://en.wikipedia.org/wiki/King_Shaka_International_Airport,0
+DUS,Düsseldorf Airport,Düsseldorf,Germany,DE,51.289501,6.76678,147,EU,,https://en.wikipedia.org/wiki/D%C3%BCsseldorf_Airport,0
+DVO,Francisco Bangoy International Airport,Davao,Philippines,PH,7.12552,125.646004,96,AS,,https://en.wikipedia.org/wiki/Francisco_Bangoy_International_Airport,0
+DWD,King Salman Abdulaziz Airport,Dawadmi,Saudi Arabia,SA,24.4499,44.121201,3026,AS,,https://en.wikipedia.org/wiki/Dawadmi_Domestic_Airport,0
+DXB,Dubai International Airport,Dubai,United Arab Emirates,AE,25.2527999878,55.3643989563,62,AS,,https://en.wikipedia.org/wiki/Dubai_International_Airport,0
+DYG,Zhangjiajie Hehua International Airport,Zhangjiajie (Yongding),China,CN,29.1028,110.443001,8530,AS,,https://en.wikipedia.org/wiki/Zhangjiajie_Hehua_Airport,0
+DZH,Dazhou Jinya Airport,Dazhou (Dachuan),China,CN,31.048815,107.435646,1342,AS,,https://en.wikipedia.org/wiki/Dazhou_Jinya_Airport,0
+EAM,Najran Domestic Airport,Najran,Saudi Arabia,SA,17.611401,44.419201,3982,AS,,https://en.wikipedia.org/wiki/Najran_Domestic_Airport,0
+EBB,Entebbe International Airport,Kampala,UG,UG,0.042386,32.443501,3782,AF,,https://en.wikipedia.org/wiki/Entebbe_International_Airport,0
+ECN,Nicosia (Lefkoşa) Ercan International Airport,Tymbou (Kirklar),CY,CY,35.152337,33.506584,404,AS,,https://en.wikipedia.org/wiki/Ercan_International_Airport,0
+EDI,Edinburgh Airport,Edinburgh,United Kingdom,GB,55.950145,-3.372288,135,EU,,https://en.wikipedia.org/wiki/Edinburgh_Airport,0
+EIN,Eindhoven Airport,Eindhoven,Netherlands,NL,51.4500999451,5.37452983856,74,EU,,https://en.wikipedia.org/wiki/Eindhoven_Airport,0
+ELQ,Gassim Airport,Buraidah,Saudi Arabia,SA,26.302799,43.774399,2126,AS,,https://en.wikipedia.org/wiki/Gassim_Regional_Airport,0
+ELS,King Phalo Airport,East London,South Africa,ZA,-33.035599,27.825899,435,AF,,https://en.wikipedia.org/wiki/East_London_Airport,0
+EMA,East Midlands Airport,Nottingham,United Kingdom,GB,52.8311,-1.32806,306,EU,,https://en.wikipedia.org/wiki/East_Midlands_Airport,0
+EOH,Enrique Olaya Herrera Airport,Medellín,Colombia,CO,6.219686,-75.590597,4949,SA,,https://en.wikipedia.org/wiki/Enrique_Olaya_Herrera_International_Airport,0
+ESB,Esenboğa International Airport,Ankara,Turkey,TR,40.128101,32.995098,3125,AS,,https://en.wikipedia.org/wiki/Esenbo%C4%9Fa_International_Airport,0
+ETM,Ramon International Airport,Eilat,Israel,IL,29.727009,35.014116,288,AS,,https://en.wikipedia.org/wiki/Ramon_Airport#Airlines_and_destinations,0
+EUN,Hassan I Airport,El Aaiún,EH,EH,27.142467,-13.224947,207,AF,,https://en.wikipedia.org/wiki/Hassan_Airport,0
+EVN,Zvartnots International Airport,Yerevan,AM,AM,40.1473007202,44.3959007263,2838,AS,,https://en.wikipedia.org/wiki/Zvartnots_International_Airport,0
+EWR,Newark Liberty International Airport,Newark,United States,US,40.692501,-74.168701,18,NA,,https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport,0
+EXT,Exeter International Airport,"Exeter, Devon",United Kingdom,GB,50.734261,-3.413984,102,EU,,https://en.wikipedia.org/wiki/Exeter_International_Airport,0
+EZE,Minister Pistarini International Airport,Buenos Aires (Ezeiza),Argentina,AR,-34.8222,-58.5358,67,SA,,https://en.wikipedia.org/wiki/Ministro_Pistarini_International_Airport,0
+FAO,Faro Airport,Faro,Portugal,PT,37.0144004822,-7.96590995789,24,EU,,https://en.wikipedia.org/wiki/Faro_Airport_(Portugal),0
+FBM,Lubumbashi International Airport,Lubumbashi,CD,CD,-11.5913000107,27.5308990479,4295,AF,,https://en.wikipedia.org/wiki/Lubumbashi_International_Airport,0
+FCO,Rome–Fiumicino Leonardo da Vinci International Airport,Rome,Italy,IT,41.804532,12.251998,13,EU,,https://en.wikipedia.org/wiki/Leonardo_da_Vinci%E2%80%93Fiumicino_Airport,0
+FEZ,Fes Saïss International Airport,Saïss,MA,MA,33.927299,-4.97796,1900,AF,,https://en.wikipedia.org/wiki/Sa%C3%AFss_Airport,0
+FLL,Fort Lauderdale Hollywood International Airport,Fort Lauderdale,United States,US,26.072599,-80.152702,9,NA,,https://en.wikipedia.org/wiki/Fort_Lauderdale–Hollywood_International_Airport,0
+FLN,Hercílio Luz International Airport,Florianópolis,Brazil,BR,-27.670279,-48.552502,16,SA,,https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz_International_Airport,0
+FLR,"Florence Airport, Peretola",Firenze (FI),Italy,IT,43.808558,11.202822,142,EU,,"https://en.wikipedia.org/wiki/Florence_Airport,_Peretola",0
+FMO,Münster Osnabrück Airport,Greven,Germany,DE,52.134602,7.68483,160,EU,,https://en.wikipedia.org/wiki/M%C3%BCnster_Osnabr%C3%BCck_International_Airport,0
+FNA,Lungi International Airport,Freetown (Lungi-Town),SL,SL,8.61644,-13.1955,84,AF,,https://en.wikipedia.org/wiki/Lungi_International_Airport,0
+FNC,Madeira International Airport Cristiano Ronaldo,Funchal,Portugal,PT,32.697899,-16.7745,192,EU,,https://en.wikipedia.org/wiki/Madeira_Airport,0
+FOC,Fuzhou Changle International Airport,Fuzhou (Changle),China,CN,25.934669,119.66318,46,AS,,https://en.wikipedia.org/wiki/Fuzhou_Changle_International_Airport,0
+FOR,Pinto Martins International Airport,Fortaleza,Brazil,BR,-3.775833,-38.532222,83,SA,,https://en.wikipedia.org/wiki/Pinto_Martins_International_Airport,0
+FRA,Frankfurt Airport,Frankfurt am Main,Germany,DE,50.030241,8.561096,364,EU,,https://en.wikipedia.org/wiki/Frankfurt_Airport,0
+FRU,Manas International Airport,Bishkek,KG,KG,43.0612983704,74.4776000977,2058,AS,,https://en.wikipedia.org/wiki/Manas_International_Airport,0
+FSZ,Mount Fuji Shizuoka Airport,Makinohara / Shimada,Japan,JP,34.796043,138.187752,433,AS,,https://en.wikipedia.org/wiki/Shizuoka_Airport,0
+FUE,Fuerteventura Airport,El Matorral,Spain,ES,28.4527,-13.8638,85,AF,,https://en.wikipedia.org/wiki/Fuerteventura_Airport,0
+FUK,Fukuoka Airport,Fukuoka,Japan,JP,33.585899353027344,130.4510040283203,32,AS,,https://en.wikipedia.org/wiki/Fukuoka_Airport,0
+GAU,Lokpriya Gopinath Bordoloi International Airport,Guwahati,India,IN,26.10610008239746,91.58589935302734,162,AS,,https://en.wikipedia.org/wiki/Lokpriya_Gopinath_Bordoloi_International_Airport,0
+GBE,Sir Seretse Khama International Airport,Gaborone,BW,BW,-24.555201,25.9182,3299,AF,,https://en.wikipedia.org/wiki/Sir_Seretse_Khama_International_Airport,0
+GDL,Guadalajara International Airport,Guadalajara,Mexico,MX,20.523342,-103.310108,5016,NA,,https://en.wikipedia.org/wiki/Don_Miguel_Hidalgo_y_Costilla_International_Airport,0
+GDN,Gdańsk Lech Wałęsa Airport,Gdańsk,Poland,PL,54.377602,18.4662,489,EU,,https://en.wikipedia.org/wiki/Gda%C5%84sk_Lech_Wa%C5%82%C4%99sa_Airport,0
+GEO,Cheddi Jagan International Airport,Georgetown,GY,GY,6.49855,-58.254101,95,SA,,https://en.wikipedia.org/wiki/Cheddi_Jagan_International_Airport,0
+GIB,Gibraltar Airport,Gibraltar,GI,GI,36.151199,-5.34966,12,EU,,https://en.wikipedia.org/wiki/Gibraltar_Airport,0
+GIG,Rio Galeão – Tom Jobim International Airport,Rio De Janeiro,Brazil,BR,-22.809999,-43.250557,28,SA,,https://en.wikipedia.org/wiki/Rio_de_Janeiro-Gale%C3%A3o_International_Airport,0
+GIZ,Jizan Regional Airport / King Abdullah bin Abdulaziz Airport,Jizan,Saudi Arabia,SA,16.9011,42.5858,20,AS,,https://en.wikipedia.org/wiki/Jizan_Regional_Airport,0
+GLA,Glasgow International Airport,"Paisley, Renfrewshire",United Kingdom,GB,55.871899,-4.43306,26,EU,,https://en.wikipedia.org/wiki/Glasgow_International_Airport,0
+GMP,Gimpo International Airport,Seoul,South Korea,KR,37.5583,126.791,59,AS,,https://en.wikipedia.org/wiki/Gimpo_International_Airport,0
+GND,Maurice Bishop International Airport,Saint George's,GD,GD,12.0042,-61.786201,41,NA,,https://en.wikipedia.org/wiki/Point_Salines_International_Airport,0
+GOA,Genoa Cristoforo Colombo Airport,Genova (GE),Italy,IT,44.412039,8.840732,13,EU,,https://en.wikipedia.org/wiki/Genoa_Cristoforo_Colombo_Airport,0
+GOI,Dabolim Airport,Vasco da Gama,India,IN,15.3808,73.831398,150,AS,,https://en.wikipedia.org/wiki/Dabolim_Airport,0
+GOT,Göteborg Landvetter Airport,Göteborg,Sweden,SE,57.6628,12.2798,506,EU,,https://en.wikipedia.org/wiki/G%C3%B6teborg_Landvetter_Airport,0
+GPS,Seymour Galapagos Ecological Airport,Isla Baltra,EC,EC,-0.453758,-90.2659,207,SA,,https://en.wikipedia.org/wiki/Seymour_Airport,0
+GRJ,George Airport,George,South Africa,ZA,-34.0056,22.378902,648,AF,,https://en.wikipedia.org/wiki/George_Airport,0
+GRU,Guarulhos - Governador André Franco Montoro International Airport,São Paulo,Brazil,BR,-23.431944,-46.467778,2461,SA,,https://en.wikipedia.org/wiki/S%C3%A3o_Paulo-Guarulhos_International_Airport,0
+GRZ,Graz Airport,Feldkirchen bei Graz,Austria,AT,46.9911,15.4396,1115,EU,,https://en.wikipedia.org/wiki/Graz_Airport,0
+GUA,La Aurora Airport,Guatemala City,GT,GT,14.5833,-90.527496,4952,NA,,https://en.wikipedia.org/wiki/La_Aurora_International_Airport,0
+GUM,Antonio B. Won Pat International Airport,Hagåtña,GU,GU,13.4834,144.796005,298,OC,,https://en.wikipedia.org/wiki/Antonio_B._Won_Pat_International_Airport,0
+GVA,Geneva Cointrin International Airport,Geneva,Switzerland,CH,46.238098,6.10895,1411,EU,,https://en.wikipedia.org/wiki/Geneva_Cointrin_International_Airport,0
+GYD,Heydar Aliyev International Airport,Baku,AZ,AZ,40.467498779296875,50.04669952392578,10,AS,,https://en.wikipedia.org/wiki/Heydar_Aliyev_International_Airport,0
+GYE,José Joaquín de Olmedo International Airport,Guayaquil,EC,EC,-2.15742,-79.883598,19,SA,,https://en.wikipedia.org/wiki/Jos%C3%A9_Joaqu%C3%ADn_de_Olmedo_International_Airport,0
+GYN,Santa Genoveva Airport,Goiânia,Brazil,BR,-16.632,-49.220699,2450,SA,,https://en.wikipedia.org/wiki/Santa_Genoveva_Airport,0
+GYS,Guangyuan Panlong Airport,Guangyuan (Lizhou),China,CN,32.390254,105.694571,,AS,,https://en.wikipedia.org/wiki/Guangyuan_Airport,0
+HAJ,Hannover Airport,Hannover,Germany,DE,52.461102,9.68508,183,EU,,https://en.wikipedia.org/wiki/Hanover/Langenhagen_International_Airport,0
+HAK,Haikou Meilan International Airport,Haikou (Meilan),China,CN,19.9349,110.459,75,AS,,https://en.wikipedia.org/wiki/Haikou_Meilan_International_Airport,0
+HAM,Hamburg Helmut Schmidt Airport,Hamburg,Germany,DE,53.630402,9.98823,53,EU,,https://en.wikipedia.org/wiki/Hamburg_Airport,0
+HAN,Noi Bai International Airport,Hanoi (Soc Son),VN,VN,21.221201,105.806999,39,AS,,https://en.wikipedia.org/wiki/Noi_Bai_International_Airport,0
+HAQ,Hanimaadhoo Airport,Haa Dhaalu Atoll,MV,MV,6.744229793548584,73.17050170898438,4,AS,,https://en.wikipedia.org/wiki/Hanimaadhoo_Airport,0
+HAS,Ha'il Airport,Ha'il,Saudi Arabia,SA,27.437901,41.686298,3331,AS,,https://en.wikipedia.org/wiki/Ha'il_Regional_Airport,0
+HBE,Borj El Arab International Airport,Alexandria,Egypt,EG,30.93249,29.696437,171,AF,,https://en.wikipedia.org/wiki/Borg_El_Arab_Airport,0
+HDY,Hat Yai International Airport,Hat Yai,Thailand,TH,6.93320989609,100.392997742,90,AS,,https://en.wikipedia.org/wiki/Hat_Yai_International_Airport,0
+HEL,Helsinki Vantaa Airport,Helsinki,Finland,FI,60.318363,24.963341,179,EU,,https://en.wikipedia.org/wiki/Helsinki_Airport,0
+HER,Heraklion International Nikos Kazantzakis Airport,Heraklion,Greece,GR,35.339699,25.1803,115,EU,,https://en.wikipedia.org/wiki/Heraklion_International_Airport%2C_%22Nikos_Kazantzakis%22,0
+HET,Hohhot Baita International Airport,Hohhot,China,CN,40.849658,111.824598,3556,AS,,https://en.wikipedia.org/wiki/Hohhot_Baita_International_Airport,0
+HFE,Hefei Xinqiao International Airport,Hefei,China,CN,31.98779,116.9769,207,AS,,https://en.wikipedia.org/wiki/Hefei_Xinqiao_International_Airport,0
+HGH,Hangzhou Xiaoshan International Airport,Hangzhou,China,CN,30.23609,120.428865,23,AS,,https://en.wikipedia.org/wiki/Hangzhou_Xiaoshan_International_Airport,0
+HIA,Huai'an Lianshui International Airport,Huai'an,China,CN,33.790833,119.125,28,AS,,https://en.wikipedia.org/wiki/Huai'an_Lianshui_International_Airport,0
+HIJ,Hiroshima Airport,Hiroshima,Japan,JP,34.4361,132.919006,1088,AS,,https://en.wikipedia.org/wiki/Hiroshima_Airport,0
+HKD,Hakodate Airport,Hakodate,Japan,JP,41.77,140.822006,151,AS,,https://en.wikipedia.org/wiki/Hakodate_Airport,0
+HKG,Hong Kong International Airport,Hong Kong,Hong Kong,HK,22.308901,113.915001,28,AS,,https://en.wikipedia.org/wiki/Hong_Kong_International_Airport,0
+HKT,Phuket International Airport,Phuket,Thailand,TH,8.1132,98.316902,82,AS,,https://en.wikipedia.org/wiki/Phuket_International_Airport,0
+HLA,Lanseria International Airport,Johannesburg,South Africa,ZA,-25.938499,27.9261,4517,AF,,https://en.wikipedia.org/wiki/Lanseria_Airport,0
+HLD,Hulunbuir Hailar Airport,Hailar,China,CN,49.205002,119.824997,2169,AS,,https://en.wikipedia.org/wiki/Hulunbuir_Hailar_Airport,0
+HLP,Halim Perdanakusuma International Airport,Jakarta,Indonesia,ID,-6.266610145568848,106.89099884033203,84,AS,,https://en.wikipedia.org/wiki/Halim_Perdanakusuma_International_Airport,0
+HMI,Hami Airport,Hami,China,CN,42.8414,93.669197,2703,AS,,https://en.wikipedia.org/wiki/Hami_Airport,0
+HMO,General Ignacio P. Garcia International Airport,Hermosillo,Mexico,MX,29.093527,-111.049891,627,NA,,https://en.wikipedia.org/wiki/General_Ignacio_Pesqueira_Garcia_International_Airport,0
+HND,Tokyo Haneda International Airport,Tokyo,Japan,JP,35.552299,139.779999,35,AS,,https://en.wikipedia.org/wiki/Tokyo_International_Airport,0
+HNL,Daniel K Inouye International Airport,"Honolulu, Oahu",United States,US,21.32062,-157.924228,13,NA,,https://en.wikipedia.org/wiki/Daniel_K._Inouye_International_Airport,0
+HOU,William P Hobby Airport,Houston,United States,US,29.645399,-95.2789,46,NA,,https://en.wikipedia.org/wiki/William_P._Hobby_Airport,0
+HRB,Harbin Taiping International Airport,Harbin,China,CN,45.623402,126.25,457,AS,,https://en.wikipedia.org/wiki/Harbin_Taiping_International_Airport,0
+HRE,Robert Gabriel Mugabe International Airport,Harare,ZW,ZW,-17.931801,31.0928,4887,AF,,https://en.wikipedia.org/wiki/Harare_International_Airport,0
+HRG,Hurghada International Airport,Hurghada,Egypt,EG,27.176776,33.796692,32,AF,,https://en.wikipedia.org/wiki/Hurghada_International_Airport,0
+HSN,Zhoushan Putuoshan Airport,Zhoushan,China,CN,29.9342,122.362,3,AS,,https://en.wikipedia.org/wiki/Zhoushan_Putuoshan_Airport,0
+HTN,Hotan Airport,Hotan,China,CN,37.03850173950195,79.86489868164062,4672,AS,,https://en.wikipedia.org/wiki/Hotan_Airport,0
+HUX,Bahías de Huatulco International Airport,Huatulco,Mexico,MX,15.774909,-96.260319,464,NA,,https://en.wikipedia.org/wiki/Bah%C3%ADas_de_Huatulco_International_Airport,0
+HUY,Humberside Airport,"Grimsby, Lincolnshire",United Kingdom,GB,53.576152,-0.34954,121,EU,,https://en.wikipedia.org/wiki/Humberside_Airport,0
+HYD,Rajiv Gandhi International Airport,Hyderabad,India,IN,17.231318,78.429855,2024,AS,,https://en.wikipedia.org/wiki/Rajiv_Gandhi_International_Airport,0
+IAD,Washington Dulles International Airport,Dulles,United States,US,38.9445,-77.455803,312,NA,,https://en.wikipedia.org/wiki/Washington_Dulles_International_Airport,0
+IAH,George Bush Intercontinental Houston Airport,Houston,United States,US,29.984399795532227,-95.34140014648438,97,NA,,https://en.wikipedia.org/wiki/George_Bush_Intercontinental_Airport,0
+IBZ,Ibiza Airport,Ibiza (Eivissa),Spain,ES,38.872898,1.37312,24,EU,,https://en.wikipedia.org/wiki/Ibiza_Airport,0
+ICN,Incheon International Airport,Seoul,South Korea,KR,37.469101,126.450996,23,AS,,https://en.wikipedia.org/wiki/Incheon_International_Airport,0
+IEV,Ihor Sikorsky Kyiv International Airport (Zhuliany),Kyiv,UA,UA,50.40194,30.45194,587,EU,,https://en.wikipedia.org/wiki/Kyiv_International_Airport_(Zhuliany),0
+IGU,Cataratas International Airport,Foz do Iguaçu,Brazil,BR,-25.594167,-54.489444,786,SA,,https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u_International_Airport,0
+INC,Yinchuan Hedong International Airport,Yinchuan,China,CN,38.322758,106.393214,3743,AS,,https://en.wikipedia.org/wiki/Yinchuan_Hedong_International_Airport,0
+IND,Indianapolis International Airport,Indianapolis,United States,US,39.7173,-86.294403,797,NA,,https://en.wikipedia.org/wiki/Indianapolis_International_Airport,0
+INN,Innsbruck Airport,Innsbruck,Austria,AT,47.260201,11.344,1907,EU,,https://en.wikipedia.org/wiki/Innsbruck_Airport,0
+INV,Inverness Airport,Inverness,United Kingdom,GB,57.54249954223633,-4.047500133514404,31,EU,,https://en.wikipedia.org/wiki/Inverness_Airport,0
+IOM,Isle of Man Airport,Castletown,IM,IM,54.083302,-4.62389,52,EU,,https://en.wikipedia.org/wiki/Isle_of_Man_Airport,0
+IQN,Qingyang Xifeng Airport,Qingyang (Xifeng),China,CN,35.802638,107.598896,,AS,,https://en.wikipedia.org/wiki/Qingyang_Airport,0
+IQQ,Diego Aracena Airport,Iquique,Chile,CL,-20.5352,-70.181297,155,SA,,https://en.wikipedia.org/wiki/Diego_Aracena_International_Airport,0
+IQT,Coronel FAP Francisco Secada Vignetta International Airport,Iquitos,Peru,PE,-3.78474,-73.3088,306,SA,,https://en.wikipedia.org/wiki/Crnl._FAP_Francisco_Secada_Vignetta_International_Airport,0
+ISB,Islamabad International Airport,Attock,PK,PK,33.549,72.82566,1761,AS,,https://en.wikipedia.org/wiki/Islamabad_International_Airport,0
+IST,İstanbul Airport,"Arnavutköy, Istanbul",Turkey,TR,41.261297,28.741951,325,EU,,https://en.wikipedia.org/wiki/Istanbul_Airport,0
+ITM,Osaka International Airport,Osaka,Japan,JP,34.7855,135.438004,50,AS,,https://en.wikipedia.org/wiki/Osaka_International_Airport,0
+IXC,Chandigarh International Airport,Chandigarh,India,IN,30.6735,76.788498,1012,AS,,https://en.wikipedia.org/wiki/Chandigarh_Airport,0
+IZO,Izumo Enmusubi Airport,Izumo,Japan,JP,35.413601,132.889999,15,AS,,https://en.wikipedia.org/wiki/Izumo_Airport,0
+JAI,Jaipur International Airport,Jaipur,India,IN,26.8242,75.812202,1263,AS,,https://en.wikipedia.org/wiki/Jaipur_International_Airport,0
+JAX,Jacksonville International Airport,Jacksonville,United States,US,30.492469,-81.687813,30,NA,,https://en.wikipedia.org/wiki/Jacksonville_International_Airport,0
+JED,King Abdulaziz International Airport,Jeddah,Saudi Arabia,SA,21.6796,39.156502,48,AS,,https://en.wikipedia.org/wiki/King_Abdulaziz_International_Airport,0
+JER,Jersey Airport,Saint Helier,JE,JE,49.20790100097656,-2.195509910583496,277,EU,,https://en.wikipedia.org/wiki/Jersey_Airport,0
+JFK,John F Kennedy International Airport,New York,United States,US,40.639447,-73.779317,13,NA,,https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport,0
+JGN,Jiayuguan Airport,Jiayuguan,China,CN,39.856899,98.3414,5112,AS,,https://en.wikipedia.org/wiki/Jiayuguan_Airport,0
+JHG,Xishuangbanna Gasa International Airport,Jinghong (Gasa),China,CN,21.974648,100.762224,1815,AS,,https://en.wikipedia.org/wiki/Xishuangbanna_Gasa_International_Airport,0
+JJN,Quanzhou Jinjiang International Airport,Quanzhou,China,CN,24.796587,118.588883,39,AS,,https://en.wikipedia.org/wiki/Quanzhou_Jinjiang_International_Airport,0
+JMK,Mykonos Island National Airport,Mykonos,Greece,GR,37.435101,25.348101,405,EU,,https://en.wikipedia.org/wiki/Mykonos_Island_National_Airport,0
+JNB,O.R. Tambo International Airport,Johannesburg,South Africa,ZA,-26.1392,28.246,5558,AF,,https://en.wikipedia.org/wiki/O._R._Tambo_International_Airport,0
+JNG,Jining Da'an Airport,Jining,China,CN,35.647358,116.743269,171,AS,,https://en.wikipedia.org/wiki/Jining_Da%27an_Airport,0
+JRO,Kilimanjaro International Airport,Arusha,TZ,TZ,-3.42941,37.074501,2932,AF,,https://en.wikipedia.org/wiki/Kilimanjaro_International_Airport,0
+JUL,Inca Manco Capac International Airport,Juliaca,Peru,PE,-15.467100143432617,-70.158203125,12552,SA,,https://en.wikipedia.org/wiki/Inca_Manco_Capac_International_Airport,0
+KBP,Boryspil International Airport,Boryspil,UA,UA,50.345001,30.894699,427,EU,,https://en.wikipedia.org/wiki/Boryspil_International_Airport,0
+KCA,Kuqa Qiuci Airport,Kuqa,China,CN,41.677856,82.872917,3524,AS,,https://en.wikipedia.org/wiki/Kuqa_Qiuci_Airport,0
+KGL,Kigali International Airport,Kigali,RW,RW,-1.96863,30.1395,4859,AF,,https://en.wikipedia.org/wiki/Kigali_International_Airport,0
+KHG,Kashgar Airport,Kashgar,China,CN,39.5429000854,76.0199966431,4529,AS,,https://en.wikipedia.org/wiki/Kashgar_Airport,0
+KHI,Jinnah International Airport,Karachi,PK,PK,24.9065,67.160797,100,AS,,https://en.wikipedia.org/wiki/Jinnah_International_Airport,0
+KIJ,Niigata Airport,Niigata,Japan,JP,37.9558982849,139.121002197,29,AS,,https://en.wikipedia.org/wiki/Niigata_Airport,0
+KIN,Norman Manley International Airport,Kingston,JM,JM,17.935699462890625,-76.7874984741211,10,NA,,https://en.wikipedia.org/wiki/Norman_Manley_International_Airport,0
+KIX,Kansai International Airport,Osaka,Japan,JP,34.427299,135.244003,26,AS,,https://en.wikipedia.org/wiki/Kansai_International_Airport,0
+KJI,Burqin Kanas Airport,Burqin,China,CN,48.2223,86.9959,3921,AS,,https://en.wikipedia.org/wiki/Kanas_Airport,0
+KKJ,Kitakyushu Airport,Kitakyushu,Japan,JP,33.845901,131.035004,21,AS,,https://en.wikipedia.org/wiki/New_Kitakyushu_Airport,0
+KLV,Karlovy Vary Airport,Karlovy Vary,Czech Republic,CZ,50.202999,12.915,1989,EU,,https://en.wikipedia.org/wiki/Karlovy_Vary_Airport,0
+KMG,Kunming Changshui International Airport,Kunming,China,CN,25.110313,102.936743,6903,AS,,https://en.wikipedia.org/wiki/Kunming_Changshui_International_Airport,0
+KMJ,Kumamoto Airport,Kumamoto,Japan,JP,32.83729934692383,130.85499572753906,642,AS,,https://en.wikipedia.org/wiki/Kumamoto_Airport,0
+KMQ,Komatsu Airport / JASDF Komatsu Air Base,Kanazawa,Japan,JP,36.3946,136.406998,36,AS,,https://en.wikipedia.org/wiki/Komatsu_Airport,0
+KNO,Kualanamu International Airport,Medan,Indonesia,ID,3.637847,98.870566,23,AS,,https://en.wikipedia.org/wiki/Kualanamu_International_Airport,0
+KOE,El Tari Airport,Kupang,Indonesia,ID,-10.1716,123.670998,335,AS,,https://en.wikipedia.org/wiki/El_Tari_Airport,0
+KOJ,Kagoshima Airport,Kagoshima,Japan,JP,31.8034,130.718994,906,AS,,https://en.wikipedia.org/wiki/Kagoshima_Airport,0
+KRK,Kraków John Paul II International Airport,Balice,Poland,PL,50.077702,19.7848,791,EU,,https://en.wikipedia.org/wiki/Kraków_John_Paul_II_International_Airport,0
+KRL,Korla Licheng Airport,Korla,China,CN,41.614979,86.140817,3041,AS,,https://en.wikipedia.org/wiki/Korla_Licheng_Airport,0
+KSC,Košice International Airport,Košice,SK,SK,48.663101,21.2411,755,EU,,https://en.wikipedia.org/wiki/Ko%C5%A1ice_International_Airport,0
+KTM,Tribhuvan International Airport,Kathmandu,NP,NP,27.6966,85.3591,4390,AS,,https://en.wikipedia.org/wiki/Tribhuvan_International_Airport,0
+KTW,Katowice Wojciech Korfanty International Airport,Ożarowice,Poland,PL,50.476015,19.080705,995,EU,,https://en.wikipedia.org/wiki/Katowice_International_Airport,0
+KUL,Kuala Lumpur International Airport,Sepang,Malaysia,MY,2.74558,101.709999,69,AS,,https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport,0
+KWE,Guiyang Longdongbao International Airport,Guiyang (Nanming),China,CN,26.541466,106.803331,3736,AS,,https://en.wikipedia.org/wiki/Guiyang_Longdongbao_Airport,0
+KWI,Kuwait International Airport,Kuwait City,Kuwait,KW,29.226601,47.968899,206,AS,,https://en.wikipedia.org/wiki/Kuwait_International_Airport,0
+KWL,Guilin Liangjiang International Airport,Guilin (Lingui),China,CN,25.219828,110.039553,570,AS,,https://en.wikipedia.org/wiki/Guilin_Liangjiang_International_Airport,0
+LAD,Quatro de Fevereiro International Airport,Luanda,AO,AO,-8.85837,13.2312,243,AF,,https://en.wikipedia.org/wiki/Quatro_de_Fevereiro_Airport,0
+LAP,Manuel Márquez de León International Airport,La Paz,Mexico,MX,24.072700500499998,-110.361999512,69,NA,,https://en.wikipedia.org/wiki/Manuel_M%C3%A1rquez_de_Le%C3%B3n_International_Airport,0
+LAS,Harry Reid International Airport,Las Vegas,United States,US,36.083361,-115.151817,2181,NA,,https://en.wikipedia.org/wiki/Harry_Reid_International_Airport,0
+LAX,Los Angeles International Airport,Los Angeles,United States,US,33.942501,-118.407997,125,NA,,https://en.wikipedia.org/wiki/Los_Angeles_International_Airport,0
+LBA,Leeds Bradford Airport,"Leeds, West Yorkshire",United Kingdom,GB,53.865898,-1.66057,681,EU,,https://en.wikipedia.org/wiki/Leeds_Bradford_International_Airport,0
+LBV,Libreville Leon M'ba International Airport,Libreville,GA,GA,0.458600014448,9.412280082699999,39,AF,,https://en.wikipedia.org/wiki/Libreville_International_Airport,0
+LCA,Larnaca International Airport,Larnaca,CY,CY,34.875099,33.624901,8,AS,,https://en.wikipedia.org/wiki/Larnaca_International_Airport,0
+LCG,A Coruña Airport,Culleredo,Spain,ES,43.302101,-8.37726,326,EU,,https://en.wikipedia.org/wiki/A_Coru%C3%B1a_Airport,0
+LDB,Governador José Richa Airport,Londrina,Brazil,BR,-23.333599,-51.1301,1867,SA,,https://en.wikipedia.org/wiki/Londrina_Airport,0
+LDY,City of Derry Airport,Derry,United Kingdom,GB,55.04280090332031,-7.161109924316406,22,EU,,https://en.wikipedia.org/wiki/City_of_Derry_Airport,0
+LFQ,Linfen Yaodu Airport,Linfen (Yaodu),China,CN,36.132629,111.641236,1483,AS,,https://en.wikipedia.org/wiki/Linfen_Qiaoli_Airport,0
+LGA,LaGuardia Airport,New York,United States,US,40.777199,-73.872597,21,NA,,https://en.wikipedia.org/wiki/LaGuardia_Airport,0
+LGW,London Gatwick Airport,"London/Gatwick, West Sussex",United Kingdom,GB,51.148771,-0.192089,202,EU,,https://en.wikipedia.org/wiki/Gatwick_Airport,0
+LHE,Allama Iqbal International Airport,Lahore,PK,PK,31.521601,74.403603,712,AS,,https://en.wikipedia.org/wiki/Allama_Iqbal_International_Airport,0
+LHR,London Heathrow Airport,London,United Kingdom,GB,51.4706,-0.461941,83,EU,,https://en.wikipedia.org/wiki/Heathrow_Airport,0
+LHW,Lanzhou Zhongchuan International Airport,Lanzhou (Yongdeng),China,CN,36.515202,103.620003,6388,AS,,https://en.wikipedia.org/wiki/Lanzhou_Airport,0
+LIM,Jorge Chávez International Airport,Lima,Peru,PE,-12.0219,-77.114305,113,SA,,https://en.wikipedia.org/wiki/Jorge_Ch%C3%A1vez_International_Airport,0
+LIN,Milano Linate Airport,Segrate (MI),Italy,IT,45.445099,9.27674,353,EU,,https://en.wikipedia.org/wiki/Linate_Airport,0
+LIR,Guanacaste Airport,Liberia,CR,CR,10.5933,-85.544403,270,NA,,https://en.wikipedia.org/wiki/Daniel_Oduber_Quir%C3%B3s_International_Airport,0
+LIS,Humberto Delgado Airport (Lisbon Portela Airport),Lisbon,Portugal,PT,38.7813,-9.13592,374,EU,,https://en.wikipedia.org/wiki/Lisbon_Portela_Airport,0
+LIT,Bill & Hillary Clinton National Airport/Adams Field,Little Rock,United States,US,34.729582,-92.223728,262,NA,,https://en.wikipedia.org/wiki/Little_Rock_National_Airport,0
+LJG,Lijiang Sanyi International Airport,Lijiang (Gucheng),China,CN,26.68,100.246002,7359,AS,,https://en.wikipedia.org/wiki/Lijiang_Sanyi_Airport,0
+LJU,Ljubljana Jože Pučnik Airport,Zgornji Brnik,SI,SI,46.223701,14.4576,1273,EU,,https://en.wikipedia.org/wiki/Ljubljana_Jo%C5%BEe_Pu%C4%8Dnik_Airport,0
+LKO,Chaudhary Charan Singh International Airport,Lucknow,India,IN,26.7605991364,80.8892974854,410,AS,,https://en.wikipedia.org/wiki/Amausi_Airport,0
+LNZ,Linz-Hörsching Airport / Vogler Air Base,Linz,Austria,AT,48.2332,14.1875,980,EU,,https://en.wikipedia.org/wiki/Linz_Airport,0
+LOH,Ciudad de Catamayo Airport,La Toma (Catamayo),EC,EC,-3.995606,-79.371902,4056,SA,,https://en.wikipedia.org/wiki/Ciudad_de_Catamayo_Airport,0
+LOP,Lombok International Airport,Mataram,Indonesia,ID,-8.757792,116.275435,319,AS,,https://en.wikipedia.org/wiki/Lombok_International_Airport,0
+LOS,Murtala Muhammed International Airport,Lagos,Nigeria,NG,6.5773701667785645,3.321160078048706,135,AF,,https://en.wikipedia.org/wiki/Murtala_Mohammed_International_Airport,0
+LPA,Gran Canaria Airport,Gran Canaria Island,Spain,ES,27.9319,-15.3866,78,AF,,https://en.wikipedia.org/wiki/Gran_Canaria_Airport,0
+LPB,El Alto International Airport,La Paz / El Alto,BO,BO,-16.5132999420166,-68.19229888916016,13355,SA,,https://en.wikipedia.org/wiki/El_Alto_International_Airport,0
+LPI,Linköping City Airport,Linköping,Sweden,SE,58.4062004089,15.680500030500001,172,EU,,https://en.wikipedia.org/wiki/Link%C3%B6ping_SAAB_Airport,0
+LPL,Liverpool John Lennon Airport,Liverpool,United Kingdom,GB,53.333599,-2.84972,80,EU,,https://en.wikipedia.org/wiki/Liverpool_John_Lennon_Airport,0
+LPQ,Luang Phabang International Airport,Luang Phabang,LA,LA,19.897300720214844,102.16100311279297,955,AS,,https://en.wikipedia.org/wiki/Luang_Prabang_International_Airport,0
+LRM,Casa De Campo International Airport,La Romana,DO,DO,18.452222,-68.911111,213,NA,,https://en.wikipedia.org/wiki/La_Romana_International_Airport,0
+LSC,La Florida Airport,La Serena-Coquimbo,Chile,CL,-29.916201,-71.199501,481,SA,,https://en.wikipedia.org/wiki/La_Florida_Airport_(Chile),0
+LTN,London Luton Airport,"Luton, Bedfordshire",United Kingdom,GB,51.874699,-0.368333,526,EU,,https://en.wikipedia.org/wiki/London_Luton_Airport,0
+LUG,Lugano Airport,Agno,Switzerland,CH,46.004299,8.91058,915,EU,,https://en.wikipedia.org/wiki/Lugano_Airport,0
+LUM,Dehong Mangshi Airport,Dehong (Mangshi),China,CN,24.4011,98.5317,2890,AS,,https://en.wikipedia.org/wiki/Dehong_Mangshi_Airport,0
+LUN,Kenneth Kaunda International Airport,Lusaka,ZM,ZM,-15.330833,28.452722,3779,AF,,https://en.wikipedia.org/wiki/Kenneth_Kaunda_International_Airport,0
+LUQ,Brigadier Mayor D Cesar Raul Ojeda Airport,San Luis,Argentina,AR,-33.273201,-66.3564,2328,SA,,https://en.wikipedia.org/wiki/Brigadier_Mayor_C%C3%A9sar_Ra%C3%BAl_Ojeda_Airport,0
+LUX,Luxembourg-Findel International Airport,Luxembourg,LU,LU,49.6233333,6.2044444,1234,EU,,https://en.wikipedia.org/wiki/Luxembourg-Findel_International_Airport,0
+LUZ,Lublin Airport,Lublin,Poland,PL,51.240157,22.713461,633,EU,,https://en.wikipedia.org/wiki/Lublin_Airport,0
+LVI,Harry Mwanga Nkumbula International Airport,Livingstone,ZM,ZM,-17.8218,25.822701,3302,AF,,https://en.wikipedia.org/wiki/Harry_Mwanga_Nkumbula_International_Airport,0
+LWO,Lviv International Airport,Lviv,UA,UA,49.8125,23.9561,1071,EU,,https://en.wikipedia.org/wiki/Lviv_International_Airport,0
+LYI,Linyi Qiyang Airport,Linyi (Hedong),China,CN,35.052918,118.411828,177,AS,,https://en.wikipedia.org/wiki/Linyi_Airport,0
+LZH,Liuzhou Bailian Airport / Bailian Air Base,Liuzhou (Liujiang),China,CN,24.2075,109.390999,295,AS,,https://en.wikipedia.org/wiki/Liuzhou_Bailian_Airport,0
+MAA,Chennai International Airport,Chennai,India,IN,12.990005,80.169296,52,AS,,https://en.wikipedia.org/wiki/Chennai_International_Airport,0
+MAD,Adolfo Suárez Madrid–Barajas Airport,Madrid,Spain,ES,40.471926,-3.56264,1998,EU,,https://en.wikipedia.org/wiki/Adolfo_Su%C3%A1rez_Madrid%E2%80%93Barajas_Airport,0
+MAH,Menorca Airport,Mahón (Maó),Spain,ES,39.862598,4.21865,302,EU,,https://en.wikipedia.org/wiki/Menorca_Airport,0
+MAN,Manchester Airport,"Manchester, Greater Manchester",United Kingdom,GB,53.349375,-2.279521,257,EU,,https://en.wikipedia.org/wiki/Manchester_Airport,0
+MAO,Eduardo Gomes International Airport,Manaus,Brazil,BR,-3.03861,-60.049702,264,SA,,https://en.wikipedia.org/wiki/Eduardo_Gomes_International_Airport,0
+MBA,Moi International Airport,Mombasa,Kenya,KE,-4.03483,39.5942,200,AF,,https://en.wikipedia.org/wiki/Moi_International_Airport,0
+MBJ,Sangster International Airport,Montego Bay,JM,JM,18.5037,-77.913399,4,NA,,https://en.wikipedia.org/wiki/Sangster_International_Airport,0
+MCO,Orlando International Airport,Orlando,United States,US,28.429399490356445,-81.30899810791016,96,NA,,https://en.wikipedia.org/wiki/Orlando_International_Airport,0
+MCT,Muscat International Airport,Muscat,Oman,OM,23.5933,58.284401,48,AS,,https://en.wikipedia.org/wiki/Seeb_International_Airport,0
+MDC,Sam Ratulangi Airport,Manado,Indonesia,ID,1.54926,124.926003,264,AS,,https://en.wikipedia.org/wiki/Sam_Ratulangi_Airport,0
+MDE,Jose Maria Córdova International Airport,Medellín,Colombia,CO,6.16454,-75.4231,6955,SA,,https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova_International_Airport,0
+MDG,Mudanjiang Hailang International Airport,Mudanjiang,China,CN,44.5241012573,129.569000244,883,AS,,https://en.wikipedia.org/wiki/Mudanjiang_Airport,0
+MDL,Mandalay International Airport,Mandalay,MM,MM,21.702199935913086,95.97789764404297,300,AS,,https://en.wikipedia.org/wiki/Mandalay_International_Airport,0
+MDQ,Ástor Piazzola International Airport,Mar del Plata,Argentina,AR,-37.9342,-57.5733,72,SA,,https://en.wikipedia.org/wiki/%C3%81stor_Piazzola_International_Airport,0
+MDZ,El Plumerillo Airport,Mendoza,Argentina,AR,-32.8316993713,-68.7929000854,2310,SA,,https://en.wikipedia.org/wiki/Governor_Francisco_Gabrielli_International_Airport,0
+MED,Prince Mohammad Bin Abdulaziz Airport,Medina,Saudi Arabia,SA,24.5534,39.705101,2151,AS,,https://en.wikipedia.org/wiki/Prince_Mohammad_Bin_Abdulaziz_Airport,0
+MEL,Melbourne International Airport,Melbourne,Australia,AU,-37.673302,144.843002,434,OC,,https://en.wikipedia.org/wiki/Melbourne_Airport,0
+MEX,Benito Juárez International Airport,Ciudad de México,Mexico,MX,19.435137,-99.071328,7316,NA,,https://en.wikipedia.org/wiki/Mexico_City_International_Airport,0
+MFM,Macau International Airport,Nossa Senhora do Carmo,MO,MO,22.149599,113.592003,20,AS,,https://en.wikipedia.org/wiki/Macau_International_Airport,0
+MHH,Leonard M Thompson International Airport,Marsh Harbour,BS,BS,26.510711,-77.084262,6,NA,,https://en.wikipedia.org/wiki/Marsh_Harbour_Airport,0
+MIA,Miami International Airport,Miami,United States,US,25.79319953918457,-80.29060363769531,8,NA,,https://en.wikipedia.org/wiki/Miami_International_Airport,0
+MID,Manuel Crescencio Rejón International Airport,Mérida,Mexico,MX,20.930485,-89.645462,38,NA,,https://en.wikipedia.org/wiki/Manuel_Crescencio_Rej%C3%B3n_International_Airport,0
+MIG,Mianyang Nanjiao Airport,Mianyang (Fucheng),China,CN,31.428101,104.740997,7874,AS,,https://en.wikipedia.org/wiki/Mianyang_Airport,0
+MIR,Monastir Habib Bourguiba International Airport,Monastir,TN,TN,35.75809860229492,10.75469970703125,9,AF,,https://en.wikipedia.org/wiki/Habib_Bourguiba_International_Airport,0
+MLA,Malta International Airport,Valletta,MT,MT,35.857498,14.4775,300,EU,,https://en.wikipedia.org/wiki/Malta_International_Airport,0
+MLE,Malé International Airport,Malé,MV,MV,4.191830158233643,73.52909851074219,6,AS,,https://en.wikipedia.org/wiki/Mal%C3%A9_International_Airport,0
+MME,Teesside International Airport,"Darlington, Durham",United Kingdom,GB,54.509201,-1.42941,120,EU,,https://en.wikipedia.org/wiki/Teesside_International_Airport,0
+MNL,Ninoy Aquino International Airport,Manila (Pasay),Philippines,PH,14.5086,121.019997,75,AS,,https://en.wikipedia.org/wiki/Ninoy_Aquino_International_Airport,0
+MPM,Maputo Airport,Maputo,MZ,MZ,-25.920799,32.572601,145,AF,,https://en.wikipedia.org/wiki/Maputo_International_Airport,0
+MQP,Kruger Mpumalanga International Airport,Mpumalanga,South Africa,ZA,-25.3831996918,31.1056003571,2829,AF,,https://en.wikipedia.org/wiki/Kruger_Mpumalanga_International_Airport,0
+MRS,Marseille Provence Airport,"Marignane, Bouches-du-Rhône",France,FR,43.438088,5.2125,74,EU,,https://en.wikipedia.org/wiki/Marseille_Provence_Airport,0
+MRU,Sir Seewoosagur Ramgoolam International Airport,Plaine Magnien,MU,MU,-20.430201,57.683601,186,AF,,https://en.wikipedia.org/wiki/Sir_Seewoosagur_Ramgoolam_International_Airport,0
+MSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,Minneapolis,United States,US,44.880081,-93.221741,841,NA,,https://en.wikipedia.org/wiki/Minneapolis–Saint_Paul_International_Airport,0
+MSQ,Minsk National Airport,Minsk,BY,BY,53.888071,28.039964,670,EU,,https://en.wikipedia.org/wiki/Minsk_National_Airport,0
+MSY,Louis Armstrong New Orleans International Airport,New Orleans,United States,US,29.993401,-90.258003,4,NA,,https://en.wikipedia.org/wiki/Louis_Armstrong_New_Orleans_International_Airport,0
+MTR,Los Garzones Airport,Montería,Colombia,CO,8.82374,-75.8258,41,SA,,https://en.wikipedia.org/wiki/Los_Garzones_Airport,0
+MTT,Minatitlán/Coatzacoalcos International Airport,Cosoleacaque,Mexico,MX,18.103399,-94.580704,36,NA,,https://en.wikipedia.org/wiki/Minatitl%C3%A1n/Coatzacoalcos_International_Airport,0
+MTY,Monterrey International Airport,Monterrey,Mexico,MX,25.778521,-100.106989,1278,NA,,https://en.wikipedia.org/wiki/General_Mariano_Escobedo_International_Airport,0
+MUC,Munich Airport,Munich,Germany,DE,48.353802,11.7861,1487,EU,,https://en.wikipedia.org/wiki/Munich_Airport,0
+MUX,Multan International Airport,Multan,PK,PK,30.20319938659668,71.41909790039062,403,AS,,https://en.wikipedia.org/wiki/Multan_International_Airport,0
+MVD,Carrasco General Cesáreo L. Berisso International Airport,Ciudad de la Costa,UY,UY,-34.835647,-56.026497,105,SA,,https://en.wikipedia.org/wiki/Carrasco_International_Airport,0
+MXL,General Rodolfo Sánchez Taboada International Airport,Mexicali,Mexico,MX,32.630629,-115.242805,74,NA,,https://en.wikipedia.org/wiki/General_Rodolfo_S%C3%A1nchez_Taboada_International_Airport,0
+MXP,Milan Malpensa International Airport,Ferno (VA),Italy,IT,45.6306,8.72811,768,EU,,https://en.wikipedia.org/wiki/Malpensa_Airport,0
+MYJ,Matsuyama Airport,Matsuyama,Japan,JP,33.82720184326172,132.6999969482422,25,AS,,https://en.wikipedia.org/wiki/Matsuyama_Airport,0
+MZT,General Rafael Buelna International Airport,Mazatlàn,Mexico,MX,23.161474,-106.264572,38,NA,,https://en.wikipedia.org/wiki/Mazatl%C3%A1n_International_Airport,0
+NAG,Dr. Babasaheb Ambedkar International Airport,Nagpur,India,IN,21.092199,79.047203,1033,AS,,https://en.wikipedia.org/wiki/Dr._Babasaheb_Ambedkar_International_Airport,0
+NAN,Nadi International Airport,Nadi,FJ,FJ,-17.755399703979492,177.4429931640625,59,OC,,https://en.wikipedia.org/wiki/Nadi_International_Airport,0
+NAP,Naples International Airport,Napoli,Italy,IT,40.886002,14.2908,294,EU,,https://en.wikipedia.org/wiki/Naples_International_Airport,0
+NAS,Lynden Pindling International Airport,Nassau,BS,BS,25.039,-77.466202,16,NA,,https://en.wikipedia.org/wiki/Lynden_Pindling_International_Airport,0
+NBE,Enfidha - Hammamet International Airport,Enfidha,TN,TN,36.075833,10.438611,21,AF,,https://en.wikipedia.org/wiki/Enfidha%E2%80%93Hammamet_International_Airport,0
+NBO,Jomo Kenyatta International Airport,Nairobi,Kenya,KE,-1.31923997402,36.9277992249,5330,AF,,https://en.wikipedia.org/wiki/Jomo_Kenyatta_International_Airport,0
+NCE,Nice-Côte d'Azur Airport,"Nice, Alpes-Maritimes",France,FR,43.658401,7.21587,12,EU,,https://en.wikipedia.org/wiki/C%C3%B4te_d'Azur_International_Airport,0
+NCL,Newcastle International Airport,"Newcastle upon Tyne, Tyne and Wear",United Kingdom,GB,55.037958,-1.689577,266,EU,,https://en.wikipedia.org/wiki/Newcastle_International_Airport,0
+NGB,Ningbo Lishe International Airport,Ningbo,China,CN,29.82670021057129,121.46199798583984,13,AS,,https://en.wikipedia.org/wiki/Ningbo_Lishe_International_Airport,0
+NGO,Chubu Centrair International Airport,Tokoname,Japan,JP,34.858398,136.804993,15,AS,,https://en.wikipedia.org/wiki/Ch%C5%ABbu_Centrair_International_Airport,0
+NGS,Nagasaki Airport,Nagasaki,Japan,JP,32.916901,129.914001,15,AS,,https://en.wikipedia.org/wiki/Nagasaki_Airport,0
+NKG,Nanjing Lukou International Airport,Nanjing,China,CN,31.735032,118.865949,49,AS,,https://en.wikipedia.org/wiki/Nanjing_Lukou_International_Airport,0
+NLU,General Felipe Ángeles International Airport,Mexico City,Mexico,MX,19.7357,-99.0257,7369,NA,,https://en.wikipedia.org/wiki/Mexico_City_Santa_Lucía_Airport,0
+NNG,Nanning Wuxu Airport,Nanning (Jiangnan),China,CN,22.608544,108.175335,421,AS,,https://en.wikipedia.org/wiki/Nanning_Wuxu_International_Airport,0
+NNY,Nanyang Jiangying Airport,Nanyang (Wancheng),China,CN,32.982696,112.617467,840,AS,,https://en.wikipedia.org/wiki/Nanyang_Jiangying_Airport,0
+NOC,Ireland West Knock Airport,Charlestown,Ireland,IE,53.910301,-8.81849,665,EU,,https://en.wikipedia.org/wiki/Ireland_West_Airport_Knock,0
+NQN,Presidente Peron Airport,Neuquen,Argentina,AR,-38.949001,-68.155701,895,SA,,https://en.wikipedia.org/wiki/Presidente_Per%C3%B3n_International_Airport,0
+NQY,Cornwall Airport Newquay,Newquay,United Kingdom,GB,50.440601,-4.99541,390,EU,,https://en.wikipedia.org/wiki/Newquay_Airport,0
+NQZ,Nursultan Nazarbayev International Airport,Astana,KZ,KZ,51.027035,71.467094,1165,AS,,https://en.wikipedia.org/wiki/Nursultan_Nazarbayev_International_Airport,0
+NRT,Narita International Airport,Narita,Japan,JP,35.764702,140.386002,141,AS,,https://en.wikipedia.org/wiki/Narita_International_Airport,0
+NTG,Nantong Xingdong International Airport,Nantong (Tongzhou),China,CN,32.073566,120.980076,16,AS,,https://en.wikipedia.org/wiki/Nantong_Xingdong_Airport,0
+NUE,Nuremberg Airport,Nuremberg,Germany,DE,49.498699,11.078056,1046,EU,,https://en.wikipedia.org/wiki/Nuremberg_Airport,0
+NVT,Ministro Victor Konder International Airport,Navegantes,Brazil,BR,-26.879431,-48.650979,18,SA,,https://en.wikipedia.org/wiki/Navegantes_Airport,0
+NWI,Norwich Airport,"Norwich, Norfolk",United Kingdom,GB,52.6758,1.28278,117,EU,,https://en.wikipedia.org/wiki/Norwich_Airport,0
+OAX,Xoxocotlán International Airport,Oaxaca,Mexico,MX,17.000814,-96.72197,4989,NA,,https://en.wikipedia.org/wiki/Xoxocotl%C3%A1n_International_Airport,0
+OCC,Francisco De Orellana Airport,Coca,EC,EC,-0.462886,-76.986801,834,SA,,https://en.wikipedia.org/wiki/Francisco_de_Orellana_Airport,0
+OGG,Kahului International Airport,Kahului,United States,US,20.896263,-156.431837,54,NA,,https://en.wikipedia.org/wiki/Kahului_Airport,0
+OHD,Ohrid St. Paul the Apostle Airport,Ohrid,MK,MK,41.18,20.7423,2313,EU,,https://en.wikipedia.org/wiki/Ohrid_Airport,0
+OIT,Oita Airport,Oita,Japan,JP,33.479400634799994,131.736999512,19,AS,,https://en.wikipedia.org/wiki/Oita_Airport,0
+OKA,Naha Airport / JASDF Naha Air Base,Naha,Japan,JP,26.195801,127.646004,12,AS,,https://en.wikipedia.org/wiki/Naha_Airport,0
+OKJ,Okayama Momotaro Airport,Okayama,Japan,JP,34.756901,133.854996,806,AS,,https://en.wikipedia.org/wiki/Okayama_Airport,0
+OLB,Olbia Costa Smeralda Airport,Olbia (SS),Italy,IT,40.898701,9.51763,37,EU,,https://en.wikipedia.org/wiki/Olbia_Costa_Smeralda_Airport,0
+ONT,Ontario International Airport,Ontario,United States,US,34.056,-117.600998,944,NA,,https://en.wikipedia.org/wiki/LA/Ontario_International_Airport,0
+OOL,Gold Coast Airport,Gold Coast,Australia,AU,-28.165962,153.506641,21,OC,,https://en.wikipedia.org/wiki/Gold_Coast_Airport,0
+OPO,Francisco de Sá Carneiro Airport,Porto,Portugal,PT,41.2481002808,-8.68138980865,228,EU,,https://en.wikipedia.org/wiki/Francisco_S%C3%A1_Carneiro_Airport,0
+ORD,Chicago O'Hare International Airport,Chicago,United States,US,41.9786,-87.9048,680,NA,,https://en.wikipedia.org/wiki/O'Hare_International_Airport,0
+ORK,Cork Airport,Cork,Ireland,IE,51.841301,-8.49111,502,EU,,https://en.wikipedia.org/wiki/Cork_Airport,0
+ORY,Paris-Orly Airport,"Paris (Orly, Val-de-Marne)",France,FR,48.72333,2.37944,291,EU,,https://en.wikipedia.org/wiki/Orly_Airport,0
+OSR,Ostrava Leos Janáček Airport,Mošnov,Czech Republic,CZ,49.696301,18.111099,844,EU,,https://en.wikipedia.org/wiki/Ostrava_Leos_Janacek_Airport,0
+OUD,Oujda Angads Airport,Ahl Angad,MA,MA,34.789558,-1.926041,1535,AF,,https://en.wikipedia.org/wiki/Angads_Airport,0
+PBC,Hermanos Serdán International Airport,Puebla,Mexico,MX,19.158465,-98.371582,7361,NA,,https://en.wikipedia.org/wiki/Hermanos_Serd%C3%A1n_International_Airport,0
+PCL,Cap FAP David Abenzur Rengifo International Airport,Pucallpa,Peru,PE,-8.37794017791748,-74.57430267333984,513,SA,,https://en.wikipedia.org/wiki/Captain_Rolden_International_Airport,0
+PDP,Capitan Corbeta CA Curbelo International Airport,Punta del Este,UY,UY,-34.855099,-55.094299,95,SA,,https://en.wikipedia.org/wiki/Capitan_Corbeta_CA_Curbelo_International_Airport,0
+PDX,Portland International Airport,Portland,United States,US,45.588699,-122.598,31,NA,,https://en.wikipedia.org/wiki/Portland_International_Airport,0
+PEI,Matecaña International Airport,Pereira,Colombia,CO,4.81267,-75.7395,4416,SA,,https://en.wikipedia.org/wiki/Mateca%C3%B1a_International_Airport,0
+PEK,Beijing Capital International Airport,Beijing,China,CN,40.080101013183594,116.58499908447266,116,AS,,https://en.wikipedia.org/wiki/Beijing_Capital_International_Airport,0
+PEM,Padre Aldamiz International Airport,Puerto Maldonado,Peru,PE,-12.6135997772,-69.2285995483,659,SA,,https://en.wikipedia.org/wiki/Padre_Aldamiz_International_Airport,0
+PER,Perth International Airport,Perth,Australia,AU,-31.94029998779297,115.96700286865234,67,OC,,https://en.wikipedia.org/wiki/Perth_Airport,0
+PEW,Peshawar International Airport,Peshawar,PK,PK,33.993900299072266,71.51460266113281,1158,AS,,https://en.wikipedia.org/wiki/Peshawar_International_Airport,0
+PFO,Paphos International Airport,Paphos,CY,CY,34.717999,32.485699,41,AS,,https://en.wikipedia.org/wiki/Paphos_International_Airport,0
+PGK,Depati Amir Airport,Pangkal Pinang,Indonesia,ID,-2.1622,106.139,109,AS,,https://en.wikipedia.org/wiki/Pangkalpinang_Airport,0
+PHL,Philadelphia International Airport,Philadelphia,United States,US,39.871899,-75.241096,36,NA,,https://en.wikipedia.org/wiki/Philadelphia_International_Airport,0
+PIT,Pittsburgh International Airport,Pittsburgh,United States,US,40.491501,-80.232903,1203,NA,,https://en.wikipedia.org/wiki/Pittsburgh_International_Airport,0
+PIU,Capitán FAP Guillermo Concha Iberico International Airport,Piura,Peru,PE,-5.20574998856,-80.61640167239999,120,SA,,https://en.wikipedia.org/wiki/Cap._FAP_Guillermo_Concha_Iberico_International_Airport,0
+PKU,Sultan Syarif Kasim II International Airport / Roesmin Nurjadin AFB,Pekanbaru,Indonesia,ID,0.458647,101.444321,102,AS,,https://en.wikipedia.org/wiki/Sultan_Syarif_Qasim_II_International_Airport,0
+PKX,Beijing Daxing International Airport,Beijing,China,CN,39.509945,116.41092,98,AS,,https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport,0
+PKY,Tjilik Riwut Airport,Palangkaraya,Indonesia,ID,-2.22513,113.943001,82,AS,,https://en.wikipedia.org/wiki/Tjilik_Riwut_Airport,0
+PLZ,Chief Dawid Stuurman International Airport,Gqeberha (Port Elizabeth),South Africa,ZA,-33.984901,25.6173,226,AF,,https://en.wikipedia.org/wiki/Chief_Dawid_Stuurman_International_Airport,0
+PMC,El Tepual Airport,Puerto Montt,Chile,CL,-41.438899993896484,-73.09400177001953,294,SA,,https://en.wikipedia.org/wiki/El_Tepual_Airport,0
+PMI,Palma de Mallorca Airport,Palma de Mallorca,Spain,ES,39.551701,2.73881,27,EU,,https://en.wikipedia.org/wiki/Son_Sant_Joan_Airport,0
+PMO,Falcone–Borsellino Airport,Palermo,Italy,IT,38.175999,13.091,65,EU,,https://en.wikipedia.org/wiki/Falcone%E2%80%93Borsellino_Airport,0
+PNH,Phnom Penh International Airport,Phnom Penh (Pou Senchey),KH,KH,11.5466,104.844002,40,AS,,https://en.wikipedia.org/wiki/Phnom_Penh_International_Airport,0
+PNK,Supadio Airport,Pontianak,Indonesia,ID,-0.150711,109.403999,10,AS,,https://en.wikipedia.org/wiki/Supadio_Airport,0
+PNQ,Pune Airport / Lohagaon Air Force Station,Pune,India,IN,18.5821,73.919701,1942,AS,,https://en.wikipedia.org/wiki/Pune_Airport,0
+PNR,Antonio Agostinho-Neto International Airport,Pointe Noire,CG,CG,-4.81603,11.8866,55,AF,,https://en.wikipedia.org/wiki/Agostinho-Neto_International_Airport,0
+POA,Salgado Filho International Airport,Porto Alegre,Brazil,BR,-29.994712,-51.166592,11,SA,,https://en.wikipedia.org/wiki/Salgado_Filho_International_Airport,0
+POP,Gregorio Luperon International Airport,Puerto Plata,DO,DO,19.7579,-70.57,15,NA,,https://en.wikipedia.org/wiki/Gregorio_Luper%C3%B3n_International_Airport,0
+POS,Piarco International Airport,Port of Spain,TT,TT,10.5954,-61.3372,58,NA,,https://en.wikipedia.org/wiki/Piarco_International_Airport,0
+POZ,Poznań-Ławica Airport,Poznań,Poland,PL,52.421598,16.823359,308,EU,,https://en.wikipedia.org/wiki/Pozna%C5%84-%C5%81awica_Airport,0
+PPS,Puerto Princesa International Airport / PAF Antonio Bautista Air Base,Puerto Princesa,Philippines,PH,9.74212,118.759003,71,AS,,https://en.wikipedia.org/wiki/Puerto_Princesa_Airport,0
+PPT,Faa'a International Airport,Papeete,PF,PF,-17.553699,-149.606995,5,OC,,https://en.wikipedia.org/wiki/Faa'a_International_Airport,0
+PRG,Václav Havel Airport Prague,Prague,Czech Republic,CZ,50.100874,14.259911,1247,EU,,https://en.wikipedia.org/wiki/Václav_Havel_Airport_Prague,0
+PSA,Pisa International Airport,Pisa (PI),Italy,IT,43.683899,10.3927,6,EU,,https://en.wikipedia.org/wiki/Pisa_International_Airport,0
+PTP,Pointe-à-Pitre Le Raizet International  Airport,Pointe-à-Pitre,GP,GP,16.265301,-61.531799,36,NA,,https://en.wikipedia.org/wiki/Pointe-%C3%A0-Pitre_International_Airport,0
+PTY,Tocumen International Airport,Tocumen,PA,PA,9.07136,-79.383499,135,NA,,https://en.wikipedia.org/wiki/Tocumen_International_Airport,0
+PUJ,Punta Cana International Airport,Punta Cana,DO,DO,18.5674,-68.363403,47,NA,,https://en.wikipedia.org/wiki/Punta_Cana_International_Airport,0
+PUQ,President Carlos Ibañez del Campo International Airport,Punta Arenas,Chile,CL,-53.002602,-70.854599,139,SA,,https://en.wikipedia.org/wiki/Carlos_Ibanez_Del_Campo_International_Airport,0
+PUS,Gimhae International Airport,Busan,South Korea,KR,35.179501,128.938004,6,AS,,https://en.wikipedia.org/wiki/Gimhae_International_Airport,0
+PVD,Theodore Francis Green State Airport,Warwick,United States,US,41.725038,-71.425668,55,NA,,https://en.wikipedia.org/wiki/T._F._Green_Airport,0
+PVG,Shanghai Pudong International Airport,Shanghai (Pudong),China,CN,31.1434,121.805,13,AS,,https://en.wikipedia.org/wiki/Shanghai_Pudong_International_Airport,0
+PVR,Puerto Vallarta International Airport,Puerto Vallarta,Mexico,MX,20.679913,-105.254391,23,NA,,https://en.wikipedia.org/wiki/Lic._Gustavo_D%C3%ADaz_Ordaz_International_Airport,0
+QRO,Querétaro Intercontinental Airport,Querétaro,Mexico,MX,20.6173,-100.185997,6296,NA,,https://en.wikipedia.org/wiki/Quer%C3%A9taro_International_Airport,0
+RAE,Arar Domestic Airport,Arar,Saudi Arabia,SA,30.906600952148438,41.13819885253906,1813,AS,,https://en.wikipedia.org/wiki/Arar_Domestic_Airport,0
+RAK,Menara Airport,Marrakech,MA,MA,31.606899261499997,-8.03629970551,1545,AF,,https://en.wikipedia.org/wiki/Menara_International_Airport,0
+RBA,Rabat-Salé Airport,Rabat,MA,MA,34.051498,-6.75152,276,AF,,https://en.wikipedia.org/wiki/Sale_Airport,0
+REC,Recife/Guararapes - Gilberto Freyre International Airport,Recife,Brazil,BR,-8.125984,-34.923316,33,SA,,https://en.wikipedia.org/wiki/Recife/Guararapes%E2%80%93Gilberto_Freyre_International_Airport,0
+RGN,Yangon International Airport,Yangon,MM,MM,16.907300949099998,96.1332015991,109,AS,,https://en.wikipedia.org/wiki/Yangon_International_Airport,0
+RIX,Riga International Airport,Riga,LV,LV,56.923599,23.9711,36,EU,,https://en.wikipedia.org/wiki/Riga_International_Airport,0
+RIZ,Rizhao Shanzihe Airport,Rizhao (Donggang),China,CN,35.405033,119.324403,121,AS,,https://en.wikipedia.org/wiki/Rizhao_Shanzihe_Airport,0
+RMF,Marsa Alam International Airport,Marsa Alam,Egypt,EG,25.555548,34.59245,213,AF,,https://en.wikipedia.org/wiki/Marsa_Alam_International_Airport,0
+ROS,Rosario Islas Malvinas International Airport,Rosario,Argentina,AR,-32.9036,-60.785,85,SA,,https://en.wikipedia.org/wiki/Rosario_International_Airport,0
+RTM,Rotterdam The Hague Airport,Rotterdam,Netherlands,NL,51.956902,4.43722,-15,EU,,https://en.wikipedia.org/wiki/Rotterdam_Airport,0
+RUH,King Khaled International Airport,Riyadh,Saudi Arabia,SA,24.9576,46.698799,2049,AS,,https://en.wikipedia.org/wiki/King_Khalid_International_Airport,0
+RZE,Rzeszów-Jasionka Airport,Jasionka,Poland,PL,50.109791,22.024155,693,EU,,https://en.wikipedia.org/wiki/Rzesz%C3%B3w-Jasionka_Airport,0
+SAL,Monseñor Óscar Arnulfo Romero International Airport,San Salvador (San Luis Talpa),SV,SV,13.4409,-89.055702,101,NA,,https://en.wikipedia.org/wiki/Monse%C3%B1or_%C3%93scar_Arnulfo_Romero_International_Airport,0
+SAN,San Diego International Airport,San Diego,United States,US,32.7336006165,-117.190002441,17,NA,,https://en.wikipedia.org/wiki/San_Diego_International_Airport,0
+SAP,Ramón Villeda Morales International Airport,San Pedro Sula,HN,HN,15.4526,-87.923599,91,NA,,https://en.wikipedia.org/wiki/Ram%C3%B3n_Villeda_Morales_International_Airport,0
+SAW,Istanbul Sabiha Gökçen International Airport,"Pendik, Istanbul",Turkey,TR,40.898602,29.3092,312,AS,,https://en.wikipedia.org/wiki/Istanbul_Sabiha_G%C3%B6k%C3%A7en_International_Airport,0
+SBZ,Sibiu International Airport,Sibiu,RO,RO,45.785841,24.086666,1496,EU,,https://en.wikipedia.org/wiki/Sibiu_International_Airport,0
+SCL,Comodoro Arturo Merino Benítez International Airport,Santiago,Chile,CL,-33.393001556396484,-70.78579711914062,1555,SA,,https://en.wikipedia.org/wiki/Comodoro_Arturo_Merino_Ben%C3%ADtez_International_Airport,0
+SCN,Saarbrücken Airport,Saarbrücken,Germany,DE,49.214599609400004,7.10950994492,1058,EU,,https://en.wikipedia.org/wiki/Saarbr%C3%BCcken_Airport,0
+SCQ,Santiago-Rosalía de Castro Airport,Santiago de Compostela,Spain,ES,42.896301,-8.41514,1213,EU,,https://en.wikipedia.org/wiki/Santiago_de_Compostela_Airport,0
+SCY,San Cristóbal Airport,Puerto Baquerizo Moreno,EC,EC,-0.910206,-89.617401,62,SA,,https://en.wikipedia.org/wiki/San_Cristóbal_Airport,0
+SDJ,Sendai Airport,Natori,Japan,JP,38.139702,140.917007,15,AS,,https://en.wikipedia.org/wiki/Sendai_Airport,0
+SDQ,Las Américas International Airport,Santo Domingo,DO,DO,18.42970085144,-69.668899536133,59,NA,,https://en.wikipedia.org/wiki/Las_Am%C3%A9ricas_International_Airport,0
+SDU,Santos Dumont Airport,Rio de Janeiro,Brazil,BR,-22.9105,-43.163101,11,SA,,https://en.wikipedia.org/wiki/Santos_Dumont_Airport,0
+SEA,Seattle–Tacoma International Airport,Seattle,United States,US,47.447943,-122.310276,433,NA,,https://en.wikipedia.org/wiki/Seattle%E2%80%93Tacoma_International_Airport,0
+SEN,London Southend Airport,"Southend-on-Sea, Essex",United Kingdom,GB,51.570562,0.693627,49,EU,,https://en.wikipedia.org/wiki/London_Southend_Airport,0
+SEZ,Seychelles International Airport,Mahe Island,SC,SC,-4.67434,55.521801,10,AF,,https://en.wikipedia.org/wiki/Seychelles_International_Airport,0
+SFO,San Francisco International Airport,San Francisco,United States,US,37.619806,-122.374821,13,NA,,https://en.wikipedia.org/wiki/San_Francisco_International_Airport,0
+SGN,Tan Son Nhat International Airport,Ho Chi Minh City,VN,VN,10.8188,106.652,33,AS,,https://en.wikipedia.org/wiki/Tan_Son_Nhat_International_Airport,0
+SHA,Shanghai Hongqiao International Airport,Shanghai (Minhang),China,CN,31.198104,121.33426,10,AS,,https://en.wikipedia.org/wiki/Shanghai_Hongqiao_International_Airport,0
+SHE,Shenyang Taoxian International Airport,"Hunnan, Shenyang",China,CN,41.639801,123.483002,198,AS,,https://en.wikipedia.org/wiki/Shenyang_Taoxian_International_Airport,0
+SHJ,Sharjah International Airport,Sharjah,United Arab Emirates,AE,25.3286,55.5172,111,AS,,https://en.wikipedia.org/wiki/Sharjah_International_Airport,0
+SID,Amílcar Cabral International Airport,Espargos,CV,CV,16.7414,-22.9494,177,AF,,https://en.wikipedia.org/wiki/Am%C3%ADlcar_Cabral_International_Airport,0
+SIN,Singapore Changi Airport,Singapore,Singapore,SG,1.35019,103.994003,22,AS,,https://en.wikipedia.org/wiki/Singapore_Changi_Airport,0
+SJC,Norman Y. Mineta San Jose International Airport,San Jose,United States,US,37.362452,-121.929188,62,NA,,https://en.wikipedia.org/wiki/San_Jose_International_Airport,0
+SJD,Los Cabos International Airport,San José del Cabo,Mexico,MX,23.151919,-109.720731,374,NA,,https://en.wikipedia.org/wiki/Los_Cabos_International_Airport,0
+SJJ,Sarajevo International Airport,Sarajevo,BA,BA,43.8246,18.331499,1708,EU,,https://en.wikipedia.org/wiki/Sarajevo_International_Airport,0
+SJO,Juan Santamaría International Airport,San José (Alajuela),CR,CR,9.99386,-84.208801,3021,NA,,https://en.wikipedia.org/wiki/Juan_Santamar%C3%ADa_International_Airport,0
+SJU,Luis Munoz Marin International Airport,San Juan,PR,PR,18.4394,-66.001801,9,NA,,https://en.wikipedia.org/wiki/Luis_Mu%C3%B1oz_Mar%C3%ADn_International_Airport,0
+SJW,Shijiazhuang Zhengding International Airport,Shijiazhuang,China,CN,38.280701,114.696999,233,AS,,https://en.wikipedia.org/wiki/Shijiazhuang_Zhengding_International_Airport,0
+SKG,Thessaloniki Macedonia International Airport,Thessaloniki,Greece,GR,40.51928,22.970009,22,EU,,https://en.wikipedia.org/wiki/Thessaloniki_International_Airport%2C_%22Macedonia%22,0
+SKP,Skopje International Airport,Ilinden,MK,MK,41.958087,21.622581,781,EU,,https://en.wikipedia.org/wiki/Skopje_Airport,0
+SLA,Martin Miguel De Guemes International Airport,Salta,Argentina,AR,-24.856000900299996,-65.4861984253,4088,SA,,https://en.wikipedia.org/wiki/Mart%C3%ADn_Miguel_de_G%C3%BCemes_Airport,0
+SLL,Salalah Airport,Salalah,Oman,OM,17.038700103759766,54.09130096435547,73,AS,,https://en.wikipedia.org/wiki/Salalah_Airport,0
+SLP,Ponciano Arriaga International Airport,San Luis Potosí,Mexico,MX,22.254299163800003,-100.930999756,6035,NA,,https://en.wikipedia.org/wiki/Ponciano_Arriaga_International_Airport,0
+SMR,Simón Bolívar International Airport,Santa Marta,Colombia,CO,11.1196,-74.2306,22,SA,,https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar_International_Airport_(Colombia),0
+SNN,Shannon Airport,Shannon,Ireland,IE,52.702,-8.92482,46,EU,,https://en.wikipedia.org/wiki/Shannon_Airport,0
+SOC,Adisumarmo International Airport,Surakarta,Indonesia,ID,-7.516044,110.757492,421,AS,,https://en.wikipedia.org/wiki/Adisumarmo_International_Airport,0
+SOF,Sofia Airport,Sofia,BG,BG,42.696357,23.417671,1742,EU,,https://en.wikipedia.org/wiki/Sofia_Airport,0
+SOU,Southampton Airport,Southampton,United Kingdom,GB,50.950298,-1.3568,44,EU,,https://en.wikipedia.org/wiki/Southampton_Airport,0
+SPD,Saidpur Airport,Saidpur,BD,BD,25.759199142456055,88.90889739990234,125,AS,,https://en.wikipedia.org/wiki/Saidpur_Airport,0
+SPN,Saipan International Airport,"I Fadang, Saipan",MP,MP,15.119,145.729004,215,OC,,https://en.wikipedia.org/wiki/Saipan_International_Airport,0
+SRG,Achmad Yani Airport,Semarang,Indonesia,ID,-6.970732,110.373244,10,AS,,https://en.wikipedia.org/wiki/Achmad_Yani_Airport,0
+SSA,Deputado Luiz Eduardo Magalhães International Airport,Salvador,Brazil,BR,-12.908611,-38.322498,64,SA,,https://en.wikipedia.org/wiki/Deputado_Lu%C3%ADs_Eduardo_Magalh%C3%A3es_International_Airport,0
+SSG,Malabo Airport,Malabo,GQ,GQ,3.755270004272461,8.708720207214355,76,AF,,https://en.wikipedia.org/wiki/Malabo_International_Airport,0
+SSH,Sharm El Sheikh International Airport,Sharm El Sheikh,Egypt,EG,27.977272,34.394717,191,AS,,https://en.wikipedia.org/wiki/Sharm_el-Sheikh_International_Airport,0
+STI,Cibao International Airport,Santiago,DO,DO,19.406099319458008,-70.60469818115234,565,NA,,https://en.wikipedia.org/wiki/Cibao_International_Airport,0
+STL,St. Louis Lambert International Airport,St Louis,United States,US,38.748697,-90.370003,618,NA,,https://en.wikipedia.org/wiki/St._Louis_Lambert_International_Airport,0
+STN,London Stansted Airport,London,United Kingdom,GB,51.884998,0.235,348,EU,,https://en.wikipedia.org/wiki/London_Stansted_Airport,0
+SUB,Juanda International Airport,Surabaya,Indonesia,ID,-7.37983,112.787003,9,AS,,https://en.wikipedia.org/wiki/Juanda_International_Airport,0
+SVQ,Sevilla Airport,Sevilla,Spain,ES,37.417999,-5.89311,112,EU,,https://en.wikipedia.org/wiki/San_Pablo_Airport,0
+SWA,Jieyang Chaoshan International Airport,Jieyang (Rongcheng),China,CN,23.552,116.5033,,AS,,https://en.wikipedia.org/wiki/Jieyang_Chaoshan_International_Airport,0
+SXR,Sheikh ul Alam International Airport,Srinagar,India,IN,33.987099,74.7742,5429,AS,,https://en.wikipedia.org/wiki/Srinagar_Airport,0
+SYD,Sydney Kingsford Smith International Airport,Sydney (Mascot),Australia,AU,-33.946098,151.177002,21,OC,,https://en.wikipedia.org/wiki/Sydney_Airport,0
+SYR,Syracuse Hancock International Airport,Syracuse,United States,US,43.11119842529297,-76.1063003540039,421,NA,,https://en.wikipedia.org/wiki/Syracuse_Hancock_International_Airport,0
+SZB,Sultan Abdul Aziz Shah International Airport,Subang,Malaysia,MY,3.130579948425293,101.54900360107422,90,AS,,https://en.wikipedia.org/wiki/Sultan_Abdul_Aziz_Shah_Airport,0
+SZG,Salzburg Airport,Salzburg,Austria,AT,47.793301,13.0043,1411,EU,,https://en.wikipedia.org/wiki/Salzburg_Airport,0
+SZX,Shenzhen Bao'an International Airport,Shenzhen (Bao'an),China,CN,22.639299,113.810997,13,AS,,https://en.wikipedia.org/wiki/Shenzhen_Bao'an_International_Airport,0
+TAE,Daegu Airport,Daegu,South Korea,KR,35.896872,128.65531,116,AS,,https://en.wikipedia.org/wiki/Daegu_Airport,0
+TAK,Takamatsu Airport,Takamatsu,Japan,JP,34.214199066199996,134.01600647,607,AS,,https://en.wikipedia.org/wiki/Takamatsu_Airport,0
+TAO,Qingdao Jiaodong International Airport,Qingdao (Jiaozhou),China,CN,36.361953,120.088171,30,AS,,https://en.wikipedia.org/wiki/Qingdao_Jiaodong_International_Airport,0
+TAP,Tapachula International Airport,Tapachula,Mexico,MX,14.794549,-92.369871,97,NA,,https://en.wikipedia.org/wiki/Tapachula_International_Airport,0
+TBP,Captain Pedro Canga Rodríguez International Airport,Tumbes,Peru,PE,-3.552074,-80.381086,115,SA,,https://en.wikipedia.org/wiki/Cap._FAP_Pedro_Canga_Rodr%C3%ADguez_Airport,0
+TBS,Tbilisi International Airport,Tbilisi,GE,GE,41.669201,44.9547,1624,AS,,https://en.wikipedia.org/wiki/Tbilisi_International_Airport,0
+TCQ,Coronel FAP Carlos Ciriani Santa Rosa International Airport,Tacna,Peru,PE,-18.053300857500002,-70.2758026123,1538,SA,,https://en.wikipedia.org/wiki/Crnl._FAP_Carlos_Ciriani_Santa_Rosa_International_Airport,0
+TCZ,Tengchong Tuofeng Airport,Baoshan (Tengchong),China,CN,24.938056,98.485833,6250,AS,,https://en.wikipedia.org/wiki/Tengchong_Tuofeng_Airport,0
+TFN,Tenerife Norte-Ciudad de La Laguna Airport,Tenerife,Spain,ES,28.4827,-16.341499,2076,AF,,https://en.wikipedia.org/wiki/Los_Rodeos_Airport,0
+TFS,Tenerife Sur Airport,Tenerife,Spain,ES,28.0445,-16.5725,209,AF,,https://en.wikipedia.org/wiki/Tenerife%E2%80%93South_Airport,0
+TFU,Chengdu Tianfu International Airport,Chengdu (Jianyang),China,CN,30.31252,104.441284,1440,AS,,https://en.wikipedia.org/wiki/Chengdu_Tianfu_International_Airport,0
+TGU,Toncontín International Airport,Tegucigalpa,HN,HN,14.0609,-87.217201,3294,NA,,https://en.wikipedia.org/wiki/Toncont%C3%ADn_International_Airport,0
+TGZ,Angel Albino Corzo International Airport,Tuxtla Gutiérrez,Mexico,MX,16.5636005402,-93.02249908450001,1499,NA,,https://en.wikipedia.org/wiki/Angel_Albino_Corzo_International_Airport,0
+TIA,Tirana International Airport Mother Teresa,Rinas,AL,AL,41.4147,19.7206,126,EU,,https://en.wikipedia.org/wiki/Tirana_International_Airport_N%C3%ABn%C3%AB_Tereza,0
+TIF,Ta’if Regional Airport,Ta’if,Saudi Arabia,SA,21.483001,40.543442,4848,AS,,https://en.wikipedia.org/wiki/Ta%E2%80%99if_Regional_Airport,0
+TIJ,General Abelardo L. Rodriguez International Airport,Tijuana,Mexico,MX,32.541043,-116.969976,489,NA,,https://en.wikipedia.org/wiki/General_Abelardo_L._Rodr%C3%ADguez_International_Airport,0
+TIV,Tivat Airport,Tivat,ME,ME,42.404701232910156,18.72330093383789,20,EU,,https://en.wikipedia.org/wiki/Tivat_Airport,0
+TJQ,H A S Hanandjoeddin International Airport,Tanjung Pandan,Indonesia,ID,-2.74572,107.754997,164,AS,,https://en.wikipedia.org/wiki/H.A.S._Hanandjoeddin_International_Airport,0
+TKS,Tokushima Awaodori Airport / JMSDF Tokushima Air Base,Tokushima,Japan,JP,34.132801,134.606995,26,AS,,https://en.wikipedia.org/wiki/Tokushima_Airport; https://ja.wikipedia.org/wiki/%E5%BE%B3%E5%B3%B6%E9%A3%9B%E8%A1%8C%E5%A0%B4#.E8,0
+TLC,Adolfo López Mateos International Airport,Toluca,Mexico,MX,19.3369,-99.56583,8466,NA,,https://en.wikipedia.org/wiki/Lic._Adolfo_L%C3%B3pez_Mateos_International_Airport,0
+TLL,Lennart Meri Tallinn Airport,Tallinn,EE,EE,59.413246,24.83264,131,EU,,https://en.wikipedia.org/wiki/Tallinn_Airport,0
+TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,France,FR,43.629101,1.36382,499,EU,,https://en.wikipedia.org/wiki/Toulouse_Blagnac_International_Airport,0
+TLV,Ben Gurion International Airport,Tel Aviv,Israel,IL,32.011398,34.8867,135,AS,,https://en.wikipedia.org/wiki/Ben_Gurion_International_Airport,0
+TNA,Jinan Yaoqiang International Airport,Jinan (Licheng),China,CN,36.857201,117.216003,76,AS,,https://en.wikipedia.org/wiki/Jinan_Yaoqiang_International_Airport,0
+TNG,Tangier Ibn Battuta Airport,Tangier,MA,MA,35.731741,-5.921459,62,AF,,https://en.wikipedia.org/wiki/Tangier_Ibn_Battouta_Airport,0
+TOY,Toyama Airport,Toyama,Japan,JP,36.64830017089844,137.18800354003906,95,AS,,https://en.wikipedia.org/wiki/Toyama_Airport,0
+TPA,Tampa International Airport,Tampa,United States,US,27.9755,-82.533203,26,NA,,https://en.wikipedia.org/wiki/Tampa_International_Airport,0
+TPE,Taiwan Taoyuan International Airport,Taoyuan,TW,TW,25.0777,121.233002,106,AS,,https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4,0
+TPP,Cadete FAP Guillermo Del Castillo Paredes Airport,Tarapoto,Peru,PE,-6.508739948272705,-76.37319946289062,869,SA,,https://en.wikipedia.org/wiki/Cad._FAP_Guillermo_del_Castillo_Paredes_Airport,0
+TRK,Juwata International Airport / Suharnoko Harbani AFB,Tarakan,Indonesia,ID,3.325145,117.564169,23,AS,,https://en.wikipedia.org/wiki/Juwata_Airport,0
+TRN,Turin Airport,Caselle Torinese (TO),Italy,IT,45.200802,7.64963,989,EU,,https://en.wikipedia.org/wiki/Turin_International_Airport,0
+TRS,Trieste–Friuli Venezia Giulia Airport,Ronchi dei Legionari (GO),Italy,IT,45.827499,13.4722,39,EU,,https://en.wikipedia.org/wiki/Trieste_%E2%80%93_Friuli_Venezia_Giulia_Airport,0
+TRU,Capitan FAP Carlos Martinez De Pinillos International Airport,Trujillo,Peru,PE,-8.08141040802002,-79.10880279541016,106,SA,,https://en.wikipedia.org/wiki/Cap._FAP_Carlos_Mart%C3%ADnez_de_Pinillos_International_Airport,0
+TSN,Tianjin Binhai International Airport,Tianjin,China,CN,39.124401092499994,117.346000671,10,AS,,https://en.wikipedia.org/wiki/Tianjin_Binhai_International_Airport,0
+TSR,Timişoara Traian Vuia Airport,Timişoara,RO,RO,45.809898,21.3379,348,EU,,https://en.wikipedia.org/wiki/Traian_Vuia_International_Airport,0
+TSV,Townsville Airport / RAAF Base Townsville,Townsville,Australia,AU,-19.252904,146.766512,18,OC,,https://en.wikipedia.org/wiki/Townsville_Airport,0
+TUC,Teniente Benjamin Matienzo Airport,San Miguel de Tucumán,Argentina,AR,-26.8409,-65.104897,1493,SA,,https://en.wikipedia.org/wiki/Benjam%C3%ADn_Matienzo_International_Airport,0
+TUN,Tunis Carthage International Airport,Tunis,TN,TN,36.851002,10.2272,22,AF,,https://en.wikipedia.org/wiki/Tunis-Carthage_International_Airport,0
+TUS,Tucson International Airport / Morris Air National Guard Base,Tucson,United States,US,32.115004,-110.938053,2643,NA,,https://en.wikipedia.org/wiki/Tucson_International_Airport,0
+TUU,Tabuk Airport,Tabuk,Saudi Arabia,SA,28.3654,36.6189,2551,AS,,https://en.wikipedia.org/wiki/Tabuk_Regional_Airport,0
+TWC,Tumxuk Tangwangcheng Airport,Tumxuk,China,CN,39.886663,79.233408,3566,AS,,https://en.wikipedia.org/wiki/Tumxuk_Tangwangcheng_Airport,0
+TXN,Tunxi International Airport,Huangshan,China,CN,29.733299255371094,118.25599670410156,,AS,,https://en.wikipedia.org/wiki/Huangshan_Tunxi_International_Airport,0
+TYL,Captain Victor Montes Arias International Airport,Talara,Peru,PE,-4.57664,-81.254097,282,SA,,https://en.wikipedia.org/wiki/Cap._FAP_Victor_Montes_Arias_Airport,0
+TYN,Taiyuan Wusu Airport,Taiyuan,China,CN,37.746899,112.627998,2575,AS,,https://en.wikipedia.org/wiki/Taiyuan_Wusu_Airport,0
+UAQ,Domingo Faustino Sarmiento Airport,San Juan,Argentina,AR,-31.571501,-68.418198,1958,SA,,https://en.wikipedia.org/wiki/Domingo_Faustino_Sarmiento_Airport,0
+UBJ,Yamaguchi Ube Airport,Ube,Japan,JP,33.930000305200004,131.279006958,23,AS,,https://en.wikipedia.org/wiki/Yamaguchi_Ube_Airport,0
+UIO,Mariscal Sucre International Airport,Quito,EC,EC,-0.125399,-78.354306,7841,SA,,https://en.wikipedia.org/wiki/Mariscal_Sucre_International_Airport,0
+UKB,Kobe Airport,Kobe,Japan,JP,34.6328010559082,135.2239990234375,22,AS,,https://en.wikipedia.org/wiki/Kobe_Airport,0
+UPG,Hasanuddin International Airport,Ujung Pandang,Indonesia,ID,-5.06163,119.554001,47,AS,,https://en.wikipedia.org/wiki/Hasanuddin_International_Airport,0
+URC,Ürümqi Diwopu International Airport,Ürümqi,China,CN,43.907100677490234,87.47419738769531,2125,AS,,https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi_Diwopu_International_Airport,0
+URY,Gurayat Domestic Airport,Gurayat,Saudi Arabia,SA,31.412413,37.278898,1672,AS,,https://en.wikipedia.org/wiki/Gurayat_Domestic_Airport,0
+USM,Samui Airport,Na Thon (Ko Samui Island),Thailand,TH,9.54779,100.061996,64,AS,,https://en.wikipedia.org/wiki/Samui_Airport,0
+UTH,Udon Thani Airport,Udon Thani,Thailand,TH,17.386400222800003,102.788002014,579,AS,,https://en.wikipedia.org/wiki/Udon_Thani_International_Airport,0
+UVF,Hewanorra International Airport,Vieux Fort,LC,LC,13.7332,-60.952599,14,NA,,https://en.wikipedia.org/wiki/Hewanorra_International_Airport,0
+UYN,Yulin Yuyang Airport,Yulin,China,CN,38.35971,109.590927,3891,AS,,https://en.wikipedia.org/wiki/Yulin_Yuyang_Airport,0
+VAR,Varna Airport,Varna,BG,BG,43.232101,27.8251,230,EU,,https://en.wikipedia.org/wiki/Varna_Airport,0
+VCE,Venice Marco Polo Airport,Venezia (VE),Italy,IT,45.505299,12.3519,7,EU,,https://en.wikipedia.org/wiki/Venice_Marco_Polo_Airport,0
+VCP,Viracopos International Airport,Campinas,Brazil,BR,-23.007404,-47.134502,2170,SA,,https://en.wikipedia.org/wiki/Viracopos-Campinas_International_Airport,0
+VER,General Heriberto Jara International Airport,Veracruz,Mexico,MX,19.1459007263,-96.1873016357,90,NA,,https://en.wikipedia.org/wiki/General_Heriberto_Jara_International_Airport,0
+VFA,Victoria Falls International Airport,Victoria Falls,ZW,ZW,-18.09589958190918,25.839000701904297,3490,AF,,https://en.wikipedia.org/wiki/Victoria_Falls_Airport,0
+VGO,Vigo Airport,Vigo,Spain,ES,42.2318,-8.62677,856,EU,,https://en.wikipedia.org/wiki/Vigo-Peinador_Airport,0
+VIE,Vienna International Airport,Vienna,Austria,AT,48.110298,16.5697,600,EU,,https://en.wikipedia.org/wiki/Vienna_International_Airport,0
+VIL,Dakhla Airport,Dakhla,EH,EH,23.7183,-15.932,36,AF,,https://en.wikipedia.org/wiki/Dakhla_Airport,0
+VIX,Eurico de Aguiar Salles Airport,Vitória,Brazil,BR,-20.258,-40.285,34,SA,,https://en.wikipedia.org/wiki/Eurico_de_Aguiar_Salles_Airport,0
+VLC,Valencia Airport,Valencia,Spain,ES,39.4893,-0.481625,240,EU,,https://en.wikipedia.org/wiki/Valencia_Airport,0
+VLI,Bauerfield International Airport,Port Vila,VU,VU,-17.699301,168.320007,70,OC,,https://en.wikipedia.org/wiki/Bauerfield_International_Airport,0
+VNO,Vilnius International Airport,Vilnius,LT,LT,54.634102,25.285801,648,EU,,https://en.wikipedia.org/wiki/Vilnius_International_Airport,0
+VRN,Verona Villafranca Valerio Catullo Airport,Caselle (VR),Italy,IT,45.394955,10.887303,239,EU,,https://en.wikipedia.org/wiki/Verona_Airport,0
+VSA,Carlos Rovirosa Pérez International Airport,Villahermosa,Mexico,MX,17.996999740600586,-92.81739807128906,46,NA,,https://en.wikipedia.org/wiki/Carlos_Rovirosa_P%C3%A9rez_International_Airport,0
+VUP,Alfonso López Pumarejo Airport,Valledupar,Colombia,CO,10.435,-73.2495,483,SA,,https://en.wikipedia.org/wiki/Valledupar_Airport,0
+VVI,Viru Viru International Airport,Santa Cruz,BO,BO,-17.6448,-63.135399,1224,SA,,https://en.wikipedia.org/wiki/Viru_Viru_International_Airport,0
+WAE,Wadi Al Dawasir Domestic Airport,Wadi Al Dawasir,Saudi Arabia,SA,20.504299,45.1996,2062,AS,,https://en.wikipedia.org/wiki/Wadi_al-Dawasir_Domestic_Airport,0
+WAW,Warsaw Chopin Airport,Warsaw,Poland,PL,52.165699,20.9671,362,EU,,https://en.wikipedia.org/wiki/Warsaw_Frederic_Chopin_Airport,0
+WDH,Hosea Kutako International Airport,Windhoek,NA,NA,-22.4799,17.4709,5640,AF,,https://en.wikipedia.org/wiki/Windhoek_Hosea_Kutako_International_Airport,0
+WEH,Weihai Dashuibo Airport,Weihai,China,CN,37.187099,122.228996,145,AS,,https://en.wikipedia.org/wiki/Weihai_Airport,0
+WNZ,Wenzhou Longwan International Airport,Wenzhou,China,CN,27.912201,120.851997,13,AS,,https://en.wikipedia.org/wiki/Wenzhou_Longwan_International_Airport,0
+WRO,Copernicus Wrocław Airport,Wrocław,Poland,PL,51.103719,16.882096,404,EU,,https://en.wikipedia.org/wiki/Copernicus_Airport_Wroc%C5%82aw,0
+WUA,Wuhai Airport,Wuhai,China,CN,39.7934,106.7993,3650,AS,,https://en.wikipedia.org/wiki/Wuhai_Airport,0
+WUH,Wuhan Tianhe International Airport,Wuhan (Huangpi),China,CN,30.774798,114.213723,113,AS,,https://en.wikipedia.org/wiki/Wuhan_Tianhe_International_Airport,0
+WUS,Nanping Wuyishan Airport,Wuyishan,China,CN,27.7019,118.000999,614,AS,,https://en.wikipedia.org/wiki/Wuyishan_Airport,0
+WUX,Sunan Shuofang International Airport,Wuxi,China,CN,31.494400024399997,120.429000854,24,AS,,https://en.wikipedia.org/wiki/Wuxi_Shuofang_Airport,0
+XFN,Xiangyang Liuji Airport,Xiangyang (Xiangzhou),China,CN,32.152222,112.291666,234,AS,,https://en.wikipedia.org/wiki/Xiangyang_Liuji_Airport,0
+XIC,Xichang Qingshan Airport,Liangshan (Xichang),China,CN,27.9891,102.183998,5112,AS,,https://en.wikipedia.org/wiki/Xichang_Qingshan_Airport,0
+XIY,Xi'an Xianyang International Airport,Xianyang (Weicheng),China,CN,34.447102,108.751999,1572,AS,,https://en.wikipedia.org/wiki/Xi'an_Xianyang_International_Airport,0
+XMN,Xiamen Gaoqi International Airport,Xiamen,China,CN,24.54400062561035,118.12799835205078,59,AS,,https://en.wikipedia.org/wiki/Xiamen_Gaoqi_International_Airport,0
+XNN,Xining Caojiabao International Airport,Haidong (Huzhu Tu Autonomous County),China,CN,36.530093,102.040062,7119,AS,,https://en.wikipedia.org/wiki/Xining_Caojiabao_International_Airport,0
+XPL,Palmerola International Airport / José Enrique Soto Cano Air Base,Palmerola,HN,HN,14.3824,-87.621201,2061,NA,,https://en.wikipedia.org/wiki/Comayagua_International_Airport,0
+XUZ,Xuzhou Guanyin International Airport,Xuzhou,China,CN,34.059056,117.555278,108,AS,,https://en.wikipedia.org/wiki/Xuzhou_Guanyin_Airport,0
+YBP,Yibin Wuliangye Airport,Yibin (Cuiping),China,CN,28.858431,104.526157,1378,AS,,https://en.wikipedia.org/wiki/Yibin_Wuliangye_Airport,0
+YCU,Yuncheng Zhangxiao Airport,Yuncheng (Yanhu),China,CN,35.116391,111.031389,1242,AS,,https://en.wikipedia.org/wiki/Yuncheng_Zhangxiao_Airport,0
+YGJ,Yonago Kitaro Airport / JASDF Miho Air Base,Yonago,Japan,JP,35.492199,133.235992,20,AS,,https://en.wikipedia.org/wiki/Miho-Yonago_Airport,0
+YIH,Yichang Sanxia Airport,Yichang (Xiaoting),China,CN,30.554132,111.482563,673,AS,,https://en.wikipedia.org/wiki/Yichang_Sanxia_Airport,0
+YIN,Yining Airport,Ili (Yining / Ghulja),China,CN,43.955799,81.330299,,AS,,https://en.wikipedia.org/wiki/Yining_Airport,0
+YNB,Prince Abdul Mohsin bin Abdulaziz International Airport / Yanbu Airport,Yanbu,Saudi Arabia,SA,24.144199,38.0634,26,AS,,https://en.wikipedia.org/wiki/Yanbu_Airport,0
+YNT,Yantai Penglai International Airport,Yantai,China,CN,37.659724,120.978124,154,AS,,https://en.wikipedia.org/wiki/Yantai_Penglai_International_Airport,0
+YNZ,Yancheng Nanyang International Airport,Yancheng (Tinghu),China,CN,33.425833,120.203056,,AS,,https://en.wikipedia.org/wiki/Yancheng_Nanyang_International_Airport,0
+YOW,Ottawa Macdonald-Cartier International Airport,Ottawa,Canada,CA,45.322498,-75.669197,374,NA,,https://en.wikipedia.org/wiki/Ottawa_Macdonald%E2%80%93Cartier_International_Airport,0
+YQB,Quebec Jean Lesage International Airport,Quebec,Canada,CA,46.7911,-71.393303,244,NA,,https://en.wikipedia.org/wiki/Qu%C3%A9bec/Jean_Lesage_International_Airport,0
+YTY,Yangzhou Taizhou Airport,Yangzhou,China,CN,32.5634,119.7198,7,AS,,https://en.wikipedia.org/wiki/Yangzhou_Taizhou_Airport,0
+YUL,Montreal / Pierre Elliott Trudeau International Airport,Montréal,Canada,CA,45.467837,-73.742294,118,NA,,https://en.wikipedia.org/wiki/Montr%C3%A9al-Pierre_Elliott_Trudeau_International_Airport,0
+YVR,Vancouver International Airport,Vancouver,Canada,CA,49.193901062,-123.183998108,14,NA,,https://en.wikipedia.org/wiki/Vancouver_International_Airport,0
+YYC,Calgary International Airport,Calgary,Canada,CA,51.118822,-114.009933,3557,NA,,https://en.wikipedia.org/wiki/Calgary_International_Airport,0
+YYZ,Toronto Lester B. Pearson International Airport,Toronto,Canada,CA,43.6772,-79.6306,569,NA,,https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport,0
+ZAG,Zagreb Franjo Tuđman International Airport,Velika Gorica,HR,HR,45.742901,16.0688,353,EU,,https://en.wikipedia.org/wiki/Zagreb_Airport,0
+ZCO,La Araucanía Airport,Temuco,Chile,CL,-38.9259,-72.6515,333,SA,,https://en.wikipedia.org/wiki/La_Araucan%C3%ADa_International_Airport,0
+ZNZ,Abeid Amani Karume International Airport,Zanzibar,TZ,TZ,-6.22202,39.224899,54,AF,,https://en.wikipedia.org/wiki/Zanzibar_International_Airport,0
+ZQN,Queenstown International Airport,Queenstown,New Zealand,NZ,-45.021099,168.738998,1171,OC,,https://en.wikipedia.org/wiki/Queenstown_International_Airport,0
+ZRH,Zürich Airport,Zurich,Switzerland,CH,47.458056,8.548056,1417,EU,,https://en.wikipedia.org/wiki/Zurich_Airport,0
+ZUH,Zhuhai Jinwan Airport,Zhuhai (Jinwan),China,CN,22.006399,113.375999,23,AS,,https://en.wikipedia.org/wiki/Zhuhai_Jinwan_Airport,0
+ZYI,Zunyi Xinzhou Airport,Zunyi,China,CN,27.810723,107.247189,2723,AS,,https://en.wikipedia.org/wiki/Zunyi_Xinzhou_Airport,0
+ZYL,Osmany International Airport,Sylhet,BD,BD,24.963832,91.864843,50,AS,,https://en.wikipedia.org/wiki/Osmani_International_Airport,0
