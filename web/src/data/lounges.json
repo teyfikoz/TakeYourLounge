@@ -1,5 +1,5 @@
 {
-  "total": 2272,
+  "total": 2256,
   "lounges": [
     {
       "id": "kiv_business_lounge",
@@ -67,7 +67,7 @@
       "airport_code": "ANU",
       "airport_name": "ST. Georges V C Bird Intl",
       "city": "ST.",
-      "country": "AG",
+      "country": "Antigua and Barbuda",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -100,7 +100,7 @@
       "airport_code": "TIA",
       "airport_name": "Tirana Tirana Rinas",
       "city": "Tirana",
-      "country": "AL",
+      "country": "Albania",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -133,7 +133,7 @@
       "airport_code": "AUA",
       "airport_name": "Oranjestad Reina Beatrix Intl",
       "city": "Oranjestad",
-      "country": "AW",
+      "country": "Aruba",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3494,7 +3494,7 @@
       "airport_code": "SJJ",
       "airport_name": "Sarajevo Sarajevo Intl",
       "city": "Sarajevo",
-      "country": "BA",
+      "country": "Bosnia and Herzegovina",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3527,7 +3527,7 @@
       "airport_code": "BGI",
       "airport_name": "Barbados Grantley Adams Intl",
       "city": "Barbados",
-      "country": "BB",
+      "country": "Barbados",
       "terminal": "Departures Terminal",
       "location": "",
       "open_hours": "",
@@ -3560,7 +3560,7 @@
       "airport_code": "BDA",
       "airport_name": "St. George's L.F.Wade Intl",
       "city": "St.",
-      "country": "BM",
+      "country": "Bermuda",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3593,7 +3593,7 @@
       "airport_code": "BWN",
       "airport_name": "Brunei Brunei International",
       "city": "Brunei",
-      "country": "BN",
+      "country": "Brunei",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3626,7 +3626,7 @@
       "airport_code": "CBB",
       "airport_name": "Cochabamba Jorge Wilsterman Intl",
       "city": "Cochabamba",
-      "country": "BO",
+      "country": "Bolivia",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3659,7 +3659,7 @@
       "airport_code": "LPB",
       "airport_name": "La Paz El Alto Intl",
       "city": "La",
-      "country": "BO",
+      "country": "Bolivia",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3692,7 +3692,7 @@
       "airport_code": "VVI",
       "airport_name": "Santa Cruz Viru Viru Intl",
       "city": "Santa",
-      "country": "BO",
+      "country": "Bolivia",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3725,7 +3725,7 @@
       "airport_code": "VVI",
       "airport_name": "Santa Cruz Viru Viru Intl",
       "city": "Santa",
-      "country": "BO",
+      "country": "Bolivia",
       "terminal": "",
       "location": "Airside - Domestic Pre-Boarding Area, 2nd Floor by Side Gate 3. Domestic",
       "open_hours": "06:30 - 21:00 daily",
@@ -3758,7 +3758,7 @@
       "airport_code": "MHH",
       "airport_name": "Marsh Harbor Marsh Harbour",
       "city": "Marsh",
-      "country": "BS",
+      "country": "Bahamas",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -3791,7 +3791,7 @@
       "airport_code": "NAS",
       "airport_name": "Nassau Lynden Pindling Intl",
       "city": "Nassau",
-      "country": "BS",
+      "country": "Bahamas",
       "terminal": "U.S. Departure Terminal",
       "location": "Airside - 2nd Floor, the lounge is located between the escalators and the Food",
       "open_hours": "10:00 - 21:30 daily",
@@ -3824,7 +3824,7 @@
       "airport_code": "NAS",
       "airport_name": "Nassau Lynden Pindling Intl",
       "city": "Nassau",
-      "country": "BS",
+      "country": "Bahamas",
       "terminal": "Intl & Domestic Departure Terminal",
       "location": "",
       "open_hours": "",
@@ -6842,7 +6842,7 @@
       "airport_code": "LIR",
       "airport_name": "Liberia Daniel Oduber Quiros Intl",
       "city": "Liberia",
-      "country": "CR",
+      "country": "Costa Rica",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -6875,7 +6875,7 @@
       "airport_code": "SJO",
       "airport_name": "San Jose Juan Santamaria Intl",
       "city": "San",
-      "country": "CR",
+      "country": "Costa Rica",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -6908,7 +6908,7 @@
       "airport_code": "SJO",
       "airport_name": "San Jose Juan Santamaria Intl",
       "city": "San",
-      "country": "CR",
+      "country": "Costa Rica",
       "terminal": "",
       "location": "",
       "open_hours": "04:30 - 20:00 daily",
@@ -6941,7 +6941,7 @@
       "airport_code": "SJO",
       "airport_name": "San Jose Juan Santamaria Intl",
       "city": "San",
-      "country": "CR",
+      "country": "Costa Rica",
       "terminal": "",
       "location": "Airside - after Passport Control, turn right and continue to Boarding Gate 18.",
       "open_hours": "",
@@ -6974,7 +6974,7 @@
       "airport_code": "SID",
       "airport_name": "Sal Island Amilcar Cabral Intl",
       "city": "Sal",
-      "country": "CV",
+      "country": "Cape Verde",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -7007,7 +7007,7 @@
       "airport_code": "CUR",
       "airport_name": "Curacao Hato International",
       "city": "Curacao",
-      "country": "CW",
+      "country": "Curacao",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -9339,39 +9339,6 @@
       ]
     },
     {
-      "id": "pek_air_china_first_class_lounge_terminal_3e",
-      "name": "Air China First Class Lounge",
-      "airport_code": "PEK",
-      "airport_name": "Beijing Capital Intl",
-      "city": "Beijing",
-      "country": "China",
-      "terminal": "Terminal 3E",
-      "location": "Airside - International Departures. The lounge is located in the International",
-      "open_hours": "06:00 - 20:00 daily",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 40.080101013183594,
-        "lng": 116.58499908447266
-      },
-      "continent": "AS",
-      "iso_country": "CN",
-      "images": [
-        "https://picsum.photos/seed/pek_air_china_first_class_lounge_terminal_3e/800/600",
-        "https://picsum.photos/seed/pek_air_china_first_class_lounge_terminal_3e2/800/600"
-      ]
-    },
-    {
       "id": "pek_air_china_premium_lounge_terminal_3d",
       "name": "Air China Premium Lounge",
       "airport_code": "PEK",
@@ -11391,39 +11358,6 @@
       "images": [
         "https://picsum.photos/seed/dat_first_class_lounge_terminal_2/800/600",
         "https://picsum.photos/seed/dat_first_class_lounge_terminal_22/800/600"
-      ]
-    },
-    {
-      "id": "dat_vip_lounge_terminal_2",
-      "name": "VIP Lounge",
-      "airport_code": "DAT",
-      "airport_name": "Datong Datong Yungang",
-      "city": "Datong",
-      "country": "China",
-      "terminal": "Terminal 2",
-      "location": "Airside - Domestic Departures. After Security Checks, follow signs.",
-      "open_hours": "90 minutes before first flight - last flight",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 40.061614,
-        "lng": 113.480032
-      },
-      "continent": "AS",
-      "iso_country": "CN",
-      "images": [
-        "https://picsum.photos/seed/dat_vip_lounge_terminal_2/800/600",
-        "https://picsum.photos/seed/dat_vip_lounge_terminal_22/800/600"
       ]
     },
     {
@@ -13914,36 +13848,6 @@
       ]
     },
     {
-      "id": "global_582_macau_international_airport_(mfm)_plaza_premium",
-      "name": "Plaza Premium Lounge",
-      "airport_code": "",
-      "airport_name": "Macau International Airport (MFM)",
-      "city": "Macau",
-      "country": "China",
-      "terminal": "Departures",
-      "location": "",
-      "open_hours": "",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Day Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "Plaza Premium Lounge at Macau International Airport (MFM), Macau.",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "Asia",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/global_582_macau_international_airport_(mfm)_plaza_premium/800/600",
-        "https://picsum.photos/seed/global_582_macau_international_airport_(mfm)_plaza_premium2/800/600"
-      ]
-    },
-    {
       "id": "lum_best_business_vip_lounge",
       "name": "Best Business VIP Lounge",
       "airport_code": "LUM",
@@ -14583,39 +14487,6 @@
       "images": [
         "https://picsum.photos/seed/ngb_master_kong_noodles_terminal_2/800/600",
         "https://picsum.photos/seed/ngb_master_kong_noodles_terminal_22/800/600"
-      ]
-    },
-    {
-      "id": "ngb_vip_lounge_terminal_2",
-      "name": "VIP Lounge",
-      "airport_code": "NGB",
-      "airport_name": "Ningbo Lishe Intl",
-      "city": "Ningbo",
-      "country": "China",
-      "terminal": "Terminal 2",
-      "location": "Airside - Domestic Departures, 3rd Floor, opposite Boarding Gate 218. Please",
-      "open_hours": "06:00 - 21:30 daily",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 29.82670021057129,
-        "lng": 121.46199798583984
-      },
-      "continent": "AS",
-      "iso_country": "CN",
-      "images": [
-        "https://picsum.photos/seed/ngb_vip_lounge_terminal_2/800/600",
-        "https://picsum.photos/seed/ngb_vip_lounge_terminal_22/800/600"
       ]
     },
     {
@@ -17472,39 +17343,6 @@
       ]
     },
     {
-      "id": "wua_vip_lounge",
-      "name": "VIP Lounge",
-      "airport_code": "WUA",
-      "airport_name": "Wuhai Wuhai",
-      "city": "Wuhai",
-      "country": "China",
-      "terminal": "",
-      "location": "Airside - Domestic Departures, 2nd Floor opposite Gate 3.",
-      "open_hours": "1 hour 30 minutes before first flight - last flight",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 39.7934,
-        "lng": 106.7993
-      },
-      "continent": "AS",
-      "iso_country": "CN",
-      "images": [
-        "https://picsum.photos/seed/wua_vip_lounge/800/600",
-        "https://picsum.photos/seed/wua_vip_lounge2/800/600"
-      ]
-    },
-    {
       "id": "global_724_wuhan_tianhe_international_airport_(wuh)_china_sourn_elite_plus",
       "name": "China Southern Elite Plus Lounge",
       "airport_code": "",
@@ -19725,39 +19563,6 @@
       ]
     },
     {
-      "id": "zyi_vip_lounge",
-      "name": "VIP Lounge",
-      "airport_code": "ZYI",
-      "airport_name": "Zunyi Xinzhou",
-      "city": "Zunyi",
-      "country": "China",
-      "terminal": "",
-      "location": "",
-      "open_hours": "08:00 - 22:00 daily",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 27.810723,
-        "lng": 107.247189
-      },
-      "continent": "AS",
-      "iso_country": "CN",
-      "images": [
-        "https://picsum.photos/seed/zyi_vip_lounge/800/600",
-        "https://picsum.photos/seed/zyi_vip_lounge2/800/600"
-      ]
-    },
-    {
       "id": "zyi_is_located_on_the_left_hand_side_",
       "name": "is located on the left hand side.",
       "airport_code": "ZYI",
@@ -21371,7 +21176,7 @@
       "airport_code": "LRM",
       "airport_name": "Casa De Campo Casa De Campo Intl",
       "city": "Casa",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -21404,7 +21209,7 @@
       "airport_code": "POP",
       "airport_name": "Puerto Plata Gregorio Luperon Intl",
       "city": "Puerto",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -21437,7 +21242,7 @@
       "airport_code": "POP",
       "airport_name": "Puerto Plata Gregorio Luperon Intl",
       "city": "Puerto",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "",
       "location": "Airside - Level 1, before the escalator in the hall leading to the lounge area.",
       "open_hours": "Lounge opening times vary in accordance with flight schedules.",
@@ -21470,7 +21275,7 @@
       "airport_code": "POP",
       "airport_name": "Puerto Plata Gregorio Luperon Intl",
       "city": "Puerto",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "",
       "location": "Airside - before Immigration and Customs in the Disembark Area, Level 1. The",
       "open_hours": "",
@@ -21503,7 +21308,7 @@
       "airport_code": "PUJ",
       "airport_name": "Punta Cana Punta Cana Intl",
       "city": "Punta",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal B",
       "location": "",
       "open_hours": "",
@@ -21536,7 +21341,7 @@
       "airport_code": "PUJ",
       "airport_name": "Punta Cana Punta Cana Intl",
       "city": "Punta",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal A",
       "location": "",
       "open_hours": "",
@@ -21569,7 +21374,7 @@
       "airport_code": "PUJ",
       "airport_name": "Punta Cana Punta Cana Intl",
       "city": "Punta",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal B",
       "location": "Airside - after Security Checks, Passport Control and the Food Court Area.",
       "open_hours": "may vary according to flight schedules.",
@@ -21602,7 +21407,7 @@
       "airport_code": "PUJ",
       "airport_name": "Punta Cana Punta Cana Intl",
       "city": "Punta",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal A",
       "location": "Airside - after Security Checks and Passport Control, before the Food Court",
       "open_hours": "may vary according to flight schedules.",
@@ -21635,7 +21440,7 @@
       "airport_code": "AZS",
       "airport_name": "Samana El Catey International",
       "city": "Samana",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -21668,7 +21473,7 @@
       "airport_code": "STI",
       "airport_name": "Santiago Cibao Intl",
       "city": "Santiago",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "International Terminal",
       "location": "",
       "open_hours": "",
@@ -21701,7 +21506,7 @@
       "airport_code": "SDQ",
       "airport_name": "Santo Domingo Las Americas Intl",
       "city": "Santo",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal B",
       "location": "Airside - after Security Control, turn right towards the 'A Gates'. Proceed",
       "open_hours": "24 hours daily",
@@ -21734,7 +21539,7 @@
       "airport_code": "SDQ",
       "airport_name": "Santo Domingo Las Americas Intl",
       "city": "Santo",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal A",
       "location": "",
       "open_hours": "",
@@ -21767,7 +21572,7 @@
       "airport_code": "SDQ",
       "airport_name": "Santo Domingo Las Americas Intl",
       "city": "Santo",
-      "country": "DO",
+      "country": "Dominican Republic",
       "terminal": "Terminal B",
       "location": "Airside - North Concourse. The lounge is located in front of Gate B4. The",
       "open_hours": "",
@@ -22058,7 +21863,7 @@
       "airport_code": "OCC",
       "airport_name": "Coca Francisco De Orellana",
       "city": "Coca",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22091,7 +21896,7 @@
       "airport_code": "CUE",
       "airport_name": "Cuenca Mariscal Lamar",
       "city": "Cuenca",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22124,7 +21929,7 @@
       "airport_code": "GPS",
       "airport_name": "Galapagos Seymour",
       "city": "Galapagos",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22157,7 +21962,7 @@
       "airport_code": "GYE",
       "airport_name": "Guayaquil Jose Joaquin De Olmedo Intl",
       "city": "Guayaquil",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "Domestic Terminal",
       "location": "",
       "open_hours": "",
@@ -22190,7 +21995,7 @@
       "airport_code": "LOH",
       "airport_name": "Loja Catamayo",
       "city": "Loja",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22223,7 +22028,7 @@
       "airport_code": "UIO",
       "airport_name": "Quito Mariscal Sucre Intl",
       "city": "Quito",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22256,7 +22061,7 @@
       "airport_code": "UIO",
       "airport_name": "Quito Mariscal Sucre Intl",
       "city": "Quito",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "building, the lounge is located on the 2nd Floor in front of the arrival",
       "location": "Quito Airport Center. Landside – cross covered walkway from the main",
       "open_hours": "24 hours daily.",
@@ -22289,7 +22094,7 @@
       "airport_code": "UIO",
       "airport_name": "Quito Mariscal Sucre Intl",
       "city": "Quito",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "building, the lounge is located on the 2nd Floor in front of the arrival",
       "location": "Airside - after Security Checks and Passport Control on the Departure Level.",
       "open_hours": "24 hours daily",
@@ -22322,7 +22127,7 @@
       "airport_code": "SCY",
       "airport_name": "San Cristobal San Cristobal",
       "city": "San",
-      "country": "EC",
+      "country": "Ecuador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22355,7 +22160,7 @@
       "airport_code": "VIL",
       "airport_name": "Dakhla Dakhla",
       "city": "Dakhla",
-      "country": "EH",
+      "country": "Western Sahara",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -22388,7 +22193,7 @@
       "airport_code": "EUN",
       "airport_name": "Laayoune Hassan I",
       "city": "Laayoune",
-      "country": "EH",
+      "country": "Western Sahara",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -23270,7 +23075,7 @@
       "airport_code": "NAN",
       "airport_name": "Nadi Nadi Intl",
       "city": "Nadi",
-      "country": "FJ",
+      "country": "Fiji",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -24098,7 +23903,7 @@
       "airport_code": "GND",
       "airport_name": "St. Georges Maurice Bishop Intl",
       "city": "St.",
-      "country": "GD",
+      "country": "Grenada",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -24131,7 +23936,7 @@
       "airport_code": "GIB",
       "airport_name": "Gibraltar Gibraltar International",
       "city": "Gibraltar",
-      "country": "GI",
+      "country": "Gibraltar",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -24164,7 +23969,7 @@
       "airport_code": "GIB",
       "airport_name": "Gibraltar Gibraltar International",
       "city": "Gibraltar",
-      "country": "GI",
+      "country": "Gibraltar",
       "terminal": "",
       "location": "Airside - after Security proceed straight to the departures sitting area. The",
       "open_hours": "",
@@ -24197,7 +24002,7 @@
       "airport_code": "PTP",
       "airport_name": "Pointe-a-Pitre Le Raizet",
       "city": "Pointe-a-Pitre",
-      "country": "GP",
+      "country": "Guadeloupe",
       "terminal": "Terminal 1",
       "location": "",
       "open_hours": "",
@@ -24230,7 +24035,7 @@
       "airport_code": "PTP",
       "airport_name": "Pointe-a-Pitre Le Raizet",
       "city": "Pointe-a-Pitre",
-      "country": "GP",
+      "country": "Guadeloupe",
       "terminal": "Terminal 1",
       "location": "Airside - located on the 2nd Floor in the International Boarding Hall, next to",
       "open_hours": "Monday: 13:30 - 20:30",
@@ -24263,7 +24068,7 @@
       "airport_code": "SSG",
       "airport_name": "Malabo Malabo International",
       "city": "Malabo",
-      "country": "GQ",
+      "country": "Equatorial Guinea",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -24296,7 +24101,7 @@
       "airport_code": "GUA",
       "airport_name": "Guatemala City La Aurora Intl",
       "city": "Guatemala",
-      "country": "GT",
+      "country": "Guatemala",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -24329,7 +24134,7 @@
       "airport_code": "GUA",
       "airport_name": "Guatemala City La Aurora Intl",
       "city": "Guatemala",
-      "country": "GT",
+      "country": "Guatemala",
       "terminal": "",
       "location": "Airside - North Wing. The lounge is located 100 metres after Security Checks",
       "open_hours": "04:30 - 21:00 daily",
@@ -24362,7 +24167,7 @@
       "airport_code": "GUM",
       "airport_name": "Guam Guam Intl",
       "city": "Guam",
-      "country": "GU",
+      "country": "Guam",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -24395,7 +24200,7 @@
       "airport_code": "GEO",
       "airport_name": "Georgetown Cheddi Jagan Intl",
       "city": "Georgetown",
-      "country": "GY",
+      "country": "Guyana",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -26431,7 +26236,7 @@
       "airport_code": "XPL",
       "airport_name": "Comayagua Palmerola International",
       "city": "Comayagua",
-      "country": "HN",
+      "country": "Honduras",
       "terminal": "North Wing",
       "location": "",
       "open_hours": "",
@@ -26464,7 +26269,7 @@
       "airport_code": "XPL",
       "airport_name": "Comayagua Palmerola International",
       "city": "Comayagua",
-      "country": "HN",
+      "country": "Honduras",
       "terminal": "North Wing",
       "location": "Airside - after Security Checks, proceed past the Duty Free Shops and the",
       "open_hours": "",
@@ -26497,7 +26302,7 @@
       "airport_code": "SAP",
       "airport_name": "San Pedro Sula La Mesa Intl",
       "city": "San",
-      "country": "HN",
+      "country": "Honduras",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -26530,7 +26335,7 @@
       "airport_code": "TGU",
       "airport_name": "Tegucigalpa Toncontin International",
       "city": "Tegucigalpa",
-      "country": "HN",
+      "country": "Honduras",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -27006,7 +26811,7 @@
       "airport_code": "IOM",
       "airport_name": "Isle Of Man Ronaldsway",
       "city": "Isle",
-      "country": "IM",
+      "country": "Isle of Man",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -31650,7 +31455,7 @@
       "airport_code": "JER",
       "airport_name": "Jersey Jersey",
       "city": "Jersey",
-      "country": "JE",
+      "country": "Jersey",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -31683,7 +31488,7 @@
       "airport_code": "KIN",
       "airport_name": "Kingston Norman Manley Intl",
       "city": "Kingston",
-      "country": "JM",
+      "country": "Jamaica",
       "terminal": "",
       "location": "Airside - after Security Control go upstairs to the main departure lounge and",
       "open_hours": "05:00 - 21:00 daily",
@@ -31716,7 +31521,7 @@
       "airport_code": "KIN",
       "airport_name": "Kingston Norman Manley Intl",
       "city": "Kingston",
-      "country": "JM",
+      "country": "Jamaica",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -31749,7 +31554,7 @@
       "airport_code": "KIN",
       "airport_name": "Kingston Norman Manley Intl",
       "city": "Kingston",
-      "country": "JM",
+      "country": "Jamaica",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -31782,7 +31587,7 @@
       "airport_code": "MBJ",
       "airport_name": "Montego Bay Sangster Intl",
       "city": "Montego",
-      "country": "JM",
+      "country": "Jamaica",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -31815,7 +31620,7 @@
       "airport_code": "MBJ",
       "airport_name": "Montego Bay Sangster Intl",
       "city": "Montego",
-      "country": "JM",
+      "country": "Jamaica",
       "terminal": "(subject to space availability in the lounge) upon presentation of a",
       "location": "Airside - after Security Control in the main departure area, go up to the",
       "open_hours": "06:00 - 22:00 daily",
@@ -35063,7 +34868,7 @@
       "airport_code": "FRU",
       "airport_name": "Bishkek Manas",
       "city": "Bishkek",
-      "country": "KG",
+      "country": "Kyrgyzstan",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -35215,37 +35020,6 @@
       "images": [
         "https://picsum.photos/seed/tav_extime_business_lounge/800/600",
         "https://picsum.photos/seed/tav_extime_business_lounge2/800/600"
-      ]
-    },
-    {
-      "id": "tav_extime_vip_lounge",
-      "name": "Extime VIP Lounge",
-      "airport_code": "TAV",
-      "airport_name": "Almati Uluslararası Havalimanı",
-      "city": "Almatı",
-      "country": "Kazakhstan",
-      "terminal": "",
-      "location": "Dış Hatlar - Gidiş",
-      "open_hours": "",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "TAV Passport",
-        "Priority Pass"
-      ],
-      "lounge_type": "operator",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/tav_extime_vip_lounge/800/600",
-        "https://picsum.photos/seed/tav_extime_vip_lounge2/800/600"
       ]
     },
     {
@@ -36228,7 +36002,7 @@
       "airport_code": "UVF",
       "airport_name": "Vieux-Fort Hewanorra Intl",
       "city": "Vieux-Fort",
-      "country": "LC",
+      "country": "Saint Lucia",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -36681,7 +36455,7 @@
       "airport_code": "TIV",
       "airport_name": "Tivat Tivat",
       "city": "Tivat",
-      "country": "ME",
+      "country": "Montenegro",
       "terminal": "",
       "location": "Do not proceed to the lounge directly without first registering at the 'Fly",
       "open_hours": "",
@@ -36714,7 +36488,7 @@
       "airport_code": "TIV",
       "airport_name": "Tivat Tivat",
       "city": "Tivat",
-      "country": "ME",
+      "country": "Montenegro",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -36747,7 +36521,7 @@
       "airport_code": "OHD",
       "airport_name": "Ohrid St. Paul the Apostle",
       "city": "Ohrid",
-      "country": "MK",
+      "country": "North Macedonia",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -36780,7 +36554,7 @@
       "airport_code": "SKP",
       "airport_name": "Skopje Skopje International",
       "city": "Skopje",
-      "country": "MK",
+      "country": "North Macedonia",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -36813,7 +36587,7 @@
       "airport_code": "SKP",
       "airport_name": "Skopje Skopje International",
       "city": "Skopje",
-      "country": "MK",
+      "country": "North Macedonia",
       "terminal": "",
       "location": "Airside - after Check-in, pass through Customs and Passport Control. The",
       "open_hours": "",
@@ -36846,7 +36620,7 @@
       "airport_code": "MFM",
       "airport_name": "Macau SAR Macau Intl",
       "city": "Macau",
-      "country": "MO",
+      "country": "Macau",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -36879,7 +36653,7 @@
       "airport_code": "SPN",
       "airport_name": "Saipan Francisco C Ada Saipan Intl",
       "city": "Saipan",
-      "country": "MP",
+      "country": "Northern Mariana Islands",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -37154,36 +36928,6 @@
       "images": [
         "https://picsum.photos/seed/global_597_kuala_lumpur_international_airport_(kul)_plaza_premium_first/800/600",
         "https://picsum.photos/seed/global_597_kuala_lumpur_international_airport_(kul)_plaza_premium_first2/800/600"
-      ]
-    },
-    {
-      "id": "global_598_kuala_lumpur_international_airport_(kul)_plaza_premium",
-      "name": "Plaza Premium Lounge",
-      "airport_code": "",
-      "airport_name": "Kuala Lumpur International Airport (KUL)",
-      "city": "Kuala Lumpur",
-      "country": "Malaysia",
-      "terminal": "KLIA, International Departures Contact Pier 21",
-      "location": "",
-      "open_hours": "",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Day Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "Plaza Premium Lounge at Kuala Lumpur International Airport (KUL), Kuala Lumpur.",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "Asia",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/global_598_kuala_lumpur_international_airport_(kul)_plaza_premium/800/600",
-        "https://picsum.photos/seed/global_598_kuala_lumpur_international_airport_(kul)_plaza_premium2/800/600"
       ]
     },
     {
@@ -42255,39 +41999,6 @@
       ]
     },
     {
-      "id": "los_premium_lounge_international_terminal",
-      "name": "Premium Lounge",
-      "airport_code": "LOS",
-      "airport_name": "Lagos Murtala Muhammed",
-      "city": "Lagos",
-      "country": "Nigeria",
-      "terminal": "International Terminal",
-      "location": "",
-      "open_hours": "24 hours daily.",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 6.5773701667785645,
-        "lng": 3.321160078048706
-      },
-      "continent": "AF",
-      "iso_country": "NG",
-      "images": [
-        "https://picsum.photos/seed/los_premium_lounge_international_terminal/800/600",
-        "https://picsum.photos/seed/los_premium_lounge_international_terminal2/800/600"
-      ]
-    },
-    {
       "id": "global_237_murtala_muhammed_international_airport_sds__services",
       "name": "SDS LOUNGE SERVICES",
       "airport_code": "",
@@ -42803,7 +42514,7 @@
       "airport_code": "PTY",
       "airport_name": "Panama Tocumen Intl",
       "city": "Panama",
-      "country": "PA",
+      "country": "Panama",
       "terminal": "Terminal 1",
       "location": "",
       "open_hours": "",
@@ -42836,7 +42547,7 @@
       "airport_code": "PTY",
       "airport_name": "Panama Tocumen Intl",
       "city": "Panama",
-      "country": "PA",
+      "country": "Panama",
       "terminal": "Terminal 1",
       "location": "Airside - 2nd Floor, above Gates 130 and 133. International flights only.",
       "open_hours": "06:00 - 21:00 daily.",
@@ -42869,7 +42580,7 @@
       "airport_code": "PTY",
       "airport_name": "Panama Tocumen Intl",
       "city": "Panama",
-      "country": "PA",
+      "country": "Panama",
       "terminal": "Terminal 1",
       "location": "",
       "open_hours": "24 hours daily",
@@ -42902,7 +42613,7 @@
       "airport_code": "PTY",
       "airport_name": "Panama Tocumen Intl",
       "city": "Panama",
-      "country": "PA",
+      "country": "Panama",
       "terminal": "Terminal 1",
       "location": "Airside - after Security Checkpoint, walk towards Gates 101-115 and the",
       "open_hours": "",
@@ -42935,7 +42646,7 @@
       "airport_code": "PPT",
       "airport_name": "Papeete Faaa International",
       "city": "Papeete",
-      "country": "PF",
+      "country": "French Polynesia",
       "terminal": "Terminal 1",
       "location": "",
       "open_hours": "",
@@ -42968,7 +42679,7 @@
       "airport_code": "SJU",
       "airport_name": "San Juan Luis Munoz Marin Intl",
       "city": "San",
-      "country": "PR",
+      "country": "Puerto Rico",
       "terminal": "Terminal C",
       "location": "Airside - the lounge is located at the entrance of Terminal C. Pass through",
       "open_hours": "",
@@ -43001,7 +42712,7 @@
       "airport_code": "SJU",
       "airport_name": "San Juan Luis Munoz Marin Intl",
       "city": "San",
-      "country": "PR",
+      "country": "Puerto Rico",
       "terminal": "Terminal A",
       "location": "",
       "open_hours": "",
@@ -43034,7 +42745,7 @@
       "airport_code": "SJU",
       "airport_name": "San Juan Luis Munoz Marin Intl",
       "city": "San",
-      "country": "PR",
+      "country": "Puerto Rico",
       "terminal": "Terminal C",
       "location": "",
       "open_hours": "06:00 - 20:00 daily",
@@ -43067,7 +42778,7 @@
       "airport_code": "SJU",
       "airport_name": "San Juan Luis Munoz Marin Intl",
       "city": "San",
-      "country": "PR",
+      "country": "Puerto Rico",
       "terminal": "Terminal A",
       "location": "Airside - after Security, turn left and walk through the Duty Free Shops. The",
       "open_hours": "",
@@ -43100,7 +42811,7 @@
       "airport_code": "ASU",
       "airport_name": "Asuncion Silvio Pettirossi Intl",
       "city": "Asuncion",
-      "country": "PY",
+      "country": "Paraguay",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -45689,7 +45400,7 @@
       "airport_code": "KGL",
       "airport_name": "Kigali Kigali Intl",
       "city": "Kigali",
-      "country": "RW",
+      "country": "Rwanda",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -48311,7 +48022,7 @@
       "airport_code": "SAL",
       "airport_name": "San Salvador El Salvador Intl",
       "city": "San",
-      "country": "SV",
+      "country": "El Salvador",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -48344,7 +48055,7 @@
       "airport_code": "SAL",
       "airport_name": "San Salvador El Salvador Intl",
       "city": "San",
-      "country": "SV",
+      "country": "El Salvador",
       "terminal": "",
       "location": "Airside - after Security Checks and Immigration, turn left. The lounge is",
       "open_hours": "24 hours daily.",
@@ -55962,7 +55673,7 @@
       "airport_code": "POS",
       "airport_name": "Port of Spain Piarco",
       "city": "Port",
-      "country": "TT",
+      "country": "Trinidad and Tobago",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -55995,7 +55706,7 @@
       "airport_code": "TPE",
       "airport_name": "Taipei Taoyuan Intl",
       "city": "Taipei",
-      "country": "TW",
+      "country": "Taiwan",
       "terminal": "Terminal 2",
       "location": "Airside - International Departures. Level 3, Concourse A, near Gate A4.",
       "open_hours": "06:00 - 23:00 daily",
@@ -56028,7 +55739,7 @@
       "airport_code": "TPE",
       "airport_name": "Taipei Taoyuan Intl",
       "city": "Taipei",
-      "country": "TW",
+      "country": "Taiwan",
       "terminal": "Terminal 1",
       "location": "",
       "open_hours": "",
@@ -56061,7 +55772,7 @@
       "airport_code": "TPE",
       "airport_name": "Taipei Taoyuan Intl",
       "city": "Taipei",
-      "country": "TW",
+      "country": "Taiwan",
       "terminal": "Terminal 1",
       "location": "Airside - International Departures. Level 3, Concourse B, near Gate B7.",
       "open_hours": "06:00 - 23:00 daily",
@@ -56833,36 +56544,6 @@
       ]
     },
     {
-      "id": "global_13_suvarnabhumi_international_airport_miracle_first_class__(concourse_d_-_level_3)",
-      "name": "Miracle First Class Lounge (Concourse D - Level 3)",
-      "airport_code": "",
-      "airport_name": "Suvarnabhumi International Airport",
-      "city": "Bangkok",
-      "country": "Thailand",
-      "terminal": "International Departures",
-      "location": "",
-      "open_hours": "",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Day Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "Miracle First Class Lounge (Concourse D - Level 3) at Suvarnabhumi International Airport, Bangkok.",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "Asia",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/global_13_suvarnabhumi_international_airport_miracle_first_class__(concourse_d_-_level_3)/800/600",
-        "https://picsum.photos/seed/global_13_suvarnabhumi_international_airport_miracle_first_class__(concourse_d_-_level_3)2/800/600"
-      ]
-    },
-    {
       "id": "global_14_suvarnabhumi_international_airport_miracle_first_class__(concourse_g_-_level_3)",
       "name": "Miracle First Class Lounge (Concourse G - Level 3)",
       "airport_code": "",
@@ -56920,36 +56601,6 @@
       "images": [
         "https://picsum.photos/seed/global_9_suvarnabhumi_international_airport_miracle_first_class__(concourse_g_-_level_4)/800/600",
         "https://picsum.photos/seed/global_9_suvarnabhumi_international_airport_miracle_first_class__(concourse_g_-_level_4)2/800/600"
-      ]
-    },
-    {
-      "id": "global_6_suvarnabhumi_international_airport_miracle_first_class_(concourse_a_-_level_3)",
-      "name": "Miracle First Class Lounge(Concourse A - Level 3)",
-      "airport_code": "",
-      "airport_name": "Suvarnabhumi International Airport",
-      "city": "Bangkok",
-      "country": "Thailand",
-      "terminal": "International Departures",
-      "location": "",
-      "open_hours": "",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Day Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "Miracle First Class Lounge(Concourse A - Level 3) at Suvarnabhumi International Airport, Bangkok.",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "Asia",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/global_6_suvarnabhumi_international_airport_miracle_first_class_(concourse_a_-_level_3)/800/600",
-        "https://picsum.photos/seed/global_6_suvarnabhumi_international_airport_miracle_first_class_(concourse_a_-_level_3)2/800/600"
       ]
     },
     {
@@ -59778,36 +59429,6 @@
       ]
     },
     {
-      "id": "global_151_dubai_international_airport_ahlan_first_class__(concourse_d)",
-      "name": "Ahlan First Class Lounge (Concourse D)",
-      "airport_code": "",
-      "airport_name": "Dubai International Airport",
-      "city": "Dubai",
-      "country": "UAE",
-      "terminal": "International Departure Terminal 1 Concourse D",
-      "location": "",
-      "open_hours": "",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Day Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "Ahlan First Class Lounge (Concourse D) at Dubai International Airport, Dubai.",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "Middle East",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/global_151_dubai_international_airport_ahlan_first_class__(concourse_d)/800/600",
-        "https://picsum.photos/seed/global_151_dubai_international_airport_ahlan_first_class__(concourse_d)2/800/600"
-      ]
-    },
-    {
       "id": "global_554_dubai_international_airport_ahlan  at a",
       "name": "Ahlan Lounge at A",
       "airport_code": "",
@@ -60923,7 +60544,7 @@
       "airport_code": "MVD",
       "airport_name": "Montevideo Carrasco Intl",
       "city": "Montevideo",
-      "country": "UY",
+      "country": "Uruguay",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -60956,7 +60577,7 @@
       "airport_code": "PDP",
       "airport_name": "Punta del Este Carlos A. Curbelo Intl",
       "city": "Punta",
-      "country": "UY",
+      "country": "Uruguay",
       "terminal": "",
       "location": "",
       "open_hours": "",
@@ -61464,39 +61085,6 @@
       "images": [
         "https://picsum.photos/seed/dxb_ahlan_business_class_lounge_terminal_1_concourse_d/800/600",
         "https://picsum.photos/seed/dxb_ahlan_business_class_lounge_terminal_1_concourse_d2/800/600"
-      ]
-    },
-    {
-      "id": "dxb_ahlan_first_class_lounge_terminal_1_concourse_d",
-      "name": "Ahlan First Class Lounge",
-      "airport_code": "DXB",
-      "airport_name": "Dubai Dubai Intl",
-      "city": "Dubai",
-      "country": "United Arab Emirates",
-      "terminal": "Terminal 1 Concourse D",
-      "location": "Airside - Level 2 above the Departure Gates.",
-      "open_hours": "24 hours daily.",
-      "amenities": [
-        "Free Wi-Fi",
-        "Food & Beverages",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Priority Pass"
-      ],
-      "lounge_type": "independent",
-      "description": "",
-      "rating": 0.0,
-      "review_count": 0,
-      "coordinates": {
-        "lat": 25.2527999878,
-        "lng": 55.3643989563
-      },
-      "continent": "AS",
-      "iso_country": "AE",
-      "images": [
-        "https://picsum.photos/seed/dxb_ahlan_first_class_lounge_terminal_1_concourse_d/800/600",
-        "https://picsum.photos/seed/dxb_ahlan_first_class_lounge_terminal_1_concourse_d2/800/600"
       ]
     },
     {
@@ -70572,7 +70160,7 @@
       "airport_code": "VLI",
       "airport_name": "Port Vila Bauerfield Intl",
       "city": "Port",
-      "country": "VU",
+      "country": "Vanuatu",
       "terminal": "International Terminal",
       "location": "",
       "open_hours": "",
@@ -71906,40 +71494,6 @@
       ]
     },
     {
-      "id": "airline_dxb_emirates_2",
-      "name": "Emirates Business Class Lounge",
-      "airport_code": "DXB",
-      "airport_name": "Dubai International",
-      "city": "Dubai",
-      "country": "United Arab Emirates",
-      "terminal": "Terminal 3",
-      "location": "",
-      "open_hours": "24 hours",
-      "amenities": [
-        "Premium Dining",
-        "Shower Facilities",
-        "Business Center",
-        "Free Wi-Fi",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Emirates First/Business Class",
-        "Star Alliance Gold",
-        "Oneworld Emerald"
-      ],
-      "lounge_type": "airline",
-      "description": "Emirates Business Class Lounge - Premium Emirates lounge at Dubai International.",
-      "rating": 4.5,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/airline_dxb_emirates_2/800/600",
-        "https://picsum.photos/seed/airline_dxb_emirates_22/800/600"
-      ]
-    },
-    {
       "id": "airline_doh_qatar_airways_3",
       "name": "Qatar Airways Al Mourjan Business Lounge",
       "airport_code": "DOH",
@@ -72280,40 +71834,6 @@
       ]
     },
     {
-      "id": "airline_lhr_british_airways_13",
-      "name": "British Airways Galleries Club Lounge",
-      "airport_code": "LHR",
-      "airport_name": "Heathrow Airport",
-      "city": "London",
-      "country": "United Kingdom",
-      "terminal": "Terminal 5",
-      "location": "",
-      "open_hours": "24 hours",
-      "amenities": [
-        "Premium Dining",
-        "Shower Facilities",
-        "Business Center",
-        "Free Wi-Fi",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "British Airways First/Business Class",
-        "Star Alliance Gold",
-        "Oneworld Emerald"
-      ],
-      "lounge_type": "airline",
-      "description": "British Airways Galleries Club Lounge - Premium British Airways lounge at Heathrow Airport.",
-      "rating": 4.5,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/airline_lhr_british_airways_13/800/600",
-        "https://picsum.photos/seed/airline_lhr_british_airways_132/800/600"
-      ]
-    },
-    {
       "id": "airline_cdg_air_france_14",
       "name": "Air France La Premiere Lounge",
       "airport_code": "CDG",
@@ -72413,40 +71933,6 @@
       "images": [
         "https://picsum.photos/seed/airline_sin_singapore_airlines_16/800/600",
         "https://picsum.photos/seed/airline_sin_singapore_airlines_162/800/600"
-      ]
-    },
-    {
-      "id": "airline_sin_singapore_airlines_17",
-      "name": "Singapore Airlines SilverKris Business Lounge",
-      "airport_code": "SIN",
-      "airport_name": "Changi Airport",
-      "city": "Singapore",
-      "country": "Singapore",
-      "terminal": "Terminal 3",
-      "location": "",
-      "open_hours": "24 hours",
-      "amenities": [
-        "Premium Dining",
-        "Shower Facilities",
-        "Business Center",
-        "Free Wi-Fi",
-        "Comfortable Seating"
-      ],
-      "access_methods": [
-        "Singapore Airlines First/Business Class",
-        "Star Alliance Gold",
-        "Oneworld Emerald"
-      ],
-      "lounge_type": "airline",
-      "description": "Singapore Airlines SilverKris Business Lounge - Premium Singapore Airlines lounge at Changi Airport.",
-      "rating": 4.5,
-      "review_count": 0,
-      "coordinates": null,
-      "continent": "",
-      "iso_country": "",
-      "images": [
-        "https://picsum.photos/seed/airline_sin_singapore_airlines_17/800/600",
-        "https://picsum.photos/seed/airline_sin_singapore_airlines_172/800/600"
       ]
     },
     {
