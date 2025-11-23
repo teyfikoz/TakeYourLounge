@@ -190,6 +190,17 @@ export default function Home() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
             <p>&copy; 2025 TakeYourLounge. All rights reserved.</p>
+            <p className="mt-2">
+              Developed by{' '}
+              <a
+                href="https://techsyncanalytica.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand-400 hover:text-brand-300 font-medium"
+              >
+                Tech Sync Analytica LLC
+              </a>
+            </p>
           </div>
         </div>
       </footer>
