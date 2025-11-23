@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import VisitorTracker from "@/components/VisitorTracker";
+import ClickTracker from "@/components/ClickTracker";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <GoogleAnalytics />
         <VisitorTracker />
+        <ClickTracker />
         {children}
       </body>
     </html>
