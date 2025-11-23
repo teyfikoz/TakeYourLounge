@@ -9,17 +9,37 @@ import { Lounge } from '@/types/lounge';
 export default function LoungesPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCountry, setSelectedCountry] = useState('');
+  const [selectedCity, setSelectedCity] = useState('');
+  const [selectedAirport, setSelectedAirport] = useState('');
   const [selectedAccessMethod, setSelectedAccessMethod] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const loungesPerPage = 24;
 
-  // Get unique countries and access methods
+  // Get unique countries, cities, airports, and access methods
   const countries = useMemo(() => {
     const uniqueCountries = new Set<string>();
     loungeData.lounges.forEach((lounge: Lounge) => {
       if (lounge.country) uniqueCountries.add(lounge.country);
     });
     return Array.from(uniqueCountries).sort();
+  }, []);
+
+  const cities = useMemo(() => {
+    const uniqueCities = new Set<string>();
+    loungeData.lounges.forEach((lounge: Lounge) => {
+      if (lounge.city) uniqueCities.add(lounge.city);
+    });
+    return Array.from(uniqueCities).sort();
+  }, []);
+
+  const airports = useMemo(() => {
+    const uniqueAirports = new Set<string>();
+    loungeData.lounges.forEach((lounge: Lounge) => {
+      if (lounge.airport_name) {
+        uniqueAirports.add(`${lounge.airport_code} - ${lounge.airport_name}`);
+      }
+    });
+    return Array.from(uniqueAirports).sort();
   }, []);
 
   const accessMethods = useMemo(() => {
@@ -41,12 +61,17 @@ export default function LoungesPage() {
 
       const matchesCountry = selectedCountry === '' || lounge.country === selectedCountry;
 
+      const matchesCity = selectedCity === '' || lounge.city === selectedCity;
+
+      const matchesAirport = selectedAirport === '' ||
+        `${lounge.airport_code} - ${lounge.airport_name}` === selectedAirport;
+
       const matchesAccessMethod = selectedAccessMethod === '' ||
         lounge.access_methods.includes(selectedAccessMethod);
 
-      return matchesSearch && matchesCountry && matchesAccessMethod;
+      return matchesSearch && matchesCountry && matchesCity && matchesAirport && matchesAccessMethod;
     });
-  }, [searchTerm, selectedCountry, selectedAccessMethod]);
+  }, [searchTerm, selectedCountry, selectedCity, selectedAirport, selectedAccessMethod]);
 
   // Pagination
   const totalPages = Math.ceil(filteredLounges.length / loungesPerPage);
@@ -87,9 +112,10 @@ export default function LoungesPage() {
       {/* Filters */}
       <div className="bg-white border-b sticky top-0 z-10 shadow-sm">
         <div className="container-custom py-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            {/* Search */}
-            <div className="md:col-span-2">
+          <div className="space-y-4">
+            {/* Search and Access Method Row */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* Search */}
               <input
                 type="text"
                 placeholder="Search by lounge name, city, or airport..."
@@ -100,29 +126,8 @@ export default function LoungesPage() {
                 }}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
               />
-            </div>
 
-            {/* Country Filter */}
-            <div>
-              <select
-                value={selectedCountry}
-                onChange={(e) => {
-                  setSelectedCountry(e.target.value);
-                  setCurrentPage(1);
-                }}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
-              >
-                <option value="">All Countries</option>
-                {countries.map((country) => (
-                  <option key={country} value={country}>
-                    {country}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* Access Method Filter */}
-            <div>
+              {/* Access Method Filter */}
               <select
                 value={selectedAccessMethod}
                 onChange={(e) => {
@@ -139,16 +144,72 @@ export default function LoungesPage() {
                 ))}
               </select>
             </div>
+
+            {/* Country, City, Airport Row */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Country Filter */}
+              <select
+                value={selectedCountry}
+                onChange={(e) => {
+                  setSelectedCountry(e.target.value);
+                  setCurrentPage(1);
+                }}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
+              >
+                <option value="">All Countries</option>
+                {countries.map((country) => (
+                  <option key={country} value={country}>
+                    {country}
+                  </option>
+                ))}
+              </select>
+
+              {/* City Filter */}
+              <select
+                value={selectedCity}
+                onChange={(e) => {
+                  setSelectedCity(e.target.value);
+                  setCurrentPage(1);
+                }}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
+              >
+                <option value="">All Cities</option>
+                {cities.map((city) => (
+                  <option key={city} value={city}>
+                    {city}
+                  </option>
+                ))}
+              </select>
+
+              {/* Airport Filter */}
+              <select
+                value={selectedAirport}
+                onChange={(e) => {
+                  setSelectedAirport(e.target.value);
+                  setCurrentPage(1);
+                }}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
+              >
+                <option value="">All Airports</option>
+                {airports.map((airport) => (
+                  <option key={airport} value={airport}>
+                    {airport}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           {/* Results Count */}
           <div className="mt-4 text-sm text-gray-600">
             Showing {startIndex + 1}-{Math.min(startIndex + loungesPerPage, filteredLounges.length)} of {filteredLounges.length.toLocaleString()} lounges
-            {(searchTerm || selectedCountry || selectedAccessMethod) && (
+            {(searchTerm || selectedCountry || selectedCity || selectedAirport || selectedAccessMethod) && (
               <button
                 onClick={() => {
                   setSearchTerm('');
                   setSelectedCountry('');
+                  setSelectedCity('');
+                  setSelectedAirport('');
                   setSelectedAccessMethod('');
                   setCurrentPage(1);
                 }}
@@ -234,6 +295,8 @@ export default function LoungesPage() {
               onClick={() => {
                 setSearchTerm('');
                 setSelectedCountry('');
+                setSelectedCity('');
+                setSelectedAirport('');
                 setSelectedAccessMethod('');
                 setCurrentPage(1);
               }}
