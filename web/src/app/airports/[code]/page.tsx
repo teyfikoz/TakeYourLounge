@@ -207,7 +207,7 @@ export default async function AirportPage({ params }: PageProps) {
                       </span>
                     </h3>
                     <div className="grid grid-cols-1 gap-4">
-                      {lounges.map((lounge) => (
+                      {lounges.map((lounge: any) => (
                         <Link
                           key={lounge.id}
                           href={`/lounges/${lounge.id}`}
@@ -270,7 +270,7 @@ export default async function AirportPage({ params }: PageProps) {
                         <span className="text-sm text-gray-500">({lounges.length})</span>
                       </div>
                       <div className="flex flex-wrap gap-2">
-                        {lounges.map((lounge) => (
+                        {lounges.map((lounge: any) => (
                           <Link
                             key={lounge.id}
                             href={`/lounges/${lounge.id}`}
