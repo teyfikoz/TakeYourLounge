@@ -131,7 +131,7 @@ export default async function LoungePage({ params }: PageProps) {
         <div className="bg-white rounded-xl shadow-md overflow-hidden mb-8">
           {/* Images */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2">
-            {lounge.images.slice(0, 2).map((image: any, index) => (
+            {lounge.images.slice(0, 2).map((image: any, index: number) => (
               <div key={index} className="relative h-64 md:h-96 rounded-lg overflow-hidden">
                 <Image
                   src={image}
@@ -237,7 +237,7 @@ export default async function LoungePage({ params }: PageProps) {
                   Access Methods
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {lounge.access_methods.map((method: any, index) => (
+                  {lounge.access_methods.map((method: any, index: number) => (
                     <div
                       key={index}
                       className="flex items-center gap-3 bg-brand-50 p-3 rounded-lg"
@@ -257,7 +257,7 @@ export default async function LoungePage({ params }: PageProps) {
                   Amenities & Services
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {lounge.amenities.map((amenity: any, index) => (
+                  {lounge.amenities.map((amenity: any, index: number) => (
                     <div key={index} className="flex items-center gap-2">
                       <span className="text-brand-600">✓</span>
                       <span className="text-gray-700">{amenity}</span>
