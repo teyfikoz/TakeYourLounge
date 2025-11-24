@@ -9,14 +9,14 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return airportData.airports.map((airport: Airport) => ({
+  return airportData.airports.map((airport: any) => ({
     code: airport.code,
   }));
 }
 
 export async function generateMetadata({ params }: PageProps) {
   const { code } = await params;
-  const airport = airportData.airports.find((a: Airport) => a.code === code);
+  const airport = airportData.airports.find((a: any) => a.code === code);
 
   if (!airport) {
     return {
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: PageProps) {
 
 export default async function AirportPage({ params }: PageProps) {
   const { code } = await params;
-  const airport = airportData.airports.find((a: Airport) => a.code === code);
+  const airport = airportData.airports.find((a: any) => a.code === code);
 
   if (!airport) {
     notFound();
@@ -360,9 +360,9 @@ export default async function AirportPage({ params }: PageProps) {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {airportData.airports
-              .filter((a: Airport) => a.country === airport.country && a.code !== airport.code)
+              .filter((a: any) => a.country === airport.country && a.code !== airport.code)
               .slice(0, 3)
-              .map((relatedAirport: Airport) => (
+              .map((relatedAirport: any) => (
                 <Link
                   key={relatedAirport.code}
                   href={`/airports/${relatedAirport.code}`}
@@ -386,7 +386,7 @@ export default async function AirportPage({ params }: PageProps) {
                 </Link>
               ))}
           </div>
-          {airportData.airports.filter((a: Airport) => a.country === airport.country && a.code !== airport.code).length === 0 && (
+          {airportData.airports.filter((a: any) => a.country === airport.country && a.code !== airport.code).length === 0 && (
             <div className="bg-white rounded-xl shadow-md p-8 text-center text-gray-500">
               <p>No other airports found in {airport.country}</p>
             </div>
