@@ -11,14 +11,14 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return loungeData.lounges.map((lounge: Lounge) => ({
+  return loungeData.lounges.map((lounge: any) => ({
     id: lounge.id,
   }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
-  const lounge = loungeData.lounges.find((l: Lounge) => l.id === id);
+  const lounge = loungeData.lounges.find((l: any) => l.id === id);
 
   if (!lounge) {
     return {
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function LoungePage({ params }: PageProps) {
   const { id } = await params;
-  const lounge = loungeData.lounges.find((l: Lounge) => l.id === id);
+  const lounge = loungeData.lounges.find((l: any) => l.id === id);
 
   if (!lounge) {
     notFound();

@@ -18,7 +18,7 @@ export default function LoungesPage() {
   // Get unique countries, cities, airports, and access methods
   const countries = useMemo(() => {
     const uniqueCountries = new Set<string>();
-    loungeData.lounges.forEach((lounge: Lounge) => {
+    loungeData.lounges.forEach((lounge: any) => {
       if (lounge.country) uniqueCountries.add(lounge.country);
     });
     return Array.from(uniqueCountries).sort();
@@ -26,7 +26,7 @@ export default function LoungesPage() {
 
   const cities = useMemo(() => {
     const uniqueCities = new Set<string>();
-    loungeData.lounges.forEach((lounge: Lounge) => {
+    loungeData.lounges.forEach((lounge: any) => {
       if (lounge.city) uniqueCities.add(lounge.city);
     });
     return Array.from(uniqueCities).sort();
@@ -34,7 +34,7 @@ export default function LoungesPage() {
 
   const airports = useMemo(() => {
     const uniqueAirports = new Set<string>();
-    loungeData.lounges.forEach((lounge: Lounge) => {
+    loungeData.lounges.forEach((lounge: any) => {
       if (lounge.airport_name) {
         uniqueAirports.add(`${lounge.airport_code} - ${lounge.airport_name}`);
       }
@@ -44,7 +44,7 @@ export default function LoungesPage() {
 
   const accessMethods = useMemo(() => {
     const uniqueMethods = new Set<string>();
-    loungeData.lounges.forEach((lounge: Lounge) => {
+    loungeData.lounges.forEach((lounge: any) => {
       lounge.access_methods.forEach(method => uniqueMethods.add(method));
     });
     return Array.from(uniqueMethods).sort();
@@ -52,7 +52,7 @@ export default function LoungesPage() {
 
   // Filter lounges
   const filteredLounges = useMemo(() => {
-    return loungeData.lounges.filter((lounge: Lounge) => {
+    return loungeData.lounges.filter((lounge: any) => {
       const matchesSearch = searchTerm === '' ||
         lounge.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         lounge.city?.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -227,7 +227,7 @@ export default function LoungesPage() {
         {paginatedLounges.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-              {paginatedLounges.map((lounge: Lounge) => (
+              {paginatedLounges.map((lounge: any) => (
                 <LoungeCard key={lounge.id} lounge={lounge} />
               ))}
             </div>

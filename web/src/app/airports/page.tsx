@@ -13,18 +13,18 @@ export default function AirportsPage() {
 
   // Get unique countries and continents
   const countries = useMemo(() => {
-    const uniqueCountries = new Set(airportData.airports.map((a: Airport) => a.country).filter(Boolean));
+    const uniqueCountries = new Set(airportData.airports.map((a: any) => a.country).filter(Boolean));
     return Array.from(uniqueCountries).sort();
   }, []);
 
   const continents = useMemo(() => {
-    const uniqueContinents = new Set(airportData.airports.map((a: Airport) => a.continent).filter(Boolean));
+    const uniqueContinents = new Set(airportData.airports.map((a: any) => a.continent).filter(Boolean));
     return Array.from(uniqueContinents).sort();
   }, []);
 
   // Filter and sort airports
   const filteredAirports = useMemo(() => {
-    let filtered = airportData.airports.filter((airport: Airport) => {
+    let filtered = airportData.airports.filter((airport: any) => {
       const matchesSearch = searchTerm === '' ||
         airport.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         airport.code.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -37,7 +37,7 @@ export default function AirportsPage() {
     });
 
     // Sort
-    filtered.sort((a: Airport, b: Airport) => {
+    filtered.sort((a: any, b: any) => {
       switch (sortBy) {
         case 'lounges':
           return b.lounge_count - a.lounge_count;
@@ -165,7 +165,7 @@ export default function AirportsPage() {
 
         {/* Airport Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredAirports.map((airport: Airport) => (
+          {filteredAirports.map((airport: any) => (
             <Link
               key={airport.code}
               href={`/airports/${airport.code}`}
