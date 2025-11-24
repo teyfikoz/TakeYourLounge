@@ -196,7 +196,7 @@ export default async function AirportPage({ params }: PageProps) {
                 Lounges by Terminal
               </h2>
               <div className="space-y-6">
-                {Object.entries(airport.terminals).map(([terminal, lounges]) => (
+                {Object.entries(airport.terminals).map(([terminal, lounges]: [string, any[]]) => (
                   <div key={terminal} className="border-b border-gray-100 pb-6 last:border-0">
                     <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
                       <span className="bg-brand-100 text-brand-700 px-3 py-1 rounded-lg text-sm">
@@ -231,7 +231,7 @@ export default async function AirportPage({ params }: PageProps) {
                           )}
                           {lounge.amenities.length > 0 && (
                             <div className="flex flex-wrap gap-1 mt-2">
-                              {lounge.amenities.slice(0, 4).map((amenity, idx) => (
+                              {lounge.amenities.slice(0, 4).map((amenity: any, idx) => (
                                 <span
                                   key={idx}
                                   className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded"
@@ -260,7 +260,7 @@ export default async function AirportPage({ params }: PageProps) {
                 Lounges by Type
               </h2>
               <div className="space-y-4">
-                {Object.entries(loungesByType).map(([type, lounges]) => {
+                {Object.entries(loungesByType).map(([type, lounges]: [string, any[]]) => {
                   const typeInfo = typeLabels[type] || { label: type, icon: '📍', color: 'gray' };
                   return (
                     <div key={type} className="border border-gray-200 rounded-lg p-4">
@@ -294,7 +294,7 @@ export default async function AirportPage({ params }: PageProps) {
               <div className="bg-white rounded-xl shadow-md p-6">
                 <h3 className="font-bold text-gray-900 mb-4">Available Access Methods</h3>
                 <div className="space-y-2">
-                  {airport.available_access_methods.map((method, index) => (
+                  {airport.available_access_methods.map((method: any, index) => (
                     <div
                       key={index}
                       className="flex items-center gap-2 text-sm text-gray-700 bg-brand-50 p-2 rounded-lg"
@@ -312,7 +312,7 @@ export default async function AirportPage({ params }: PageProps) {
               <div className="bg-white rounded-xl shadow-md p-6">
                 <h3 className="font-bold text-gray-900 mb-4">Common Amenities</h3>
                 <div className="flex flex-wrap gap-2">
-                  {airport.common_amenities.map((amenity, index) => (
+                  {airport.common_amenities.map((amenity: any, index) => (
                     <span
                       key={index}
                       className="text-sm bg-gray-100 text-gray-700 px-3 py-1.5 rounded-lg"
