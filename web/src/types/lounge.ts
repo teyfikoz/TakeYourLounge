@@ -17,7 +17,7 @@ export interface Lounge {
   coordinates?: {
     lat: number;
     lng: number;
-  };
+  } | null;
   continent?: string;
   iso_country?: string;
   images: string[];
@@ -38,7 +38,7 @@ export interface Airport {
   coordinates?: {
     lat: number;
     lng: number;
-  };
+  } | null;
   lounge_count: number;
   avg_rating: number;
   terminals: Record<string, Lounge[]>;
