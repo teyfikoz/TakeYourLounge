@@ -4,6 +4,7 @@ import loungeData from '@/data/lounges.json';
 import { Lounge } from '@/types/lounge';
 import { notFound } from 'next/navigation';
 import ReviewForm from '@/components/ReviewForm';
+import type { Metadata } from 'next';
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -15,6 +16,49 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { id } = await params;
+  const lounge = loungeData.lounges.find((l: Lounge) => l.id === id);
+
+  if (!lounge) {
+    return {
+      title: 'Lounge Not Found | TakeYourLounge',
+    };
+  }
+
+  const title = `${lounge.name} - ${lounge.airport_code} ${lounge.city} | TakeYourLounge`;
+  const description = lounge.description
+    ? lounge.description.slice(0, 155)
+    : `${lounge.name} at ${lounge.airport_name} (${lounge.airport_code}) in ${lounge.city}, ${lounge.country}. ${lounge.amenities.length} amenities, ${lounge.access_methods.length} access methods. Rating: ${lounge.rating > 0 ? lounge.rating.toFixed(1) : 'Not rated yet'}.`;
+
+  return {
+    title,
+    description,
+    keywords: `${lounge.name}, ${lounge.airport_code} lounge, ${lounge.city} airport lounge, ${lounge.country} lounge, ${lounge.access_methods.join(', ')}, airport lounge`,
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `https://takeyourlounge.com/lounges/${lounge.id}`,
+      siteName: 'TakeYourLounge',
+      images: lounge.images.length > 0 ? [
+        {
+          url: lounge.images[0],
+          width: 1200,
+          height: 630,
+          alt: `${lounge.name} at ${lounge.airport_code}`,
+        },
+      ] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: lounge.images.length > 0 ? [lounge.images[0]] : [],
+    },
+  };
+}
+
 export default async function LoungePage({ params }: PageProps) {
   const { id } = await params;
   const lounge = loungeData.lounges.find((l: Lounge) => l.id === id);
@@ -23,8 +67,46 @@ export default async function LoungePage({ params }: PageProps) {
     notFound();
   }
 
+  // Schema.org structured data for SEO
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristAttraction',
+    name: lounge.name,
+    description: lounge.description || `${lounge.name} at ${lounge.airport_name}`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: lounge.city,
+      addressCountry: lounge.country,
+    },
+    geo: lounge.coordinates ? {
+      '@type': 'GeoCoordinates',
+      latitude: lounge.coordinates.lat,
+      longitude: lounge.coordinates.lng,
+    } : undefined,
+    image: lounge.images,
+    aggregateRating: lounge.rating > 0 ? {
+      '@type': 'AggregateRating',
+      ratingValue: lounge.rating,
+      reviewCount: lounge.review_count,
+      bestRating: 5,
+      worstRating: 1,
+    } : undefined,
+    amenityFeature: lounge.amenities.map(amenity => ({
+      '@type': 'LocationFeatureSpecification',
+      name: amenity,
+    })),
+    publicAccess: true,
+    isAccessibleForFree: false,
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       {/* Header */}
       <header className="bg-white border-b">
         <div className="container-custom py-6">

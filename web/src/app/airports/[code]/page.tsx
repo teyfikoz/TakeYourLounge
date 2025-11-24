@@ -20,13 +20,29 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!airport) {
     return {
-      title: 'Airport Not Found',
+      title: 'Airport Not Found | TakeYourLounge',
     };
   }
 
+  const title = `${airport.name} (${airport.code}) - ${airport.lounge_count} Lounges | TakeYourLounge`;
+  const description = `Discover ${airport.lounge_count} premium airport lounges at ${airport.name} in ${airport.city}, ${airport.country}. ${airport.available_access_methods.length} access methods available. Average rating: ${airport.avg_rating > 0 ? airport.avg_rating.toFixed(1) : 'Not rated yet'}.`;
+
   return {
-    title: `${airport.name} (${airport.code}) - Airport Lounges | TakeYourLounge`,
-    description: `Discover ${airport.lounge_count} premium lounges at ${airport.name} in ${airport.city}, ${airport.country}. Find access methods, amenities, and reviews.`,
+    title,
+    description,
+    keywords: `${airport.code} lounges, ${airport.name}, ${airport.city} airport, ${airport.country} airport lounges, ${airport.available_access_methods.join(', ')}`,
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `https://takeyourlounge.com/airports/${airport.code}`,
+      siteName: 'TakeYourLounge',
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
   };
 }
 
@@ -37,6 +53,31 @@ export default async function AirportPage({ params }: PageProps) {
   if (!airport) {
     notFound();
   }
+
+  // Schema.org structured data for SEO
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Airport',
+    name: airport.name,
+    iataCode: airport.code,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: airport.city,
+      addressCountry: airport.country,
+    },
+    geo: airport.coordinates ? {
+      '@type': 'GeoCoordinates',
+      latitude: airport.coordinates.lat,
+      longitude: airport.coordinates.lng,
+    } : undefined,
+    aggregateRating: airport.avg_rating > 0 ? {
+      '@type': 'AggregateRating',
+      ratingValue: airport.avg_rating,
+      reviewCount: airport.lounges.reduce((sum, l) => sum + l.review_count, 0),
+      bestRating: 5,
+      worstRating: 1,
+    } : undefined,
+  };
 
   // Group lounges by type
   const loungesByType = airport.lounges.reduce((acc, lounge) => {
@@ -55,6 +96,12 @@ export default async function AirportPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       {/* Header */}
       <header className="bg-white border-b">
         <div className="container-custom py-6">
