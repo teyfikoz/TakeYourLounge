@@ -85,7 +85,7 @@ export default async function AirportPage({ params }: PageProps) {
     if (!acc[type]) acc[type] = [];
     acc[type].push(lounge);
     return acc;
-  }, {} as Record<string, Lounge[]>);
+  }, {} as Record<string, any[]>);
 
   const typeLabels: Record<string, { label: string; icon: string; color: string }> = {
     centurion: { label: 'Centurion Lounges', icon: '✨', color: 'brand' },
