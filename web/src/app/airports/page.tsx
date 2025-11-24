@@ -226,7 +226,7 @@ export default function AirportsPage() {
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <div className="text-xs text-gray-500 mb-2">Access Methods:</div>
                     <div className="flex flex-wrap gap-1">
-                      {airport.available_access_methods.slice(0, 3).map((method, index) => (
+                      {airport.available_access_methods.slice(0, 3).map((method: any, index) => (
                         <span
                           key={index}
                           className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded"
