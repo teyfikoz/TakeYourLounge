@@ -47,3 +47,17 @@ export function getDeviceId(): string {
   localStorage.setItem('deviceId', newId);
   return newId;
 }
+
+export function hasReviewed(loungeId: string): boolean {
+  if (typeof window === 'undefined') return false;
+
+  const reviewKey = `reviewed_${loungeId}`;
+  return localStorage.getItem(reviewKey) === 'true';
+}
+
+export function markAsReviewed(loungeId: string): void {
+  if (typeof window === 'undefined') return;
+
+  const reviewKey = `reviewed_${loungeId}`;
+  localStorage.setItem(reviewKey, 'true');
+}

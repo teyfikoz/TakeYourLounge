@@ -34,3 +34,13 @@ export const event = ({ action, category, label, value }: EventParams) => {
     });
   }
 };
+
+export const trackVisitor = (deviceId: string, page: string) => {
+  if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
+    window.gtag('event', 'visitor_tracking', {
+      event_category: 'engagement',
+      event_label: page,
+      device_id: deviceId,
+    });
+  }
+};
