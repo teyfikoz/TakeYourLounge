@@ -231,7 +231,7 @@ export default async function AirportPage({ params }: PageProps) {
                           )}
                           {lounge.amenities.length > 0 && (
                             <div className="flex flex-wrap gap-1 mt-2">
-                              {lounge.amenities.slice(0, 4).map((amenity: any, idx) => (
+                              {lounge.amenities.slice(0, 4).map((amenity: any, idx: number) => (
                                 <span
                                   key={idx}
                                   className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded"
@@ -294,7 +294,7 @@ export default async function AirportPage({ params }: PageProps) {
               <div className="bg-white rounded-xl shadow-md p-6">
                 <h3 className="font-bold text-gray-900 mb-4">Available Access Methods</h3>
                 <div className="space-y-2">
-                  {airport.available_access_methods.map((method: any, index) => (
+                  {airport.available_access_methods.map((method: any, index: number) => (
                     <div
                       key={index}
                       className="flex items-center gap-2 text-sm text-gray-700 bg-brand-50 p-2 rounded-lg"
@@ -312,7 +312,7 @@ export default async function AirportPage({ params }: PageProps) {
               <div className="bg-white rounded-xl shadow-md p-6">
                 <h3 className="font-bold text-gray-900 mb-4">Common Amenities</h3>
                 <div className="flex flex-wrap gap-2">
-                  {airport.common_amenities.map((amenity: any, index) => (
+                  {airport.common_amenities.map((amenity: any, index: number) => (
                     <span
                       key={index}
                       className="text-sm bg-gray-100 text-gray-700 px-3 py-1.5 rounded-lg"
