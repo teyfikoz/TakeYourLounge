@@ -35,12 +35,23 @@ export const event = ({ action, category, label, value }: EventParams) => {
   }
 };
 
-export const trackVisitor = (deviceId: string, page: string) => {
+interface VisitorData {
+  deviceId: string;
+  deviceType?: string;
+  os?: string;
+  browser?: string;
+  page?: string;
+}
+
+export const trackVisitor = (data: VisitorData) => {
   if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
     window.gtag('event', 'visitor_tracking', {
       event_category: 'engagement',
-      event_label: page,
-      device_id: deviceId,
+      event_label: data.page || window.location.pathname,
+      device_id: data.deviceId,
+      device_type: data.deviceType,
+      os: data.os,
+      browser: data.browser,
     });
   }
 };
