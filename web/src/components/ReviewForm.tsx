@@ -78,14 +78,14 @@ export default function ReviewForm({ loungeId, loungeName, onSubmit }: ReviewFor
 
     setIsSubmitting(true);
 
-    const review: Review = {
+    const review = {
       deviceId: getDeviceId(),
       loungeId,
       ...ratings,
       overallRating: calculateOverallRating(),
       comment: comment.trim(),
       timestamp: Date.now(),
-    };
+    } as Review;
 
     // Simulate API call (you'll replace this with actual API)
     await new Promise(resolve => setTimeout(resolve, 1000));
