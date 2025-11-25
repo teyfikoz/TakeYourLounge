@@ -181,9 +181,8 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://github.com/teyfikoz/TakeYourLounge" className="hover:text-white">GitHub</a></li>
+                <li><a href="https://techsyncanalytica.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
                 <li><a href="#" className="hover:text-white">Twitter</a></li>
-                <li><a href="#" className="hover:text-white">LinkedIn</a></li>
               </ul>
             </div>
           </div>
