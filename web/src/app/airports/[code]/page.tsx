@@ -260,7 +260,7 @@ export default async function AirportPage({ params }: PageProps) {
                 Lounges by Type
               </h2>
               <div className="space-y-4">
-                {Object.entries(loungesByType).map(([type, lounges]: [string, any[]]) => {
+                {Object.entries(loungesByType as Record<string, any[]>).map(([type, lounges]: [string, any[]]) => {
                   const typeInfo = typeLabels[type] || { label: type, icon: '📍', color: 'gray' };
                   return (
                     <div key={type} className="border border-gray-200 rounded-lg p-4">
