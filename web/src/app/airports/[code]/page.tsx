@@ -73,14 +73,14 @@ export default async function AirportPage({ params }: PageProps) {
     aggregateRating: airport.avg_rating > 0 ? {
       '@type': 'AggregateRating',
       ratingValue: airport.avg_rating,
-      reviewCount: airport.lounges.reduce((sum, l) => sum + l.review_count, 0),
+      reviewCount: airport.lounges.reduce((sum: number, l: any) => sum + l.review_count, 0),
       bestRating: 5,
       worstRating: 1,
     } : undefined,
   };
 
   // Group lounges by type
-  const loungesByType = airport.lounges.reduce((acc, lounge) => {
+  const loungesByType = airport.lounges.reduce((acc: any, lounge: any) => {
     const type = lounge.lounge_type;
     if (!acc[type]) acc[type] = [];
     acc[type].push(lounge);

@@ -91,7 +91,7 @@ export default async function LoungePage({ params }: PageProps) {
       bestRating: 5,
       worstRating: 1,
     } : undefined,
-    amenityFeature: lounge.amenities.map(amenity => ({
+    amenityFeature: lounge.amenities.map((amenity: string) => ({
       '@type': 'LocationFeatureSpecification',
       name: amenity,
     })),

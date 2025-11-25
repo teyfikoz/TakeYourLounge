@@ -45,7 +45,7 @@ export default function LoungesPage() {
   const accessMethods = useMemo(() => {
     const uniqueMethods = new Set<string>();
     loungeData.lounges.forEach((lounge: any) => {
-      lounge.access_methods.forEach(method => uniqueMethods.add(method));
+      lounge.access_methods.forEach((method: string) => uniqueMethods.add(method));
     });
     return Array.from(uniqueMethods).sort();
   }, []);
