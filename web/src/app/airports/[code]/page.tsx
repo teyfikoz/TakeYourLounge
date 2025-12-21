@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: PageProps) {
     title,
     description,
     keywords: `${airport.code} lounges, ${airport.name}, ${airport.city} airport, ${airport.country} airport lounges, ${airport.available_access_methods.join(', ')}`,
+    alternates: {
+      canonical: `https://takeyourlounge.com/airports/${airport.code}`,
+    },
     openGraph: {
       title,
       description,

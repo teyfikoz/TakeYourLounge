@@ -11,10 +11,15 @@ export const metadata: Metadata = {
   title: "TakeYourLounge | Discover Airport Lounges Worldwide",
   description: "Find and book premium airport lounges globally. Browse 2,256 lounges across 703 airports with Priority Pass, Amex, and more.",
   keywords: "airport lounge, priority pass, lounge access, travel, business lounge, VIP lounge",
+  metadataBase: new URL('https://takeyourlounge.com'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "TakeYourLounge - Global Airport Lounge Directory",
     description: "Discover 2,256 airport lounges worldwide across 175 countries",
     type: "website",
+    url: "https://takeyourlounge.com",
   },
 };
 

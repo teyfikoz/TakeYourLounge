@@ -35,6 +35,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title,
     description,
     keywords: `${lounge.name}, ${lounge.airport_code} lounge, ${lounge.city} airport lounge, ${lounge.country} lounge, ${lounge.access_methods.join(', ')}, airport lounge`,
+    alternates: {
+      canonical: `https://takeyourlounge.com/lounges/${lounge.id}`,
+    },
     openGraph: {
       title,
       description,
