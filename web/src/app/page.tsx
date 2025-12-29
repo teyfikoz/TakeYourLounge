@@ -1,8 +1,62 @@
 import Link from 'next/link';
 
 export default function Home() {
+  // Schema.org structured data for organization and website
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'TakeYourLounge',
+    url: 'https://takeyourlounge.com',
+    logo: 'https://takeyourlounge.com/logo.png',
+    description: 'Global airport lounge directory and networking platform',
+    founder: {
+      '@type': 'Organization',
+      name: 'Tech Sync Analytica LLC',
+      url: 'https://techsyncanalytica.com',
+      address: {
+        '@type': 'PostalAddress',
+        addressRegion: 'New Mexico',
+        addressCountry: 'US'
+      }
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'info@tsynca.com',
+      contactType: 'Customer Service'
+    },
+    sameAs: [
+      'https://linkedin.com/company/tech-sync-analytica'
+    ]
+  };
+
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'TakeYourLounge',
+    url: 'https://takeyourlounge.com',
+    description: 'Discover 2,272 premium airport lounges across 703 airports in 175 countries',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://takeyourlounge.com/lounges?search={search_term_string}'
+      },
+      'query-input': 'required name=search_term_string'
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-brand-50 to-white">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+
       {/* Hero Section */}
       <header className="container-custom pt-16 pb-20">
         <nav className="flex justify-between items-center mb-16">
@@ -173,7 +227,9 @@ export default function Home() {
               <h4 className="text-white font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+                <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
                 <li><a href="mailto:info@tsynca.com" className="hover:text-white">Contact</a></li>
+                <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
               </ul>
             </div>
 

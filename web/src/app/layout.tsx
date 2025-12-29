@@ -4,6 +4,7 @@ import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import VisitorTracker from "@/components/VisitorTracker";
 import ClickTracker from "@/components/ClickTracker";
+import CookieConsent from "@/components/CookieConsent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,13 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://takeyourlounge.com",
   },
+  manifest: '/manifest.json',
+  themeColor: '#9333ea',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'TakeYourLounge'
+  }
 };
 
 export default function RootLayout({
@@ -34,6 +42,7 @@ export default function RootLayout({
         <GoogleAnalytics />
         <VisitorTracker />
         <ClickTracker />
+        <CookieConsent />
         {children}
       </body>
     </html>

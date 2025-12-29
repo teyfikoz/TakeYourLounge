@@ -4,6 +4,7 @@ import loungeData from '@/data/lounges.json';
 import { Lounge } from '@/types/lounge';
 import { notFound } from 'next/navigation';
 import ReviewForm from '@/components/ReviewForm';
+import ShareButtons from '@/components/ShareButtons';
 import type { Metadata } from 'next';
 
 interface PageProps {
@@ -342,20 +343,11 @@ export default async function LoungePage({ params }: PageProps) {
             </div>
 
             {/* Share */}
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="font-bold text-gray-900 mb-4">Share Lounge</h3>
-              <div className="flex gap-2">
-                <button className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
-                  Twitter
-                </button>
-                <button className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
-                  Facebook
-                </button>
-                <button className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
-                  Copy Link
-                </button>
-              </div>
-            </div>
+            <ShareButtons
+              url={`https://takeyourlounge.com/lounges/${lounge.id}`}
+              title={`${lounge.name} at ${lounge.airport_code}`}
+              description={lounge.description || `Check out ${lounge.name} at ${lounge.airport_name} on TakeYourLounge`}
+            />
           </div>
         </div>
 
