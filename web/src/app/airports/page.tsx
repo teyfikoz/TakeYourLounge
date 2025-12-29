@@ -69,6 +69,9 @@ export default function AirportsPage() {
               <Link href="/airports" className="text-brand-600 font-medium">
                 Airports
               </Link>
+              <Link href="/about" className="text-gray-700 hover:text-brand-600">
+                About
+              </Link>
             </div>
           </nav>
         </div>

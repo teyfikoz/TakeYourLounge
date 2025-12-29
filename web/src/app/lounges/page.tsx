@@ -109,6 +109,20 @@ export default function LoungesPage() {
         </div>
       </header>
 
+      {/* Image Disclaimer */}
+      <div className="bg-amber-50 border-l-4 border-amber-400">
+        <div className="container-custom py-4">
+          <div className="flex items-start gap-3">
+            <div className="text-2xl">ℹ️</div>
+            <div>
+              <p className="text-sm text-amber-900">
+                <strong>Image Notice:</strong> The images displayed for lounges may be representative or generic airport lounge photos and might not depict the actual specific lounge. We recommend verifying lounge details directly with the airport or lounge operator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Filters */}
       <div className="bg-white border-b sticky top-0 z-10 shadow-sm">
         <div className="container-custom py-4">

@@ -173,16 +173,14 @@ export default function Home() {
               <h4 className="text-white font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-                <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
-                <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
+                <li><a href="mailto:info@tsynca.com" className="hover:text-white">Contact</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-white font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://techsyncanalytica.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
-                <li><a href="#" className="hover:text-white">Twitter</a></li>
+                <li><a href="https://linkedin.com/company/tech-sync-analytica" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
               </ul>
             </div>
           </div>

@@ -130,6 +130,20 @@ export default async function LoungePage({ params }: PageProps) {
       </header>
 
       <main className="container-custom py-8">
+        {/* Image Disclaimer */}
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-lg mb-6">
+          <div className="py-3 px-4">
+            <div className="flex items-start gap-3">
+              <div className="text-xl">ℹ️</div>
+              <div>
+                <p className="text-sm text-amber-900">
+                  <strong>Image Notice:</strong> The images displayed may be representative photos and might not depict the actual lounge. Please verify details with the lounge operator.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Hero Section */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden mb-8">
           {/* Images */}
