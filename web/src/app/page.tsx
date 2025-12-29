@@ -25,7 +25,7 @@ export default function Home() {
       contactType: 'Customer Service'
     },
     sameAs: [
-      'https://linkedin.com/company/tech-sync-analytica'
+      'https://www.linkedin.com/company/tech-sync-analytica-llc'
     ]
   };
 
@@ -236,7 +236,7 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://linkedin.com/company/tech-sync-analytica" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/company/tech-sync-analytica-llc/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
               </ul>
             </div>
           </div>
