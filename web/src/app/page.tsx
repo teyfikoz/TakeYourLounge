@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import LoungeFinderWizard from '@/components/lounge-finder-wizard';
 
 export default function Home() {
   // Schema.org structured data for organization and website
@@ -8,7 +11,7 @@ export default function Home() {
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
     logo: 'https://takeyourlounge.com/logo.png',
-    description: 'Global airport lounge directory and networking platform',
+    description: 'Global airport lounge directory and networking platform featuring 2,045 premium lounges worldwide',
     founder: {
       '@type': 'Organization',
       name: 'Tech Sync Analytica LLC',
@@ -34,7 +37,7 @@ export default function Home() {
     '@type': 'WebSite',
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
-    description: 'Discover 2,272 premium airport lounges across 703 airports in 175 countries',
+    description: 'Discover 2,045 premium airport lounges across 703 airports in 175 countries',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -83,7 +86,7 @@ export default function Home() {
             Worldwide
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Browse 2,272 premium lounges across 703 airports in 175 countries.
+            Browse 2,045 premium lounges across 703 airports in 175 countries.
             <br />
             Find your perfect travel sanctuary.
           </p>
@@ -104,7 +107,7 @@ export default function Home() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-brand-600 mb-2">2,272</div>
+              <div className="text-4xl font-bold text-brand-600 mb-2">2,045</div>
               <div className="text-gray-600">Airport Lounges</div>
             </div>
             <div>
@@ -257,6 +260,9 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Smart Lounge Finder Wizard */}
+      <LoungeFinderWizard />
     </div>
   );
 }

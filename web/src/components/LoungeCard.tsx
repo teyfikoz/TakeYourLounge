@@ -1,15 +1,56 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Lounge } from '@/types/lounge';
+import { addToCompare, removeFromCompare, isInCompare } from './compare-selector';
 
 interface LoungeCardProps {
   lounge: Lounge;
 }
 
 export default function LoungeCard({ lounge }: LoungeCardProps) {
+  const [inCompare, setInCompare] = useState(false);
+
+  useEffect(() => {
+    setInCompare(isInCompare(lounge.id));
+
+    const handleCompareUpdate = () => {
+      setInCompare(isInCompare(lounge.id));
+    };
+
+    window.addEventListener('addToCompare', handleCompareUpdate);
+    window.addEventListener('removeFromCompare', handleCompareUpdate);
+    window.addEventListener('clearCompare', handleCompareUpdate);
+
+    return () => {
+      window.removeEventListener('addToCompare', handleCompareUpdate);
+      window.removeEventListener('removeFromCompare', handleCompareUpdate);
+      window.removeEventListener('clearCompare', handleCompareUpdate);
+    };
+  }, [lounge.id]);
+
+  const handleCompareClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (inCompare) {
+      removeFromCompare(lounge.id);
+    } else {
+      addToCompare({
+        id: lounge.id,
+        name: lounge.name,
+        airport_code: lounge.airport_code,
+        image: lounge.images[0] || '/images/placeholder-lounge.jpg'
+      });
+    }
+  };
+
   return (
-    <Link href={`/lounges/${lounge.id}`} className="block">
-      <div className="card group cursor-pointer h-full">
+    <div className="relative">
+      <Link href={`/lounges/${lounge.id}`} className="block">
+        <div className="card group cursor-pointer h-full">
         {/* Image */}
         <div className="relative h-48 -mx-6 -mt-6 mb-4 overflow-hidden rounded-t-lg bg-gray-100">
           <Image
@@ -114,6 +155,20 @@ export default function LoungeCard({ lounge }: LoungeCardProps) {
           )}
         </div>
       </div>
-    </Link>
+      </Link>
+
+      {/* Compare Button - Outside Link */}
+      <button
+        onClick={handleCompareClick}
+        className={`absolute top-3 right-3 px-3 py-1.5 rounded-lg text-sm font-medium transition-all z-10 ${
+          inCompare
+            ? 'bg-brand-600 text-white hover:bg-brand-700'
+            : 'bg-white/90 backdrop-blur-sm text-gray-700 hover:bg-brand-50 hover:text-brand-600 border border-gray-200'
+        }`}
+        title={inCompare ? 'Remove from comparison' : 'Add to comparison'}
+      >
+        {inCompare ? '✓ Added' : '⚖️ Compare'}
+      </button>
+    </div>
   );
 }

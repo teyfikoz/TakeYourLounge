@@ -21,15 +21,23 @@ export async function POST(request: NextRequest) {
                request.headers.get('x-real-ip') ||
                'Unknown';
 
-    // Get location from IP (using ipapi.co free API)
+    // Get location from IP (using ipapi.co free API) with timeout
     let locationData = {};
     try {
-      const geoResponse = await fetch(`https://ipapi.co/${ip}/json/`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 second timeout
+
+      const geoResponse = await fetch(`https://ipapi.co/${ip}/json/`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
       if (geoResponse.ok) {
         locationData = await geoResponse.json();
       }
     } catch (error) {
       console.error('Failed to get location:', error);
+      // Continue without location data
     }
 
     // Combine data
@@ -39,16 +47,20 @@ export async function POST(request: NextRequest) {
       ...(locationData as any),
     };
 
-    // Save to Google Sheets
+    // Save to Google Sheets (non-blocking)
     if (process.env.GOOGLE_SHEETS_CLIENT_EMAIL &&
         process.env.GOOGLE_SHEETS_PRIVATE_KEY &&
         process.env.GOOGLE_SHEET_ID) {
 
-      await saveToGoogleSheets(fullData);
+      // Run in background, don't wait for completion
+      saveToGoogleSheets(fullData).catch(error => {
+        console.error('Background save to Google Sheets failed:', error);
+      });
     } else {
       console.warn('Google Sheets credentials not configured');
     }
 
+    // Return immediately without waiting for Google Sheets
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Visitor tracking error:', error);

@@ -13,7 +13,7 @@ const faqs: FAQItem[] = [
   {
     category: "General",
     question: "What is TakeYourLounge?",
-    answer: "TakeYourLounge is a comprehensive global directory of airport lounges. We provide detailed information about 2,272+ premium lounges across 703 airports in 175 countries, including amenities, access methods, ratings, and reviews."
+    answer: "TakeYourLounge is a comprehensive global directory of airport lounges. We provide detailed information about 2,045+ premium lounges across 703 airports in 175 countries, including amenities, access methods, ratings, and reviews."
   },
   {
     category: "General",
@@ -102,8 +102,27 @@ export default function FAQPage() {
     ? faqs
     : faqs.filter(faq => faq.category === selectedCategory);
 
+  // Schema.org FAQPage structured data for SEO
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer
+      }
+    }))
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-brand-50 to-white">
+      {/* Schema.org FAQPage Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Navigation */}
       <header className="container-custom pt-8 pb-6">
         <nav className="flex justify-between items-center">

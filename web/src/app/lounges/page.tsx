@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import LoungeCard from '@/components/LoungeCard';
+import CompareSelector from '@/components/compare-selector';
 import loungeData from '@/data/lounges.json';
 import { Lounge } from '@/types/lounge';
 
@@ -328,6 +329,9 @@ export default function LoungesPage() {
           <p className="text-sm">&copy; 2025 TakeYourLounge. All rights reserved.</p>
         </div>
       </footer>
+
+      {/* Compare Selector */}
+      <CompareSelector />
     </div>
   );
 }

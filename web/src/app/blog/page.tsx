@@ -1,16 +1,7 @@
-import Link from 'next/link';
-import type { Metadata } from 'next';
+'use client';
 
-export const metadata: Metadata = {
-  title: "Travel Guides | TakeYourLounge",
-  description: "Expert travel guides, airport lounge tips, and insider insights to enhance your travel experience.",
-  openGraph: {
-    title: "Travel Guides - Airport Lounge Tips & Insights",
-    description: "Discover expert tips for maximizing your airport lounge experience worldwide.",
-    type: "website",
-    url: "https://takeyourlounge.com/blog",
-  },
-};
+import { useState } from 'react';
+import Link from 'next/link';
 
 interface BlogPost {
   id: string;
@@ -123,6 +114,13 @@ const blogPosts: BlogPost[] = [
 const categories = ["All", "Access Cards", "Business Travel", "Tips & Tricks", "Family Travel", "Luxury Travel", "Digital Nomads", "Wellness"];
 
 export default function BlogPage() {
+  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+
+  // Filter posts based on selected category
+  const filteredPosts = selectedCategory === "All"
+    ? blogPosts
+    : blogPosts.filter(post => post.category === selectedCategory);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-brand-50 to-white">
       {/* Navigation */}
@@ -160,25 +158,53 @@ export default function BlogPage() {
       {/* Categories */}
       <section className="container-custom pb-8">
         <div className="flex flex-wrap gap-3 justify-center">
-          {categories.map((category) => (
-            <button
-              key={category}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                category === "All"
-                  ? "bg-brand-600 text-white"
-                  : "bg-white text-gray-700 hover:bg-brand-50 border border-gray-200"
-              }`}
-            >
-              {category}
-            </button>
-          ))}
+          {categories.map((category) => {
+            const count = category === "All"
+              ? blogPosts.length
+              : blogPosts.filter(p => p.category === category).length;
+
+            return (
+              <button
+                key={category}
+                onClick={() => setSelectedCategory(category)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                  category === selectedCategory
+                    ? "bg-brand-600 text-white"
+                    : "bg-white text-gray-700 hover:bg-brand-50 border border-gray-200"
+                }`}
+              >
+                {category} <span className="ml-1 opacity-70">({count})</span>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Results Count */}
+      <section className="container-custom pb-4">
+        <div className="text-center text-gray-600">
+          Showing <span className="font-semibold text-brand-600">{filteredPosts.length}</span> {filteredPosts.length === 1 ? 'article' : 'articles'}
+          {selectedCategory !== "All" && <span> in <span className="font-semibold">{selectedCategory}</span></span>}
         </div>
       </section>
 
       {/* Blog Posts Grid */}
       <section className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {blogPosts.map((post) => (
+        {filteredPosts.length === 0 ? (
+          <div className="text-center py-16">
+            <div className="text-6xl mb-4">📝</div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">No articles in this category yet</h3>
+            <p className="text-gray-600 mb-6">Check back soon for new content!</p>
+            <button
+              onClick={() => setSelectedCategory("All")}
+              className="btn-primary px-6 py-3"
+            >
+              View All Articles
+            </button>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {filteredPosts.map((post) => (
             <article
               key={post.id}
               className="card hover:shadow-xl transition-shadow cursor-pointer group"
@@ -204,7 +230,8 @@ export default function BlogPage() {
               </div>
             </article>
           ))}
-        </div>
+          </div>
+        )}
       </section>
 
       {/* Coming Soon Notice */}

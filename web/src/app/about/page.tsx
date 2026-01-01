@@ -57,7 +57,7 @@ export default function AboutPage() {
               <p className="text-lg text-gray-700 mb-4">
                 TakeYourLounge is your comprehensive guide to airport lounges around the globe.
                 We believe that every traveler deserves access to comfort, convenience, and quality
-                service during their journey. Our platform connects you with over 2,000 premium
+                service during their journey. Our platform connects you with over 2,045 premium
                 airport lounges across 175 countries, making it easier than ever to find your perfect
                 travel sanctuary.
               </p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                   <div className="text-brand-600 text-3xl mb-3">🌍</div>
                   <h3 className="text-xl font-semibold mb-2">Global Lounge Directory</h3>
                   <p className="text-gray-600">
-                    Access detailed information about 2,272 airport lounges worldwide, including
+                    Access detailed information about 2,045 airport lounges worldwide, including
                     amenities, access methods, and locations.
                   </p>
                 </div>
