@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { sendB2BInquiry } from '@/lib/email-service';
 
 export async function POST(request: NextRequest) {
   try {
@@ -35,22 +36,7 @@ Submitted: ${new Date().toLocaleString('en-US', { timeZone: 'UTC' })} UTC
 From: TakeYourLounge.com - B2B Card Issuers Form
     `.trim();
 
-    // Send email using Resend
-    const resendApiKey = process.env.RESEND_API_KEY;
-
-    if (resendApiKey) {
-      const response = await fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${resendApiKey}`,
-        },
-        body: JSON.stringify({
-          from: 'TakeYourLounge <noreply@takeyourlounge.com>',
-          to: ['info@tsynca.com'],
-          subject: `💳 New Card Issuer Partnership Inquiry - ${company}`,
-          text: emailContent,
-          html: `
+    const emailHtml = `
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
               <h2 style="color: #9333ea; border-bottom: 3px solid #9333ea; padding-bottom: 10px;">
                 💳 New Card Issuer Partnership Inquiry
@@ -94,20 +80,15 @@ From: TakeYourLounge.com - B2B Card Issuers Form
                 <p>From: <strong>TakeYourLounge.com</strong> - B2B Card Issuers Form</p>
               </div>
             </div>
-          `,
-        }),
-      });
+    `;
 
-      if (!response.ok) {
-        throw new Error('Failed to send email via Resend');
-      }
-
-      const result = await response.json();
-      console.log('✅ Email sent via Resend:', result);
-    } else {
-      console.log('📧 Email would be sent (RESEND_API_KEY not configured):');
-      console.log(emailContent);
-    }
+    // Send email via centralized service
+    await sendB2BInquiry({
+      type: 'card-issuers',
+      subject: `💳 New Card Issuer Partnership Inquiry - ${company}`,
+      text: emailContent,
+      html: emailHtml,
+    });
 
     return NextResponse.json({
       success: true,
