@@ -47,8 +47,8 @@ export default function AirportGuidePage() {
   const terminals = Object.keys(airport.terminals || {});
   const terminalLoungeCounts = terminals.map(term => ({
     name: term,
-    count: airport.terminals[term]?.length || 0,
-    lounges: airport.terminals[term] || []
+    count: (airport.terminals as any)[term]?.length || 0,
+    lounges: (airport.terminals as any)[term] || []
   })).sort((a, b) => b.count - a.count);
 
   const bestTerminal = terminalLoungeCounts[0];

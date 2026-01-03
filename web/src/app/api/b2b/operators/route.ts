@@ -80,6 +80,13 @@ From: TakeYourLounge.com - B2B Operators Form
       </div>
     `;
 
+    // DEBUG: Log environment variables
+    console.log('🔍 DEBUG - Environment Variables:');
+    console.log('  RESEND_API_KEY:', process.env.RESEND_API_KEY ? 'SET' : 'NOT SET');
+    console.log('  B2B_NOTIFICATION_EMAIL:', process.env.B2B_NOTIFICATION_EMAIL);
+    console.log('  EMAIL_FROM:', process.env.EMAIL_FROM);
+    console.log('  ENABLE_EMAIL_SENDING:', process.env.ENABLE_EMAIL_SENDING);
+
     // Send email via centralized service
     await sendB2BInquiry({
       type: 'operators',
