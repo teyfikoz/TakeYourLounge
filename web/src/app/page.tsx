@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import LoungeFinderWizard from '@/components/lounge-finder-wizard';
+import AIConciergeChat from '@/components/ai-concierge-chat';
 
 export default function Home() {
   // Schema.org structured data for organization and website
@@ -263,6 +264,9 @@ export default function Home() {
 
       {/* Smart Lounge Finder Wizard */}
       <LoungeFinderWizard />
+
+      {/* AI Concierge Chatbot */}
+      <AIConciergeChat />
     </div>
   );
 }
