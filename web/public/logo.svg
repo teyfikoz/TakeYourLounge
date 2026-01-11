@@ -1,4 +1,4 @@
-<svg width="700" height="120" viewBox="0 0 700 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="180" viewBox="0 0 600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Gold gradient definition -->
   <defs>
     <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -8,40 +8,44 @@
     </linearGradient>
   </defs>
 
-  <!-- Large Airplane Icon - 3x bigger -->
-  <g transform="translate(350, 25)">
-    <!-- Main fuselage - much larger and more prominent -->
-    <path d="M -80 15 Q -50 10 -20 7 Q 10 5 40 7 Q 70 10 95 15 L 85 22 Q 50 24 20 22 Q -10 20 -45 22 Z"
-          fill="url(#goldGradient)" opacity="0.95" stroke="#C5A028" stroke-width="1"/>
+  <!-- MUCH LARGER Airplane Icon - centered and prominent -->
+  <g transform="translate(300, 55)">
+    <!-- Main fuselage - very large and bold -->
+    <path d="M -120 20 Q -75 12 -30 8 Q 15 6 60 9 Q 105 14 140 22 L 125 32 Q 75 36 30 33 Q -15 30 -70 33 Z"
+          fill="url(#goldGradient)" opacity="0.98" stroke="#C5A028" stroke-width="2"/>
 
-    <!-- Upper main wing - large and prominent -->
-    <path d="M -65 12 L -25 -25 L 15 -35 L 55 -30 L 75 -20 L 50 0 L 10 8 L -45 12 Z"
-          fill="url(#goldGradient)" stroke="#C5A028" stroke-width="0.8"/>
+    <!-- Upper main wing - very large swept wing -->
+    <path d="M -95 18 L -35 -40 L 25 -55 L 85 -48 L 115 -32 L 75 -2 L 15 12 L -65 18 Z"
+          fill="url(#goldGradient)" stroke="#C5A028" stroke-width="1.5"/>
 
-    <!-- Lower wing accent - adds depth -->
-    <path d="M -35 18 L 0 14 L 30 15 L 50 18 L 40 24 L 10 24 L -25 22 Z"
-          fill="#D4AF37" opacity="0.8"/>
+    <!-- Lower wing accent - adds significant depth -->
+    <path d="M -50 28 L 0 22 L 45 24 L 75 28 L 60 38 L 15 38 L -35 34 Z"
+          fill="#D4AF37" opacity="0.85"/>
 
-    <!-- Large checkmark integrated with wing - very prominent -->
-    <path d="M 42 -5 L 65 -22 L 105 -45 L 125 -52 L 135 -45 L 100 10 L 75 25 L 65 28 L 55 18 L 50 5 Z"
-          fill="url(#goldGradient)" stroke="#C5A028" stroke-width="1.2"/>
+    <!-- VERY LARGE checkmark integrated - dominant feature -->
+    <path d="M 65 -8 L 100 -35 L 160 -70 L 190 -80 L 205 -68 L 150 18 L 115 40 L 100 45 L 85 28 L 75 8 Z"
+          fill="url(#goldGradient)" stroke="#C5A028" stroke-width="2"/>
 
-    <!-- Tail fin - larger -->
-    <path d="M -80 15 L -95 10 L -92 -5 L -85 -8 L -75 5 Z"
-          fill="#D4AF37" opacity="0.9" stroke="#C5A028" stroke-width="0.5"/>
+    <!-- Tail fin - much larger -->
+    <path d="M -120 20 L -145 12 L -138 -8 L -128 -12 L -112 8 Z"
+          fill="#D4AF37" opacity="0.92" stroke="#C5A028" stroke-width="1"/>
 
-    <!-- Engine detail -->
-    <ellipse cx="-15" cy="20" rx="8" ry="6" fill="#C5A028" opacity="0.6"/>
+    <!-- Engine detail - larger -->
+    <ellipse cx="-20" cy="32" rx="12" ry="9" fill="#C5A028" opacity="0.7"/>
+
+    <!-- Additional wing detail for depth -->
+    <path d="M -40 -15 L 0 -45 L 40 -52 L 70 -45 L 50 -20 L 10 -5 Z"
+          fill="#E5C47F" opacity="0.4"/>
   </g>
 
-  <!-- TAKEYOURLOUNGE text -->
-  <text x="350" y="85"
+  <!-- TAKEYOURLOUNGE text - positioned below the large icon -->
+  <text x="300" y="145"
         font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-        font-size="36"
+        font-size="40"
         font-weight="700"
         fill="#1e293b"
         text-anchor="middle"
-        letter-spacing="8">
+        letter-spacing="10">
     TAKEYOURLOUNGE
   </text>
 </svg>
