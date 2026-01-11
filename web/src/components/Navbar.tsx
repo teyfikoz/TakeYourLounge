@@ -20,10 +20,10 @@ export default function Navbar() {
         <Image
           src="/logo.svg"
           alt="TakeYourLounge Logo"
-          width={240}
-          height={60}
+          width={280}
+          height={48}
           priority
-          className="h-10 w-auto md:h-12"
+          className="h-11 w-auto md:h-14 lg:h-16"
         />
       </Link>
       <div className="space-x-4 md:space-x-6">

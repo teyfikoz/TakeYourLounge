@@ -1,4 +1,5 @@
 'use client';
+import Navbar from '@/components/Navbar';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -62,22 +63,7 @@ export default function CardIssuersPage() {
       {/* Navigation */}
       <header className="bg-white border-b">
         <div className="container-custom py-6">
-          <nav className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-brand-700">
-              TakeYourLounge
-            </Link>
-            <div className="space-x-6">
-              <Link href="/b2b/operators" className="text-gray-700 hover:text-brand-600">
-                For Operators
-              </Link>
-              <Link href="/b2b/airports" className="text-gray-700 hover:text-brand-600">
-                For Airports
-              </Link>
-              <Link href="/" className="btn-secondary px-6 py-2">
-                Home
-              </Link>
-            </div>
-          </nav>
+          <Navbar />
         </div>
       </header>
 
