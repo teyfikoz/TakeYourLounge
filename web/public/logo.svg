@@ -1,0 +1,47 @@
+<svg width="900" height="140" viewBox="0 0 900 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gold gradient definition -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E5C47F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C5A028;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Airplane icon group -->
+  <g transform="translate(450, 30)">
+    <!-- Main airplane body - sleek modern design -->
+    <path d="M -45 8 Q -30 6 -15 4 Q 0 2 15 3 Q 30 4 45 7 L 40 10 Q 25 11 10 10 Q -5 9 -20 10 Z"
+          fill="url(#goldGradient)" opacity="0.95"/>
+
+    <!-- Upper wing sweep -->
+    <path d="M -35 6 L -10 -12 L 10 -16 L 30 -14 L 35 -10 L 20 -2 L 0 2 L -25 6 Z"
+          fill="url(#goldGradient)"/>
+
+    <!-- Lower wing accent -->
+    <path d="M -20 9 L 0 6 L 15 7 L 25 9 L 20 11 L 5 11 L -15 10 Z"
+          fill="#D4AF37" opacity="0.7"/>
+
+    <!-- Integrated checkmark - flowing from wing -->
+    <path d="M 22 -4 L 35 -12 L 55 -22 L 65 -25 L 68 -22 L 50 2 L 40 10 L 35 12 L 30 8 L 28 2 Z"
+          fill="url(#goldGradient)" stroke="#C5A028" stroke-width="0.5"/>
+
+    <!-- Tail fin -->
+    <path d="M -45 8 L -52 6 L -50 0 L -48 -3 L -42 4 Z"
+          fill="#D4AF37" opacity="0.85"/>
+  </g>
+
+  <!-- TAKEYOURLOUNGE text with premium styling -->
+  <text x="450" y="100"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="42"
+        font-weight="700"
+        fill="#1e293b"
+        text-anchor="middle"
+        letter-spacing="6">
+    TAKEYOURLOUNGE
+  </text>
+
+  <!-- Subtle tagline or accent line (optional) -->
+  <line x1="320" y1="110" x2="580" y2="110" stroke="#D4AF37" stroke-width="1.5" opacity="0.4"/>
+</svg>

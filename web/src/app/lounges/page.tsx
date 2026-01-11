@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
 import LoungeCard from '@/components/LoungeCard';
 import CompareSelector from '@/components/compare-selector';
 import loungeData from '@/data/lounges.json';
@@ -84,22 +85,9 @@ export default function LoungesPage() {
       {/* Header */}
       <header className="bg-white border-b">
         <div className="container-custom py-6">
-          <nav className="flex justify-between items-center mb-6">
-            <Link href="/" className="text-2xl font-bold text-brand-700">
-              TakeYourLounge
-            </Link>
-            <div className="space-x-6">
-              <Link href="/lounges" className="text-brand-600 font-medium">
-                Lounges
-              </Link>
-              <Link href="/airports" className="text-gray-700 hover:text-brand-600">
-                Airports
-              </Link>
-              <Link href="/" className="text-gray-700 hover:text-brand-600">
-                Home
-              </Link>
-            </div>
-          </nav>
+          <div className="mb-6">
+            <Navbar />
+          </div>
 
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
             Airport Lounges Directory

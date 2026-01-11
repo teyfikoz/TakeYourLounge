@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
   // Schema.org structured data for organization and website
@@ -106,22 +107,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <header className="container-custom pt-16 pb-20">
-        <nav className="flex justify-between items-center mb-16">
-          <div className="text-2xl font-bold text-brand-700">
-            TakeYourLounge
-          </div>
-          <div className="space-x-6">
-            <Link href="/lounges" className="text-gray-700 hover:text-brand-600">
-              Lounges
-            </Link>
-            <Link href="/airports" className="text-gray-700 hover:text-brand-600">
-              Airports
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-brand-600">
-              About
-            </Link>
-          </div>
-        </nav>
+        <div className="mb-16">
+          <Navbar />
+        </div>
 
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
