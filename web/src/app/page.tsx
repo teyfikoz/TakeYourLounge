@@ -1,8 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import LoungeFinderWizard from '@/components/lounge-finder-wizard';
-import AIConciergeChat from '@/components/ai-concierge-chat';
 
 export default function Home() {
   // Schema.org structured data for organization and website
@@ -38,7 +36,7 @@ export default function Home() {
     '@type': 'WebSite',
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
-    description: 'Discover 2,045 premium airport lounges across 703 airports in 175 countries',
+    description: 'Discover 2,045 premium airport lounges across 703 airports in 175 countries with AI-powered concierge assistance',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -46,6 +44,47 @@ export default function Home() {
         urlTemplate: 'https://takeyourlounge.com/lounges?search={search_term_string}'
       },
       'query-input': 'required name=search_term_string'
+    }
+  };
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Airport Lounge Discovery Platform',
+    provider: {
+      '@type': 'Organization',
+      name: 'TakeYourLounge',
+      url: 'https://takeyourlounge.com'
+    },
+    areaServed: {
+      '@type': 'GeoCoordinates',
+      name: 'Worldwide'
+    },
+    audience: {
+      '@type': 'Audience',
+      audienceType: 'Business Travelers, Frequent Flyers, Airport Lounge Operators'
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Airport Lounge Directory',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Airport Lounge Search',
+            description: 'Search and discover 2,045+ airport lounges worldwide'
+          }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'AI Lounge Concierge',
+            description: 'Get personalized lounge recommendations from our AI assistant'
+          }
+        }
+      ]
     }
   };
 
@@ -59,6 +98,10 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
 
       {/* Hero Section */}
@@ -261,12 +304,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* Smart Lounge Finder Wizard */}
-      <LoungeFinderWizard />
-
-      {/* AI Concierge Chatbot */}
-      <AIConciergeChat />
     </div>
   );
 }

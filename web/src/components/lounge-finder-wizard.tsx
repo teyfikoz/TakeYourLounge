@@ -73,7 +73,7 @@ export default function LoungeFinderWizard() {
     return (
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 bg-brand-600 text-white px-6 py-4 rounded-full shadow-2xl hover:bg-brand-700 transition-all hover:scale-105 z-50 flex items-center gap-2 font-semibold"
+        className="fixed bottom-24 right-6 bg-brand-600 text-white px-6 py-4 rounded-full shadow-2xl hover:bg-brand-700 transition-all hover:scale-105 z-50 flex items-center gap-2 font-semibold"
       >
         <span className="text-2xl">🔍</span>
         Find Your Perfect Lounge
