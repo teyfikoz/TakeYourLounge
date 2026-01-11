@@ -10,7 +10,7 @@ export default function Home() {
     '@type': 'Organization',
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
-    logo: 'https://takeyourlounge.com/logo.png',
+    logo: 'https://takeyourlounge.com/logo-takeyourlounge.svg',
     description: 'Global airport lounge directory and networking platform featuring 2,045 premium lounges worldwide',
     founder: {
       '@type': 'Organization',

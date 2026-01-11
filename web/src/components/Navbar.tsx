@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center">
       <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
         <Image
-          src="/logo.svg"
+          src="/logo-takeyourlounge.svg"
           alt="TakeYourLounge Logo"
           width={360}
           height={108}
