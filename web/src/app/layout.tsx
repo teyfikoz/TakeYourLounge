@@ -69,6 +69,9 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
   },
   category: 'travel',
+  other: {
+    'impact-site-verification': '4eeb4e31-80d1-4aa6-8d1d-d41f792aeb84',
+  },
 };
 
 export const viewport = {
