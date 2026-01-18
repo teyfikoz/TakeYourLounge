@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import LoungeFinderWizard from '@/components/lounge-finder-wizard';
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
     '@type': 'Organization',
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
-    logo: 'https://takeyourlounge.com/logo.png',
+    logo: 'https://takeyourlounge.com/logo-takeyourlounge.png',
     description: 'Global airport lounge directory and networking platform featuring 2,045 premium lounges worldwide',
     founder: {
       '@type': 'Organization',
@@ -63,9 +64,16 @@ export default function Home() {
       {/* Hero Section */}
       <header className="container-custom pt-16 pb-20">
         <nav className="flex justify-between items-center mb-16">
-          <div className="text-2xl font-bold text-brand-700">
-            TakeYourLounge
-          </div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo-takeyourlounge.png"
+              alt="TakeYourLounge"
+              width={200}
+              height={50}
+              priority
+              className="h-10 w-auto"
+            />
+          </Link>
           <div className="space-x-6">
             <Link href="/lounges" className="text-gray-700 hover:text-brand-600">
               Lounges
@@ -211,7 +219,15 @@ export default function Home() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <div className="text-white font-bold text-xl mb-4">TakeYourLounge</div>
+              <Link href="/" className="inline-block mb-4">
+                <Image
+                  src="/logo-takeyourlounge.png"
+                  alt="TakeYourLounge"
+                  width={160}
+                  height={40}
+                  className="h-8 w-auto brightness-0 invert"
+                />
+              </Link>
               <p className="text-sm">
                 Your global airport lounge directory and networking platform.
               </p>
@@ -227,18 +243,21 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="text-white font-semibold mb-4">Resources</h4>
+              <h4 className="text-white font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-                <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
-                <li><a href="mailto:info@tsynca.com" className="hover:text-white">Contact</a></li>
                 <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
+                <li><Link href="/affiliate-disclosure" className="hover:text-white">Affiliate Disclosure</Link></li>
+                <li><Link href="/how-we-make-money" className="hover:text-white">How We Make Money</Link></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-white font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-sm">
+                <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+                <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
+                <li><a href="mailto:info@tsynca.com" className="hover:text-white">Contact</a></li>
                 <li><a href="https://www.linkedin.com/company/tech-sync-analytica-llc/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
               </ul>
             </div>

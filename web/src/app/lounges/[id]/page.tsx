@@ -5,6 +5,7 @@ import { Lounge } from '@/types/lounge';
 import { notFound } from 'next/navigation';
 import ReviewForm from '@/components/ReviewForm';
 import ShareButtons from '@/components/ShareButtons';
+import LoungeAccessCTA from '@/components/lounge-access-cta';
 import type { Metadata } from 'next';
 
 interface PageProps {
@@ -115,8 +116,15 @@ export default async function LoungePage({ params }: PageProps) {
       <header className="bg-white border-b">
         <div className="container-custom py-6">
           <nav className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-brand-700">
-              TakeYourLounge
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo-takeyourlounge.png"
+                alt="TakeYourLounge"
+                width={180}
+                height={45}
+                priority
+                className="h-9 w-auto"
+              />
             </Link>
             <div className="space-x-6">
               <Link href="/lounges" className="text-gray-700 hover:text-brand-600">
@@ -331,16 +339,13 @@ export default async function LoungePage({ params }: PageProps) {
               </div>
             </div>
 
-            {/* CTA */}
-            <div className="bg-brand-600 rounded-xl shadow-md p-6 text-white">
-              <h3 className="font-bold mb-2">Want to network here?</h3>
-              <p className="text-brand-100 text-sm mb-4">
-                Download LoungeConnect to meet fellow travelers at this lounge
-              </p>
-              <button className="w-full bg-white text-brand-600 font-medium py-2 px-4 rounded-lg hover:bg-brand-50 transition-colors">
-                Coming Soon
-              </button>
-            </div>
+            {/* Access This Lounge CTA */}
+            <LoungeAccessCTA
+              loungeId={lounge.id}
+              loungeName={lounge.name}
+              airportCode={lounge.airport_code}
+              accessMethods={lounge.access_methods}
+            />
 
             {/* Share */}
             <ShareButtons
@@ -372,9 +377,67 @@ export default async function LoungePage({ params }: PageProps) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-8 mt-16">
-        <div className="container-custom text-center">
-          <p className="text-sm">&copy; 2025 TakeYourLounge. All rights reserved.</p>
+      <footer className="bg-gray-900 text-gray-400 py-12 mt-16">
+        <div className="container-custom">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <Link href="/" className="inline-block mb-4">
+                <Image
+                  src="/logo-takeyourlounge.png"
+                  alt="TakeYourLounge"
+                  width={160}
+                  height={40}
+                  className="h-8 w-auto brightness-0 invert"
+                />
+              </Link>
+              <p className="text-sm">
+                Your global airport lounge directory and networking platform.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-white font-semibold mb-4">Explore</h4>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/lounges" className="hover:text-white">All Lounges</Link></li>
+                <li><Link href="/airports" className="hover:text-white">Airports</Link></li>
+                <li><Link href="/blog" className="hover:text-white">Travel Guides</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="text-white font-semibold mb-4">Legal</h4>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
+                <li><Link href="/affiliate-disclosure" className="hover:text-white">Affiliate Disclosure</Link></li>
+                <li><Link href="/how-we-make-money" className="hover:text-white">How We Make Money</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="text-white font-semibold mb-4">Connect</h4>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+                <li><a href="mailto:info@tsynca.com" className="hover:text-white">Contact</a></li>
+                <li><a href="https://www.linkedin.com/company/tech-sync-analytica-llc/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+            <p>&copy; 2026 TakeYourLounge. All rights reserved.</p>
+            <p className="mt-2">
+              Developed by{' '}
+              <a
+                href="https://techsyncanalytica.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand-400 hover:text-brand-300 font-medium"
+              >
+                Tech Sync Analytica LLC
+              </a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>
