@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
 import airportData from '@/data/airports.json';
 import { Airport } from '@/types/lounge';
 
@@ -58,22 +59,7 @@ export default function AirportsPage() {
       {/* Header */}
       <header className="bg-white border-b">
         <div className="container-custom py-6">
-          <nav className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-brand-700">
-              TakeYourLounge
-            </Link>
-            <div className="space-x-6">
-              <Link href="/lounges" className="text-gray-700 hover:text-brand-600">
-                Lounges
-              </Link>
-              <Link href="/airports" className="text-brand-600 font-medium">
-                Airports
-              </Link>
-              <Link href="/about" className="text-gray-700 hover:text-brand-600">
-                About
-              </Link>
-            </div>
-          </nav>
+          <Navbar />
         </div>
       </header>
 

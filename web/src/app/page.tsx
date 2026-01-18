@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import Navbar from '@/components/Navbar';
 import LoungeFinderWizard from '@/components/lounge-finder-wizard';
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
     '@type': 'WebSite',
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
-    description: 'Discover 2,045 premium airport lounges across 703 airports in 175 countries',
+    description: 'Discover 2,045 premium airport lounges across 703 airports in 175 countries with AI-powered concierge assistance',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -46,6 +47,47 @@ export default function Home() {
         urlTemplate: 'https://takeyourlounge.com/lounges?search={search_term_string}'
       },
       'query-input': 'required name=search_term_string'
+    }
+  };
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Airport Lounge Discovery Platform',
+    provider: {
+      '@type': 'Organization',
+      name: 'TakeYourLounge',
+      url: 'https://takeyourlounge.com'
+    },
+    areaServed: {
+      '@type': 'GeoCoordinates',
+      name: 'Worldwide'
+    },
+    audience: {
+      '@type': 'Audience',
+      audienceType: 'Business Travelers, Frequent Flyers, Airport Lounge Operators'
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Airport Lounge Directory',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Airport Lounge Search',
+            description: 'Search and discover 2,045+ airport lounges worldwide'
+          }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'AI Lounge Concierge',
+            description: 'Get personalized lounge recommendations from our AI assistant'
+          }
+        }
+      ]
     }
   };
 
@@ -60,32 +102,16 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
 
       {/* Hero Section */}
       <header className="container-custom pt-16 pb-20">
-        <nav className="flex justify-between items-center mb-16">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/logo-takeyourlounge.png"
-              alt="TakeYourLounge"
-              width={200}
-              height={50}
-              priority
-              className="h-10 w-auto"
-            />
-          </Link>
-          <div className="space-x-6">
-            <Link href="/lounges" className="text-gray-700 hover:text-brand-600">
-              Lounges
-            </Link>
-            <Link href="/airports" className="text-gray-700 hover:text-brand-600">
-              Airports
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-brand-600">
-              About
-            </Link>
-          </div>
-        </nav>
+        <div className="mb-16">
+          <Navbar />
+        </div>
 
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">

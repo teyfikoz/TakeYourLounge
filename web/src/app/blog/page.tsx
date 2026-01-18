@@ -1,5 +1,6 @@
 'use client';
 
+import Navbar from '@/components/Navbar';
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -125,22 +126,7 @@ export default function BlogPage() {
     <div className="min-h-screen bg-gradient-to-b from-brand-50 to-white">
       {/* Navigation */}
       <header className="container-custom pt-8 pb-6">
-        <nav className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-brand-700">
-            TakeYourLounge
-          </Link>
-          <div className="space-x-6">
-            <Link href="/lounges" className="text-gray-700 hover:text-brand-600">
-              Lounges
-            </Link>
-            <Link href="/airports" className="text-gray-700 hover:text-brand-600">
-              Airports
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-brand-600">
-              About
-            </Link>
-          </div>
-        </nav>
+          <Navbar />
       </header>
 
       {/* Hero Section */}
