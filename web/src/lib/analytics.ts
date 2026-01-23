@@ -2,7 +2,8 @@
  * Google Analytics 4 Integration
  */
 
-export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || '';
+// GA4 Measurement ID - hardcoded as fallback for reliability
+export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-74NMEZ6BJT';
 
 declare global {
   interface Window {

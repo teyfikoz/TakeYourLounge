@@ -4,15 +4,12 @@ import Script from 'next/script';
 import { GA_MEASUREMENT_ID } from '@/lib/analytics';
 
 export default function GoogleAnalytics() {
-  if (!GA_MEASUREMENT_ID) {
-    return null;
-  }
-
+  // Always render - GA_MEASUREMENT_ID has a fallback value
   return (
     <>
       <Script
-        strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
       />
       <Script
         id="google-analytics"
@@ -23,7 +20,7 @@ export default function GoogleAnalytics() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA_MEASUREMENT_ID}', {
-              page_path: window.location.pathname,
+              send_page_view: true
             });
           `,
         }}
