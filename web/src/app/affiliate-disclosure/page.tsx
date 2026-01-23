@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Affiliate Disclosure | TakeYourLounge",
   description: "TakeYourLounge Affiliate Disclosure - Learn about our affiliate partnerships and how we earn revenue.",
+  alternates: {
+    canonical: 'https://takeyourlounge.com/affiliate-disclosure',
+  },
   openGraph: {
     title: "Affiliate Disclosure - TakeYourLounge",
     description: "Our commitment to transparency about affiliate partnerships.",

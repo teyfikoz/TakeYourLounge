@@ -5,6 +5,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Compare Lounge Access Cards | TakeYourLounge",
   description: "Compare Priority Pass, DragonPass, credit cards, and other lounge access options. Find the best way to access airport lounges worldwide.",
+  alternates: {
+    canonical: 'https://takeyourlounge.com/compare-lounge-access',
+  },
   openGraph: {
     title: "Compare Lounge Access Cards - TakeYourLounge",
     description: "Find the best lounge access option for your travel style.",

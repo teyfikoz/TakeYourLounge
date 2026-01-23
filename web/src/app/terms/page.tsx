@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Terms of Service | TakeYourLounge",
   description: "Terms of Service for TakeYourLounge.com - User guidelines and legal terms.",
+  alternates: {
+    canonical: 'https://takeyourlounge.com/terms',
+  },
   openGraph: {
     title: "Terms of Service - TakeYourLounge",
     description: "Read our terms of service and user agreement.",

@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "How We Make Money | TakeYourLounge",
   description: "Learn how TakeYourLounge sustains its free airport lounge directory through affiliate partnerships.",
+  alternates: {
+    canonical: 'https://takeyourlounge.com/how-we-make-money',
+  },
   openGraph: {
     title: "How We Make Money - TakeYourLounge",
     description: "Our transparent approach to monetization and affiliate partnerships.",
