@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GA4 from "@/components/ga4";
 import VisitorTracker from "@/components/VisitorTracker";
 import ClickTracker from "@/components/ClickTracker";
 import CookieConsent from "@/components/CookieConsent";
@@ -86,7 +86,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <GoogleAnalytics />
+        <GA4 />
         <VisitorTracker />
         <ClickTracker />
         <CookieConsent />
