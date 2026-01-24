@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import LoungeFinderWizard from '@/components/lounge-finder-wizard';
 
@@ -12,7 +11,7 @@ export default function Home() {
     '@type': 'Organization',
     name: 'TakeYourLounge',
     url: 'https://takeyourlounge.com',
-    logo: 'https://takeyourlounge.com/logo-takeyourlounge.png',
+    logo: 'https://takeyourlounge.com/takeyourlounge-logo-navbar.svg',
     description: 'Global airport lounge directory and networking platform featuring 2,045 premium lounges worldwide',
     founder: {
       '@type': 'Organization',
@@ -246,12 +245,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <Link href="/" className="inline-block mb-4">
-                <Image
-                  src="/logo-takeyourlounge.png"
+                <img
+                  src="/takeyourlounge-logo-dark.svg"
                   alt="TakeYourLounge"
                   width={160}
                   height={40}
-                  className="h-8 w-auto brightness-0 invert"
+                  className="h-8 w-auto"
                 />
               </Link>
               <p className="text-sm">

@@ -76,12 +76,11 @@ export default function CompareAccessPage() {
       <header className="container-custom pt-8 pb-6">
         <nav className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
-            <Image
-              src="/logo-takeyourlounge.png"
+            <img
+              src="/takeyourlounge-logo-light.svg"
               alt="TakeYourLounge"
               width={180}
               height={45}
-              priority
               className="h-9 w-auto"
             />
           </Link>
@@ -253,12 +252,12 @@ export default function CompareAccessPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <Link href="/" className="inline-block mb-4">
-                <Image
-                  src="/logo-takeyourlounge.png"
+                <img
+                  src="/takeyourlounge-logo-dark.svg"
                   alt="TakeYourLounge"
                   width={160}
                   height={40}
-                  className="h-8 w-auto brightness-0 invert"
+                  className="h-8 w-auto"
                 />
               </Link>
               <p className="text-sm">

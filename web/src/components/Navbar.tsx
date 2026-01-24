@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
@@ -17,12 +16,11 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center">
       <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
-        <Image
-          src="/logo-takeyourlounge.png"
+        <img
+          src="/takeyourlounge-logo-light.svg"
           alt="TakeYourLounge Logo"
           width={200}
           height={50}
-          priority
           className="h-10 w-auto"
         />
       </Link>
