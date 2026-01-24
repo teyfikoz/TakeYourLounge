@@ -59,45 +59,46 @@ export default function HowWeMakeMoneyPage() {
               {/* Affiliate Partnerships */}
               <div className="border-b pb-10">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                    <span className="text-green-600 text-xl">✓</span>
+                  <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
+                    <span className="text-amber-600 text-xl">◐</span>
                   </div>
                   <h2 className="text-2xl font-bold text-gray-900">Affiliate Partnerships</h2>
-                  <span className="bg-green-100 text-green-700 text-xs font-medium px-2.5 py-1 rounded-full">
-                    Active
+                  <span className="bg-amber-100 text-amber-700 text-xs font-medium px-2.5 py-1 rounded-full">
+                    In Progress
                   </span>
                 </div>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  When you access a lounge through one of our partner links, we may receive
-                  a commission from that partner. This includes:
+                  We are working to establish affiliate partnerships with companies that provide
+                  lounge access. When active, we may earn commissions through:
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <span className="text-brand-600 mt-1">•</span>
                     <div>
                       <strong className="text-gray-900">Lounge membership programs</strong>
-                      <p className="text-gray-600 text-sm">e.g., Priority Pass, DragonPass</p>
+                      <p className="text-gray-600 text-sm">Such as Priority Pass, DragonPass</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-brand-600 mt-1">•</span>
                     <div>
-                      <strong className="text-gray-900">Day pass purchases</strong>
-                      <p className="text-gray-600 text-sm">e.g., LoungeBuddy, Plaza Premium</p>
+                      <strong className="text-gray-900">Day pass booking services</strong>
+                      <p className="text-gray-600 text-sm">Services that offer one-time lounge access</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-brand-600 mt-1">•</span>
                     <div>
-                      <strong className="text-gray-900">Credit cards</strong>
+                      <strong className="text-gray-900">Travel credit cards</strong>
                       <p className="text-gray-600 text-sm">Cards with lounge access benefits</p>
                     </div>
                   </li>
                 </ul>
                 <div className="mt-6 bg-brand-50 p-4 rounded-lg">
                   <p className="text-gray-700 text-sm">
-                    <strong>Important:</strong> You pay the same price whether you use our link
-                    or not. The commission comes from the partner, not from you.
+                    <strong>Important:</strong> When affiliate links become active, you will pay
+                    the same price whether you use our link or not. Any commission comes from
+                    the partner, not from you.
                   </p>
                 </div>
               </div>

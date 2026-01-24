@@ -26,6 +26,16 @@ export default function Navbar() {
       </Link>
       <div className="space-x-4 md:space-x-6">
         <Link
+          href="/"
+          className={`${
+            isActive('/')
+              ? 'text-brand-600 font-medium'
+              : 'text-gray-700 hover:text-brand-600'
+          } transition-colors`}
+        >
+          Home
+        </Link>
+        <Link
           href="/lounges"
           className={`${
             isActive('/lounges')

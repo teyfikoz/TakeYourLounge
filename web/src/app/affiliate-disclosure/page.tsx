@@ -73,20 +73,23 @@ export default function AffiliateDisclosurePage() {
                 </p>
               </div>
 
-              {/* Our Affiliate Partners */}
+              {/* Types of Affiliate Links */}
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Affiliate Partners</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Types of Services We May Link To</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  We maintain partnerships with companies that provide airport lounge access,
-                  including but not limited to:
+                  We may include affiliate links to companies that provide airport lounge access
+                  and related travel services. These may include:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>Priority Pass</li>
-                  <li>DragonPass</li>
-                  <li>Plaza Premium</li>
-                  <li>LoungeBuddy</li>
-                  <li>Credit card issuers offering lounge access benefits</li>
+                  <li>Lounge membership programs (such as Priority Pass, DragonPass)</li>
+                  <li>Day pass booking services</li>
+                  <li>Travel credit cards with lounge benefits</li>
+                  <li>Other travel-related services</li>
                 </ul>
+                <p className="text-gray-700 leading-relaxed mt-4 text-sm italic">
+                  Note: Mention of any company name does not imply a formal partnership.
+                  We only earn commissions through approved affiliate programs.
+                </p>
               </div>
 
               {/* Editorial Independence */}
